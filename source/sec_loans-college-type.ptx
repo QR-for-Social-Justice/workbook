@@ -20,7 +20,7 @@
 <exercises xml:id="exercises-debt-over-time">
     <exercisegroup>
         <introduction>
-            Use the graphs in Figures <url href="fig-total-us-consumer-debt" /> and <url href="fig-non-mortgage-debt" />, together with the <url href="https://assets.equifax.com/marketing/US/assets/EFX_PortfolioCreditTrends_202207.pdf">linked Equifax report</url> (if needed), to estimate:
+            Use the graphs in Figures <xref ref="fig-total-us-consumer-debt" /> and <xref ref="fig-non-mortgage-debt" />, together with the <url href="https://assets.equifax.com/marketing/US/assets/EFX_PortfolioCreditTrends_202207.pdf">linked Equifax report</url> (if needed), to estimate:
         </introduction>
      
      <!--</div attr= xml:id="fig:total-us-consumer-debt" class="xca">-->     

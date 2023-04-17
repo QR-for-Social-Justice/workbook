@@ -6,13 +6,9 @@
 - [Mark Branson (Payday Loans)](https://web.stevenson.edu/mbranson/math-for-the-people.html)
 - Maybe you?
 
-<<<<<<< HEAD
-Welcome to the workbook's GitHub page! This is a work in progress, though I hope it is helpful to you. I believe this is the first attempt to write and republish as many open-access resources for teaching a quantitative reasoning course framed around social justice, specifically targeted at higher-ed math faculty, as possible. I am indebted to and model my work after the K-12 educators (e.g. [Bob Moses](https://rethinkingschools.org/articles/radical-equations/), [Jonathan Osler](https://radicalmath.org/) who have been doing this work for decades.
-=======
 Welcome to the workbook's GitHub page! This is a work in progress; I aim to write and collate open-source lesson plans for TMSJ (teaching math for social justice) into a workbook you can use in your courses. I am indebted to and model my work after the K-12 educators (e.g. [Bob Moses](https://rethinkingschools.org/articles/radical-equations/), [Jonathan Osler](https://radicalmath.org/)) who have been doing this work for decades.
->>>>>>> e9368ff336bda2101162ead81841679c48d551f2
 
-The book itself is currently hosted [on my website](https://cs.westminstercollege.edu/~kince/qr4sj/). Feel free to explore, and don't hesitate to [reach out](mailto:kince@westminstercollege.edu) if you have comments, questions, or suggestions!
+The book itself is currently hosted [on GitHub Pages](https://qr-for-social-justice.github.io/workbook/). Feel free to explore, and don't hesitate to reach out (email Kenan's first initial, followed by their last name, at westminsteru dot edu) if you have comments, questions, or suggestions!
 
 ## Compilation instructions
 This text is written in PreTeXt (previously called MathBook XML), so the primary source files can be found in the ptx directory. These can be compiled into HTML or LaTeX files (as well as some other formats). If you do not want to bother with this step or just want to grab some LaTeX to use in a worksheet or the like, the generated LaTeX is already provided in the latex folder.

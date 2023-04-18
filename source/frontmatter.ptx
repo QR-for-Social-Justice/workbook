@@ -10,7 +10,7 @@
       <department>Department of Mathematics</department>
       <institution>Westminster University, Salt Lake City</institution>
     </author>
-    <author>
+<!--    <author>
       <personname>Sean Raleigh</personname>
       <department>Departments of Mathematics and Data Science</department>
       <institution>Westminster University, Salt Lake City</institution>
@@ -19,7 +19,7 @@
       <personname>Bianca Thompson</personname>
       <department>Department of Mathematics</department>
       <institution>Westminster University, Salt Lake City</institution>
-    </author>
+    </author> -->
     <date><today/></date>
   </titlepage>
 

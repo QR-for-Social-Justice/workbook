@@ -8,7 +8,7 @@
 - Maybe you?
 
 ## Latest Book Version
-[v04/17/2023: includes introduction and Student Loans section](https://qr-for-social-justice.github.io/workbook/)
+[v04/18/2023: includes introduction and Student Loans section](https://qr-for-social-justice.github.io/workbook/)
 
 ## Welcome
 

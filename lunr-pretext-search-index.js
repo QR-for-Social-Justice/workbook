@@ -313,7 +313,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "2.5",
   "title": "Student Debt by College Type",
-  "body": " Student Debt by College Type   A graph showing total U.S. consumer debt of various types from 2003 to 2021.   A graph showing total U.S. consumer debt of various types from 2003 to 2021, showing that mortgage debt made up the vast majority of U.S. consumer debt in all years measured, around in 2022, while student loan debt had increased over time to become the second-largest source of U.S. consumer debt, making up around of non-mortgage debt in 2022. Source: Fitch Ratings, New York Fed Consumer Credit Panel, Equifax.     Breakdown of the percentage of U.S. non-mortgage consumer debt from 2009 to 2022.   Breakdown of the percentage of U.S. non-mortgage consumer debt from 2009 to 2022 showing the following approximate 2022 distribution: auto debt, student loan debt, credit card debt, consumer finance, \"other\". Source: Equifax Inc., 2022.      Use the graphs in Figures and , together with the linked Equifax report (if needed), to estimate:     The percentage of total debt in 2008 that was student loans vs. mortgage debt.    The percentage of total debt in 2021 that was student loans vs. mortgage debt.    Why do you think did this graph choose 2003 as a starting year?    Do research online if needed to determine why the second quarter of was the previous peak in U.S. total consumer debt.    Find another source for the US consumer debt broken down by type of debt in 2008 and in 2019. Does it agree with the graph above? Why or why not?      Use the Excel spreadsheet on undergrad and grad tuition\/fees from the National Center for Education Statistics (make a copy first) and\/or the Excel version of this table on undergrad tuition by nonprofit status and college private\/public status to do the following:    Create a graph, trendline, and interpret the value for each type of institution: public nonprofit, private nonprofit, private for-profit. What does it mean? Use it to predict average tuition and fees across the country in the current year. How accurate is your prediction?    Fit the data to a polynomial function (of least degree). We'll talk about how to do this in class, so let your instructor know when you reach this step. For your reference, the steps in Excel are:  Left-click on your graph. In the top menu under “Chart Tools”, click Design. Click Add Chart Element -> Trendline -> More trendline options. Click on the data you want to make a trendline for. In the right sidebar, select Polynomial and play around with the “Order” until you get a good fit for your data. Check “Display Equation on chart” and “Display R-squared value on chart”. Now, our goal is to get all our values larger than roughly 0.96, which is a very large degree of accuracy. If some of your trendlines have , double-click on the offending trendline(s) until the sidebar comes up and increase the “Order” of your polynomial until .    What trends over time do you notice in each the three graphs? Describe trends in words, using phrases like “increasing”, “decreasing”, “increasing slope”, “decreasing slope”. What overall trend do we notice that's common to all three graphs over time?    The -squared value that I asked you to show in ( ) above measures what proportion of the variation in the -variable is explained by the trendline. For instance, means that of the variation in y is explained by the trendline, so the trendline is a perfect fit. Conversely, means that the trendline explains of the variation in the variable, so this trendline doesn't fit the data at all. What percentage of the variation in two-year public college tuition ( ) is explained by the variation in year ( )? What about when four-year private college tuition? Four-year public college tuition?     Outliers are data that fall far away from the trendline. What outliers do you notice, if any? Interpret these outliers in context: what do they mean for tuition and fees over time, and what possible historical explanations could there be for these outliers?     Polynomials are a special type of mathematical function, or process for turning one number into another. Polynomials are functions of the form : sums of powers of , maybe with constant terms in front. For example, , , and are all polynomials. The polynomial takes the input 1 and turns it into the output . All numbers which make sense to input are called the domain of the function, and the possible sensical outputs you could get are called the range. What is the domain and range of each of the polynomial trendlines?    Use this model to predict the tuition cost for a student entering each type of institution in the academic year - . How accurate do you think your prediction is?    Use the model to predict the tuition cost for a student entering a public two-year college in the academic years - , - , and - . How accurate do you think your predictions are?    Within (roughly) what domain do you think your trendline can make fairly accurate predictions? Explain.    Does this table (and the supplement on the number of students in grad school) back up the suggestion of this Atlantic article  that the cause of increased student debt is that more students are taking out loans to enroll in grad school? Why or why not?      Use TuitionTracker to describe recent trends at your own institution in the same way. Is your college or university better or worse in amount of student debt than the average in the US? The average for institutions of the same type?   Compare the total amount paid in student debt for various racial groups using this table .    Does it seem like any racial groups are being disproportionately saddled with student loan debt? How can we compare, say, debt held by white vs. Asian students to see whether the difference is larger than we'd expect? Well, first we need to quantify the idea of “what we'd expect”...what does this mean? Create an expected frequency table for what you'd expect to see if there were absolutely no racial differences in student debt.    Compute the difference between the observed count for each race  and the expected count . What do you notice?    What if we averaged all the 's for each racial group? This is effectively the idea of a chi-squared test for goodness-of-fit , which is used by statisticians to determine whether any differences observed are small enough to be due to chance or large enough that they give evidence of a difference. What would the equation for this average look like?    We'll use a computer to perform this test in a minute. First, what groups do you think are disproportionately likely\/unlikely to hold student loan debt? What racial groups have a higher\/lower debt burden per person?    Now, enter this data into an app such as RStudio or an online tool. In RStudio, run this code to do a chi-squared test. (In a statistics class, walk through the steps.) Output the -value (the likelihood the observed differences are due to chance alone) and residuals , which are basically scaled versions of the s for each racial group. Which are highest? Lowest? Is there evidence of racial bias?       If these materials are being used for a course in, say, introductory statistics for STEM fields or a higher-level data science class, this is a good time to discuss linear regression with multiple predictors to formalize the effect of year and type of institution on tuition or race and year on student debt. However, since this text is primarily intended for courses without prerequisites targeted at majors and non-majors alike, such material is beyond the scope of this chapter.  "
+  "body": " Student Debt by College Type   A graph showing total U.S. consumer debt of various types from 2003 to 2021.   A graph showing total U.S. consumer debt of various types from 2003 to 2021, showing that mortgage debt made up the vast majority of U.S. consumer debt in all years measured, around in 2022, while student loan debt had increased over time to become the second-largest source of U.S. consumer debt, making up around of non-mortgage debt in 2022. Source: Fitch Ratings, New York Fed Consumer Credit Panel, Equifax.     Breakdown of the percentage of U.S. non-mortgage consumer debt from 2009 to 2022.   Breakdown of the percentage of U.S. non-mortgage consumer debt from 2009 to 2022 showing the following approximate 2022 distribution: auto debt, student loan debt, credit card debt, consumer finance, \"other\". Source: Equifax Inc., 2022.     Student Debt over Time   Use the graphs in Figures and , together with the linked Equifax report (if needed), to estimate:   The percentage of total debt in 2008 that was student loans vs. mortgage debt.  The percentage of total debt in 2021 that was student loans vs. mortgage debt.  Why do you think did this graph choose 2003 as a starting year?  Do research online if needed to determine why the second quarter of was the previous peak in U.S. total consumer debt.  Find another source for the US consumer debt broken down by type of debt in 2008 and in 2019. Does it agree with the graph above? Why or why not?     Tuition by Nonprofit and Public Status   Use the Excel spreadsheet on undergrad and grad tuition\/fees from the National Center for Education Statistics (make a copy first) and\/or the Excel version of this table on undergrad tuition by nonprofit status and college private\/public status to do the following:  Create a graph, trendline, and interpret the value for each type of institution: public nonprofit, private nonprofit, private for-profit. What does it mean? Use it to predict average tuition and fees across the country in the current year. How accurate is your prediction?  Fit the data to a polynomial function (of least degree). We'll talk about how to do this in class, so let your instructor know when you reach this step. For your reference, the steps in Excel are:  Left-click on your graph. In the top menu under “Chart Tools”, click Design. Click Add Chart Element -> Trendline -> More trendline options. Click on the data you want to make a trendline for. In the right sidebar, select Polynomial and play around with the “Order” until you get a good fit for your data. Check “Display Equation on chart” and “Display R-squared value on chart”. Now, our goal is to get all our values larger than roughly 0.96, which is a very large degree of accuracy. If some of your trendlines have , double-click on the offending trendline(s) until the sidebar comes up and increase the “Order” of your polynomial until .  What trends over time do you notice in each the three graphs? Describe trends in words, using phrases like “increasing”, “decreasing”, “increasing slope”, “decreasing slope”. What overall trend do we notice that's common to all three graphs over time?  The -squared value that you were asked to show in above measures what proportion of the variation in the -variable is explained by the trendline. For instance, means that of the variation in y is explained by the trendline, so the trendline is a perfect fit. Conversely, means that the trendline explains of the variation in the variable, so this trendline doesn't fit the data at all. What percentage of the variation in two-year public college tuition ( ) is explained by the variation in year ( )? What about when four-year private college tuition? Four-year public college tuition?   Outliers are data that fall far away from the trendline. What outliers do you notice, if any? Interpret these outliers in context: what do they mean for tuition and fees over time, and what possible historical explanations could there be for these outliers?   Polynomials are a special type of mathematical function, or process for turning one number into another. Polynomials are functions of the form : sums of powers of , maybe with constant terms in front. For example, , , and are all polynomials. The polynomial takes the input 1 and turns it into the output . All numbers which make sense to input are called the domain of the function, and the possible sensical outputs you could get are called the range. What is the domain and range of each of the polynomial trendlines?  Use this model to predict the tuition cost for a student entering each type of institution in the academic year current academic year. How accurate do you think your prediction is?  Use the model to predict the tuition cost for a student entering a public two-year college in the academic years - , - , and - . How accurate do you think your predictions are?  Within (roughly) what domain do you think your trendline can make fairly accurate predictions? Explain.  Does this table (and the supplement on the number of students in grad school) back up the suggestion of this Atlantic article  that the cause of increased student debt is that more students are taking out loans to enroll in grad school? Why or why not?     Trends at Your Institution  Use TuitionTracker to describe recent trends at your own institution in the same way. Is your college or university better or worse in amount of student debt than the average in the US? The average for institutions of the same type?   "
 },
 {
   "id": "fig-total-us-consumer-debt",
@@ -334,31 +334,157 @@ var ptx_lunr_docs = [
   "body": " Breakdown of the percentage of U.S. non-mortgage consumer debt from 2009 to 2022.   Breakdown of the percentage of U.S. non-mortgage consumer debt from 2009 to 2022 showing the following approximate 2022 distribution: auto debt, student loan debt, credit card debt, consumer finance, \"other\". Source: Equifax Inc., 2022.   "
 },
 {
-  "id": "p-119",
+  "id": "exercise-14",
   "level": "2",
-  "url": "student-debt-by-college-type.html#p-119",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
+  "url": "student-debt-by-college-type.html#exercise-14",
+  "type": "Exercise",
+  "number": "2.5.1",
   "title": "",
-  "body": "Outliers "
+  "body": "The percentage of total debt in 2008 that was student loans vs. mortgage debt. "
 },
 {
-  "id": "p-120",
+  "id": "exercise-15",
   "level": "2",
-  "url": "student-debt-by-college-type.html#p-120",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
+  "url": "student-debt-by-college-type.html#exercise-15",
+  "type": "Exercise",
+  "number": "2.5.2",
   "title": "",
-  "body": "Polynomials domain range. "
+  "body": "The percentage of total debt in 2021 that was student loans vs. mortgage debt. "
 },
 {
-  "id": "p-126",
+  "id": "exercise-16",
   "level": "2",
-  "url": "student-debt-by-college-type.html#p-126",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
+  "url": "student-debt-by-college-type.html#exercise-16",
+  "type": "Exercise",
+  "number": "2.5.3",
   "title": "",
-  "body": "expected frequency table chi-squared test for goodness-of-fit residuals "
+  "body": "Why do you think did this graph choose 2003 as a starting year? "
+},
+{
+  "id": "exercise-17",
+  "level": "2",
+  "url": "student-debt-by-college-type.html#exercise-17",
+  "type": "Exercise",
+  "number": "2.5.4",
+  "title": "",
+  "body": "Do research online if needed to determine why the second quarter of was the previous peak in U.S. total consumer debt. "
+},
+{
+  "id": "exercise-18",
+  "level": "2",
+  "url": "student-debt-by-college-type.html#exercise-18",
+  "type": "Exercise",
+  "number": "2.5.5",
+  "title": "",
+  "body": "Find another source for the US consumer debt broken down by type of debt in 2008 and in 2019. Does it agree with the graph above? Why or why not? "
+},
+{
+  "id": "exercise-19",
+  "level": "2",
+  "url": "student-debt-by-college-type.html#exercise-19",
+  "type": "Exercise",
+  "number": "2.5.1",
+  "title": "",
+  "body": "Create a graph, trendline, and interpret the value for each type of institution: public nonprofit, private nonprofit, private for-profit. What does it mean? Use it to predict average tuition and fees across the country in the current year. How accurate is your prediction? "
+},
+{
+  "id": "exercise-20",
+  "level": "2",
+  "url": "student-debt-by-college-type.html#exercise-20",
+  "type": "Exercise",
+  "number": "2.5.2",
+  "title": "",
+  "body": "Fit the data to a polynomial function (of least degree). We'll talk about how to do this in class, so let your instructor know when you reach this step. For your reference, the steps in Excel are: "
+},
+{
+  "id": "r-squared-nonprofit-status",
+  "level": "2",
+  "url": "student-debt-by-college-type.html#r-squared-nonprofit-status",
+  "type": "Exercise",
+  "number": "2.5.3",
+  "title": "",
+  "body": "Left-click on your graph. In the top menu under “Chart Tools”, click Design. Click Add Chart Element -> Trendline -> More trendline options. Click on the data you want to make a trendline for. In the right sidebar, select Polynomial and play around with the “Order” until you get a good fit for your data. Check “Display Equation on chart” and “Display R-squared value on chart”. Now, our goal is to get all our values larger than roughly 0.96, which is a very large degree of accuracy. If some of your trendlines have , double-click on the offending trendline(s) until the sidebar comes up and increase the “Order” of your polynomial until . "
+},
+{
+  "id": "exercise-22",
+  "level": "2",
+  "url": "student-debt-by-college-type.html#exercise-22",
+  "type": "Exercise",
+  "number": "2.5.4",
+  "title": "",
+  "body": "What trends over time do you notice in each the three graphs? Describe trends in words, using phrases like “increasing”, “decreasing”, “increasing slope”, “decreasing slope”. What overall trend do we notice that's common to all three graphs over time? "
+},
+{
+  "id": "exercise-23",
+  "level": "2",
+  "url": "student-debt-by-college-type.html#exercise-23",
+  "type": "Exercise",
+  "number": "2.5.5",
+  "title": "",
+  "body": "The -squared value that you were asked to show in above measures what proportion of the variation in the -variable is explained by the trendline. For instance, means that of the variation in y is explained by the trendline, so the trendline is a perfect fit. Conversely, means that the trendline explains of the variation in the variable, so this trendline doesn't fit the data at all. What percentage of the variation in two-year public college tuition ( ) is explained by the variation in year ( )? What about when four-year private college tuition? Four-year public college tuition? "
+},
+{
+  "id": "exercise-24",
+  "level": "2",
+  "url": "student-debt-by-college-type.html#exercise-24",
+  "type": "Exercise",
+  "number": "2.5.6",
+  "title": "",
+  "body": " Outliers are data that fall far away from the trendline. What outliers do you notice, if any? Interpret these outliers in context: what do they mean for tuition and fees over time, and what possible historical explanations could there be for these outliers? "
+},
+{
+  "id": "exercise-25",
+  "level": "2",
+  "url": "student-debt-by-college-type.html#exercise-25",
+  "type": "Exercise",
+  "number": "2.5.7",
+  "title": "",
+  "body": " Polynomials are a special type of mathematical function, or process for turning one number into another. Polynomials are functions of the form : sums of powers of , maybe with constant terms in front. For example, , , and are all polynomials. The polynomial takes the input 1 and turns it into the output . All numbers which make sense to input are called the domain of the function, and the possible sensical outputs you could get are called the range. What is the domain and range of each of the polynomial trendlines? "
+},
+{
+  "id": "exercise-26",
+  "level": "2",
+  "url": "student-debt-by-college-type.html#exercise-26",
+  "type": "Exercise",
+  "number": "2.5.8",
+  "title": "",
+  "body": "Use this model to predict the tuition cost for a student entering each type of institution in the academic year current academic year. How accurate do you think your prediction is? "
+},
+{
+  "id": "exercise-27",
+  "level": "2",
+  "url": "student-debt-by-college-type.html#exercise-27",
+  "type": "Exercise",
+  "number": "2.5.9",
+  "title": "",
+  "body": "Use the model to predict the tuition cost for a student entering a public two-year college in the academic years - , - , and - . How accurate do you think your predictions are? "
+},
+{
+  "id": "exercise-28",
+  "level": "2",
+  "url": "student-debt-by-college-type.html#exercise-28",
+  "type": "Exercise",
+  "number": "2.5.10",
+  "title": "",
+  "body": "Within (roughly) what domain do you think your trendline can make fairly accurate predictions? Explain. "
+},
+{
+  "id": "exercise-29",
+  "level": "2",
+  "url": "student-debt-by-college-type.html#exercise-29",
+  "type": "Exercise",
+  "number": "2.5.11",
+  "title": "",
+  "body": "Does this table (and the supplement on the number of students in grad school) back up the suggestion of this Atlantic article  that the cause of increased student debt is that more students are taking out loans to enroll in grad school? Why or why not? "
+},
+{
+  "id": "exercise-30",
+  "level": "2",
+  "url": "student-debt-by-college-type.html#exercise-30",
+  "type": "Exercise",
+  "number": "2.5.1",
+  "title": "",
+  "body": "Use TuitionTracker to describe recent trends at your own institution in the same way. Is your college or university better or worse in amount of student debt than the average in the US? The average for institutions of the same type? "
 },
 {
   "id": "the-intersectional-inequities-of-student-debt",
@@ -367,187 +493,232 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "2.6",
   "title": "The Intersectional Inequities of Student Debt",
-  "body": " The Intersectional Inequities of Student Debt   The average undergraduate student who takes out student loans has around in debt by the end of their higher education, according to the U.S. Department of Education. However, this debt is not spread equitably by demographic category: of non-Hispanic-identifying Black families carry an education loan, compared to of non-Hispanic white families and of Hispanic-identifying families .  Student debt is also not equally spread among age groups; Millennials (who were - years old in ) total over billion in student loan debt, compared to a little over million of Gen Z (under in ), a little under million held by those - years of age in , a bit under million held by those - years old, and only around million held by those or older in  .  Since Black families have been prevented from amassing generational wealth through systemic racism (in which laws favor one racial group over another), the legacy of slavery and Jim Crow, and mass incarceration, as well as continued implicit and explicit racism in public policy, housing (including the legacy of redlining, a policy which conitnued through ), private banking and lending, access to education, and hiring practices, Black folks are both more likely to have to take on debt to attend college and less likely to attain wealth due to a college education .  In particular, a study found that the average white college-educated parent contributed to their children's education, while Black parents contributed on average. This is true despite the fact that, when controlling by household type and economic situation, Black parents contribute more on average than white parents.  Lower-income Black parents are disproportionately likely to take out Parent PLUS loans, which are loans provided by the U.S. Department of Education to the parents of college students. Parent PLUS loans are unsubsidized and charge a loan fee (added to each loan payment) of and an interest rate of as of  , adding a substantial financial burden to the parent borrower.  Under these circumstances, Black borrowers default on student loans five times more often that white borrowers . Therefore, the disproportionate load of student debt on Black borrowers is both a symptom of, and exacerbates, the racial wealth gap in the U.S., or the difference in total assets and debts between Black and white Americans.  Defaulting on federal student loan debt leads to consequences such as bad credit ratings, a decrease in tax refunds, the garnishment of wages, and removal of security clearances which are at times a condition of employment . The consequences for those who default include an inability to obtain loans to buy homes or cars, loss of wages, or loss of employment.   The Toll of Student Debt in the U.S.   The data in this section come partly from a New York Times article by Ella Koeze and Karl Russell entitled The Toll of Student Debt in the U.S. An archived version of the article can be accessed here .  What are three things you notice about the graphs shown in the article? Explain what these particular things mean for students with debt.  What are three things you wonder about based on the article that are not answered in the article itself?  Do some research online and find reputable sources to answer your questions above.      Trends in Student Aid   The following four questions are about the most recent College Board Trends in Student Aid  publication, which can be downloaded here .   Explain the difference between subsidized and unsubsidized federal loans. (You may have to use other online sources.)  When did the federal government begin giving unsubsidized loans to students according to the chart in Trends in Student Aid ? (You may also have to use other online sources.)  Since the year , describe the trend for both subsidized and unsubsidized loans.    The Biden-Harris Loan Forgiveness Plans   In and , the Biden-Harris administration released a plan whose multiple components are designed to decrease the burden of student loan debt on lower-income individuals. Read the White House's announcement of the plan , then answer the following questions.   In your own words, describe the three main components of the White House's student debt relief plan . Who is impacted by each part? What impacts would the plan have on each group?  Which do you feel is the most essential component of the plan? Why?  What is the current status of this debt relief plan? You may have to do additional research online. Has it been blocked by the courts? Changed by legislation? Implemented in full? Why or why not?  >    The Atlantic asks, “ Who Really Benefits From Student-Loan Forgiveness ?”  The article hints that student loan debt has received national attention because college graduates have significant political power. Do you believe that student debt forgiveness is a privileged position to advocate for? Why or why not?  Why might student debt exacerbate the racial wealth gap? Do you think it does?  Do you believe that canceling student debt helps shrink the racial wealth gap? Why or why not?  How could you use statistics to determine whether student loan debt was due to rising tuition\/fees, inflation, or as the article mentions, the number of recipients attending grad school? What do you believe?       According to a late 2017 study by the Organisation for Economic Cooperation and Development , the U.S. has the greatest annual average tuition and fees of all surveyed countries charged to nationals of that country. Note that the symbols a in the table mean the category does not pply , while m means data are not available ( missing ).   What general trends (by continent, region, degree type, or type of institution) do you notice in the table? Explain.  What impact may the missing or not applicable data have on the general trends observed in the table? Explain.      Reading the News on Student Loans   Part of quantitative literacy is being able to critically interpret numbers and mathematics in the news media. To that end, find an article from the last four years involving student loans that makes at least 2-3 numerical claims. The College Board website or reputable news sources ( New York Times , Washington Post , Reuters, Associated Press, etc.) about government policy on student loans and loan forgiveness are good sources,; you're welcome to find your own sources as well. Take the number(s) in your article and do the following:   Decide what point the article is trying to make by citing these numbers.  Before pulling out an electronic device, brainstorm a list of questions (3-5) you'd like to know about the numbers–things that would help you understand if the numbers are big or small, and whether or not the underlying data actually supports the article's argument.  Get online and try to answer your questions.  Rate the article's claims on two scales:   How true is the statement? (0 = completely false, 4 = completely true)    How misleading is the statement? (0 = not at all, 4 = totally misleading) (In other words, when you look at the underlying data, does it support the article's point or not?)      "
+  "body": " The Intersectional Inequities of Student Debt   The average undergraduate student who takes out student loans has around in debt by the end of their higher education, according to the U.S. Department of Education. However, this debt is not spread equitably by demographic category: of non-Hispanic-identifying Black families carry an education loan, compared to of non-Hispanic white families and of Hispanic-identifying families .  Student debt is also not equally spread among age groups; Millennials (who were - years old in ) total over billion in student loan debt, compared to a little over million of Gen Z (under in ), a little under million held by those - years of age in , a bit under million held by those - years old, and only around million held by those or older in  .  Since Black families have been prevented from amassing generational wealth through systemic racism (in which laws favor one racial group over another), the legacy of slavery and Jim Crow, and mass incarceration, as well as continued implicit and explicit racism in public policy, housing (including the legacy of redlining, a policy which conitnued through ), private banking and lending, access to education, and hiring practices, Black folks are both more likely to have to take on debt to attend college and less likely to attain wealth due to a college education .  In particular, a study found that the average white college-educated parent contributed to their children's education, while Black parents contributed on average. This is true despite the fact that, when controlling by household type and economic situation, Black parents contribute more on average than white parents.  Lower-income Black parents are disproportionately likely to take out Parent PLUS loans, which are loans provided by the U.S. Department of Education to the parents of college students. Parent PLUS loans are unsubsidized and charge a loan fee (added to each loan payment) of and an interest rate of as of  , adding a substantial financial burden to the parent borrower.  Under these circumstances, Black borrowers default on student loans five times more often that white borrowers . Therefore, the disproportionate load of student debt on Black borrowers is both a symptom of, and exacerbates, the racial wealth gap in the U.S., or the difference in total assets and debts between Black and white Americans.  Defaulting on federal student loan debt leads to consequences such as bad credit ratings, a decrease in tax refunds, the garnishment of wages, and removal of security clearances which are at times a condition of employment . The consequences for those who default include an inability to obtain loans to buy homes or cars, loss of wages, or loss of employment.   The Toll of Student Debt in the U.S.   The data in this section come partly from a New York Times article by Ella Koeze and Karl Russell entitled The Toll of Student Debt in the U.S. An archived version of the article can be accessed here .  What are three things you notice about the graphs shown in the article? Explain what these particular things mean for students with debt.  What are three things you wonder about based on the article that are not answered in the article itself?  Do some research online and find reputable sources to answer your questions above.      Trends in Student Aid   The following four questions are about the most recent College Board Trends in Student Aid  publication, which can be downloaded here .   Explain the difference between subsidized and unsubsidized federal loans. (You may have to use other online sources.)  When did the federal government begin giving unsubsidized loans to students according to the chart in Trends in Student Aid ? (You may also have to use other online sources.)  Since the year , describe the trend for both subsidized and unsubsidized loans.    The Biden-Harris Loan Forgiveness Plans   In and , the Biden-Harris administration released a plan whose multiple components are designed to decrease the burden of student loan debt on lower-income individuals. Read the White House's announcement of the plan , then answer the following questions.   In your own words, describe the three main components of the White House's student debt relief plan . Who is impacted by each part? What impacts would the plan have on each group?  Which do you feel is the most essential component of the plan? Why?  What is the current status of this debt relief plan? You may have to do additional research online. Has it been blocked by the courts? Changed by legislation? Implemented in full? Why or why not?  >    The Atlantic asks, “ Who Really Benefits From Student-Loan Forgiveness ?”  The article hints that student loan debt has received national attention because college graduates have significant political power. Do you believe that student debt forgiveness is a privileged position to advocate for? Why or why not?  Why might student debt exacerbate the racial wealth gap? Do you think it does?  Do you believe that canceling student debt helps shrink the racial wealth gap? Why or why not?  How could you use statistics to determine whether student loan debt was due to rising tuition\/fees, inflation, or as the article mentions, the number of recipients attending grad school? What do you believe?       According to a late 2017 study by the Organisation for Economic Cooperation and Development , the U.S. has the greatest annual average tuition and fees of all surveyed countries charged to nationals of that country. Note that the symbols a in the table mean the category does not pply , while m means data are not available ( missing ).   What general trends (by continent, region, degree type, or type of institution) do you notice in the table? Explain.  What impact may the missing or not applicable data have on the general trends observed in the table? Explain.      Reading the News on Student Loans   Part of quantitative literacy is being able to critically interpret numbers and mathematics in the news media. To that end, find an article from the last four years involving student loans that makes at least 2-3 numerical claims. The College Board website or reputable news sources ( New York Times , Washington Post , Reuters, Associated Press, etc.) about government policy on student loans and loan forgiveness are good sources,; you're welcome to find your own sources as well. Take the number(s) in your article and do the following:   Decide what point the article is trying to make by citing these numbers.  Before pulling out an electronic device, brainstorm a list of questions (3-5) you'd like to know about the numbers–things that would help you understand if the numbers are big or small, and whether or not the underlying data actually supports the article's argument.  Get online and try to answer your questions.  Rate the article's claims on two scales:   How true is the statement? (0 = completely false, 4 = completely true)    How misleading is the statement? (0 = not at all, 4 = totally misleading) (In other words, when you look at the underlying data, does it support the article's point or not?)       Student Debt by Race: What Is Fair?    Compare the total amount paid in student debt for various racial groups using this table .   Does it seem like any racial groups are being disproportionately saddled with student loan debt? How can we compare, say, debt held by white vs. Asian students to see whether the difference is larger than we'd expect? Well, first we need to quantify the idea of “what we'd expect”...what does this mean? Create an expected frequency table for what you'd expect to see if there were absolutely no racial differences in student debt.  Compute the difference between the observed count for each race and the expected count . What do you notice?  What if we averaged all the 's for each racial group? This is effectively the idea of a chi-squared test for goodness-of-fit , which is used by statisticians to determine whether any differences observed are small enough to be due to chance or large enough that they give evidence of a difference. What would the equation for this average look like?  We'll use a computer to perform this test in a minute. First, what groups do you think are disproportionately likely\/unlikely to hold student loan debt? What racial groups have a higher\/lower debt burden per person?  Now, enter this data into an app such as RStudio or an online tool. In RStudio, run this code to do a chi-squared test. (In a statistics class, walk through the steps.) Output the -value (the likelihood the observed differences are due to chance alone) and residuals , which are basically scaled versions of the s for each racial group. Which are highest? Lowest? Is there evidence of racial bias?    If these materials are being used for a course in, say, introductory statistics for STEM fields or a higher-level data science class, this is a good time to discuss linear regression with multiple predictors to formalize the effect of year and type of institution on tuition or race and year on student debt. However, since this text is primarily intended for courses without prerequisites targeted at majors and non-majors alike, such material is beyond the scope of this chapter.  "
 },
 {
-  "id": "exercise-14",
+  "id": "exercise-31",
   "level": "2",
-  "url": "the-intersectional-inequities-of-student-debt.html#exercise-14",
+  "url": "the-intersectional-inequities-of-student-debt.html#exercise-31",
   "type": "Exercise",
   "number": "2.6.1",
   "title": "",
   "body": "What are three things you notice about the graphs shown in the article? Explain what these particular things mean for students with debt. "
 },
 {
-  "id": "exercise-15",
+  "id": "exercise-32",
   "level": "2",
-  "url": "the-intersectional-inequities-of-student-debt.html#exercise-15",
+  "url": "the-intersectional-inequities-of-student-debt.html#exercise-32",
   "type": "Exercise",
   "number": "2.6.2",
   "title": "",
   "body": "What are three things you wonder about based on the article that are not answered in the article itself? "
 },
 {
-  "id": "exercise-16",
+  "id": "exercise-33",
   "level": "2",
-  "url": "the-intersectional-inequities-of-student-debt.html#exercise-16",
+  "url": "the-intersectional-inequities-of-student-debt.html#exercise-33",
   "type": "Exercise",
   "number": "2.6.3",
   "title": "",
   "body": "Do some research online and find reputable sources to answer your questions above. "
 },
 {
-  "id": "exercise-17",
+  "id": "exercise-34",
   "level": "2",
-  "url": "the-intersectional-inequities-of-student-debt.html#exercise-17",
+  "url": "the-intersectional-inequities-of-student-debt.html#exercise-34",
   "type": "Reading Question",
   "number": "2.6.1",
   "title": "",
   "body": "Explain the difference between subsidized and unsubsidized federal loans. (You may have to use other online sources.) "
 },
 {
-  "id": "exercise-18",
+  "id": "exercise-35",
   "level": "2",
-  "url": "the-intersectional-inequities-of-student-debt.html#exercise-18",
+  "url": "the-intersectional-inequities-of-student-debt.html#exercise-35",
   "type": "Reading Question",
   "number": "2.6.2",
   "title": "",
   "body": "When did the federal government begin giving unsubsidized loans to students according to the chart in Trends in Student Aid ? (You may also have to use other online sources.) "
 },
 {
-  "id": "exercise-19",
+  "id": "exercise-36",
   "level": "2",
-  "url": "the-intersectional-inequities-of-student-debt.html#exercise-19",
+  "url": "the-intersectional-inequities-of-student-debt.html#exercise-36",
   "type": "Reading Question",
   "number": "2.6.3",
   "title": "",
   "body": "Since the year , describe the trend for both subsidized and unsubsidized loans. "
 },
 {
-  "id": "exercise-20",
+  "id": "exercise-37",
   "level": "2",
-  "url": "the-intersectional-inequities-of-student-debt.html#exercise-20",
+  "url": "the-intersectional-inequities-of-student-debt.html#exercise-37",
   "type": "Reading Question",
   "number": "2.6.1",
   "title": "",
   "body": "In your own words, describe the three main components of the White House's student debt relief plan . Who is impacted by each part? What impacts would the plan have on each group? "
 },
 {
-  "id": "exercise-21",
+  "id": "exercise-38",
   "level": "2",
-  "url": "the-intersectional-inequities-of-student-debt.html#exercise-21",
+  "url": "the-intersectional-inequities-of-student-debt.html#exercise-38",
   "type": "Reading Question",
   "number": "2.6.2",
   "title": "",
   "body": "Which do you feel is the most essential component of the plan? Why? "
 },
 {
-  "id": "exercise-22",
+  "id": "exercise-39",
   "level": "2",
-  "url": "the-intersectional-inequities-of-student-debt.html#exercise-22",
+  "url": "the-intersectional-inequities-of-student-debt.html#exercise-39",
   "type": "Reading Question",
   "number": "2.6.3",
   "title": "",
   "body": "What is the current status of this debt relief plan? You may have to do additional research online. Has it been blocked by the courts? Changed by legislation? Implemented in full? Why or why not? "
 },
 {
-  "id": "exercise-23",
+  "id": "exercise-40",
   "level": "2",
-  "url": "the-intersectional-inequities-of-student-debt.html#exercise-23",
+  "url": "the-intersectional-inequities-of-student-debt.html#exercise-40",
   "type": "Reading Question",
   "number": "2.6.1",
   "title": "",
   "body": "The article hints that student loan debt has received national attention because college graduates have significant political power. Do you believe that student debt forgiveness is a privileged position to advocate for? Why or why not? "
 },
 {
-  "id": "exercise-24",
+  "id": "exercise-41",
   "level": "2",
-  "url": "the-intersectional-inequities-of-student-debt.html#exercise-24",
+  "url": "the-intersectional-inequities-of-student-debt.html#exercise-41",
   "type": "Reading Question",
   "number": "2.6.2",
   "title": "",
   "body": "Why might student debt exacerbate the racial wealth gap? Do you think it does? "
 },
 {
-  "id": "exercise-25",
+  "id": "exercise-42",
   "level": "2",
-  "url": "the-intersectional-inequities-of-student-debt.html#exercise-25",
+  "url": "the-intersectional-inequities-of-student-debt.html#exercise-42",
   "type": "Reading Question",
   "number": "2.6.3",
   "title": "",
   "body": "Do you believe that canceling student debt helps shrink the racial wealth gap? Why or why not? "
 },
 {
-  "id": "exercise-26",
+  "id": "exercise-43",
   "level": "2",
-  "url": "the-intersectional-inequities-of-student-debt.html#exercise-26",
+  "url": "the-intersectional-inequities-of-student-debt.html#exercise-43",
   "type": "Reading Question",
   "number": "2.6.4",
   "title": "",
   "body": "How could you use statistics to determine whether student loan debt was due to rising tuition\/fees, inflation, or as the article mentions, the number of recipients attending grad school? What do you believe? "
 },
 {
-  "id": "p-155",
+  "id": "p-147",
   "level": "2",
-  "url": "the-intersectional-inequities-of-student-debt.html#p-155",
+  "url": "the-intersectional-inequities-of-student-debt.html#p-147",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
   "body": "missing "
 },
 {
-  "id": "exercise-27",
+  "id": "exercise-44",
   "level": "2",
-  "url": "the-intersectional-inequities-of-student-debt.html#exercise-27",
+  "url": "the-intersectional-inequities-of-student-debt.html#exercise-44",
   "type": "Reading Question",
   "number": "2.6.1",
   "title": "",
   "body": "What general trends (by continent, region, degree type, or type of institution) do you notice in the table? Explain. "
 },
 {
-  "id": "exercise-28",
+  "id": "exercise-45",
   "level": "2",
-  "url": "the-intersectional-inequities-of-student-debt.html#exercise-28",
+  "url": "the-intersectional-inequities-of-student-debt.html#exercise-45",
   "type": "Reading Question",
   "number": "2.6.2",
   "title": "",
   "body": "What impact may the missing or not applicable data have on the general trends observed in the table? Explain. "
 },
 {
-  "id": "exercise-29",
+  "id": "exercise-46",
   "level": "2",
-  "url": "the-intersectional-inequities-of-student-debt.html#exercise-29",
+  "url": "the-intersectional-inequities-of-student-debt.html#exercise-46",
   "type": "Reading Question",
   "number": "2.6.1",
   "title": "",
   "body": "Decide what point the article is trying to make by citing these numbers. "
 },
 {
-  "id": "exercise-30",
+  "id": "exercise-47",
   "level": "2",
-  "url": "the-intersectional-inequities-of-student-debt.html#exercise-30",
+  "url": "the-intersectional-inequities-of-student-debt.html#exercise-47",
   "type": "Reading Question",
   "number": "2.6.2",
   "title": "",
   "body": "Before pulling out an electronic device, brainstorm a list of questions (3-5) you'd like to know about the numbers–things that would help you understand if the numbers are big or small, and whether or not the underlying data actually supports the article's argument. "
 },
 {
-  "id": "exercise-31",
+  "id": "exercise-48",
   "level": "2",
-  "url": "the-intersectional-inequities-of-student-debt.html#exercise-31",
+  "url": "the-intersectional-inequities-of-student-debt.html#exercise-48",
   "type": "Reading Question",
   "number": "2.6.3",
   "title": "",
   "body": "Get online and try to answer your questions. "
 },
 {
-  "id": "exercise-32",
+  "id": "exercise-49",
   "level": "2",
-  "url": "the-intersectional-inequities-of-student-debt.html#exercise-32",
+  "url": "the-intersectional-inequities-of-student-debt.html#exercise-49",
   "type": "Reading Question",
   "number": "2.6.4",
   "title": "",
   "body": "Rate the article's claims on two scales:   How true is the statement? (0 = completely false, 4 = completely true)    How misleading is the statement? (0 = not at all, 4 = totally misleading) (In other words, when you look at the underlying data, does it support the article's point or not?)   "
+},
+{
+  "id": "exercise-50",
+  "level": "2",
+  "url": "the-intersectional-inequities-of-student-debt.html#exercise-50",
+  "type": "Exercise",
+  "number": "2.6.1",
+  "title": "",
+  "body": "Does it seem like any racial groups are being disproportionately saddled with student loan debt? How can we compare, say, debt held by white vs. Asian students to see whether the difference is larger than we'd expect? Well, first we need to quantify the idea of “what we'd expect”...what does this mean? Create an expected frequency table for what you'd expect to see if there were absolutely no racial differences in student debt. "
+},
+{
+  "id": "exercise-51",
+  "level": "2",
+  "url": "the-intersectional-inequities-of-student-debt.html#exercise-51",
+  "type": "Exercise",
+  "number": "2.6.2",
+  "title": "",
+  "body": "Compute the difference between the observed count for each race and the expected count . What do you notice? "
+},
+{
+  "id": "exercise-52",
+  "level": "2",
+  "url": "the-intersectional-inequities-of-student-debt.html#exercise-52",
+  "type": "Exercise",
+  "number": "2.6.3",
+  "title": "",
+  "body": "What if we averaged all the 's for each racial group? This is effectively the idea of a chi-squared test for goodness-of-fit , which is used by statisticians to determine whether any differences observed are small enough to be due to chance or large enough that they give evidence of a difference. What would the equation for this average look like? "
+},
+{
+  "id": "exercise-53",
+  "level": "2",
+  "url": "the-intersectional-inequities-of-student-debt.html#exercise-53",
+  "type": "Exercise",
+  "number": "2.6.4",
+  "title": "",
+  "body": "We'll use a computer to perform this test in a minute. First, what groups do you think are disproportionately likely\/unlikely to hold student loan debt? What racial groups have a higher\/lower debt burden per person? "
+},
+{
+  "id": "exercise-54",
+  "level": "2",
+  "url": "the-intersectional-inequities-of-student-debt.html#exercise-54",
+  "type": "Exercise",
+  "number": "2.6.5",
+  "title": "",
+  "body": "Now, enter this data into an app such as RStudio or an online tool. In RStudio, run this code to do a chi-squared test. (In a statistics class, walk through the steps.) Output the -value (the likelihood the observed differences are due to chance alone) and residuals , which are basically scaled versions of the s for each racial group. Which are highest? Lowest? Is there evidence of racial bias? "
 },
 {
   "id": "loans-solving-for-change",
@@ -556,7 +727,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "2.7",
   "title": "Solving for Change: Student Loan Reform &amp; Activism in the U.S.",
-  "body": " Solving for Change: Student Loan Reform & Activism in the U.S.  In August , President Biden committed to forgiving in student debt for around million debtors in the U.S., with an additional being forgiven for Pell Grant recipients. The debt was forgiven only for single adults earning under a year and married couples earning under a year .  Student debt in the U.S. in , when President Biden proposed his student loan debt forgiveness plan, was roughly equal to the size of the economy of Brazil . Additionally, the amount of funding for higher education provided by state governments has declined from around in the s to slightly under in .  An independent analysis by the University of Pennsylvania Wharton School of Business found that about two-thirds of the financial benefit from Biden's student loan forgiveness plan will be to households making or less per year, especially households earning between and a year . The impact to the U.S. budget will be between and billion.  The Wharton School also released the data in on the distribution of student loan forgiveness benefits by income.   Student Debt Forgiven under the Biden-Harris Plan  Distribution of student loan forgiveness benefit by income under the Biden student loan forgiveness plan. Most of the debt forgiven would have accumulated for those in the - age group; hence, this column may be more representative of the plan's effects. No benefit is expected to go to the top of earners in either age group. Data from Wharton School of Business.     All Ages  Age -    Income Group  Percentage of benefit  Percentage of benefit    Bottom      st- th percentile      st- th percentile      st- th percentile      -      -        For each of the following questions, read the cited article, considering the listed questions. Then use what you've read, as well as your own thoughts, to make your best attempt at answering these questions. Finally, bring these attempts to class and discuss them with your group. Choose someone in your group to report your group's conclusions during full-class discussion.      This article by Mother Jones (known for being a left-leaning publication) investigates the history of the student loan debt forgiveness movement, beginning with the activism of Occupy Wall Street in (see ) and America's first debtors' union, the Debt Collective.  What does the article describe as the origin of the Debt Collective and the movement to cancel student debt from for-profit colleges?  Why did Gokey decide to focus on forming a debt collective?     A photo of two Occupy Wall Street protesters, one of whom carries a sign saying \"I Owe SallieMae .\" Photo by Bob Jagendorf entitled \"Occupy Wall Street - Student Loans\" under a CC BY-NC 2.0 license.   A photo of two Occupy Wall Street protesters, one of whom carries a sign saying \"I Owe SallieMae .\" Photo by Bob Jagendorf entitled ``Occupy Wall Street - Student Loans'' under a CC BY-NC 2.0 license.      For-profit colleges have defrauded students and led to an increase in student debt; this was a major concern of Occupy Wall Street activists and is described in the following 2014 Last Week Tonight video . In June , the federal Department of Education automatically canceled all debt currently held by Corinthian Colleges students and alumni .   What makes Corinthian and other for-profit colleges different from private nonprofit colleges or public universities?  Do you agree with the Department of Education's actions? Why or why not?  What should the Department of Education do with student loans held by other for-profit colleges, including those who were not as openly fraudulent as Corinthian (who paid companies to hire their students for two days in order to inflate their job placement numbers)?  What should the Department of Education do with student loans held by nonprofit colleges?       11 . Assume for a moment that these policies stay constant for the next years (perhaps an unlikely assumption given the changes in policy between Presidential administrations as well as Supreme Court rulings).    What percentage of the benefit will your age and income group receive years from now?    If you are in one of the groups (single adults earning under a year and married couples earning under a year, plus an additional for Pell Grant recipients) that President Biden targeted for debt forgiveness in , what amount of debt will you have forgiven?    Do you believe that President Biden's student loan debt forgiveness policy is a good idea? Why or why not? Do its benefits for lower-income debtors outweigh its impats on the U.S. budget? Estimate whether your taxes will rise as a result and, if so, by how much, using a well-explained dimensional analysis.    The following note from the Wharton Budget Model describes the income groups listed in : Estimate household income percentile thresholds for 2022 all age: 20%: $28,784; 40%: $50,795; 60%: $82,400; 80%: $141,096; 90% $212,209; 95%: $321,699; 99%: $961,711; 99.9%: $3,668,499.     Given this information, estimate the percentage of the student loan forgiveness plan your income group will receive.     The Congressional Budget Office , a nonpartisan organization within the legislative branch of the United States government, estimated the total cost of Biden's student loan forgiveness program at billion. Use this estimate, together with the information above, to estimate how much total debt relief (in U.S. dollars) your income and age group wlil receive years from now.      President Biden's loan forgiveness program involves an income cap , which means that the program only applies to individuals who earn below or households who earn below each year. According to the Wharton analysis shown in , whether or not an income cap is applied, the most loan forgiveness would go to households earning between and a year.    What income percentile(s) in do these earners belong to?    Assuming that the loan forgiveness policy stays constant for the next years, estimate the percentage of loan forgiveness that will apply to these income percentile(s). Make the simplifying assumption that all student loan borrowers are individuals and not households.    Does the Wharton estimate make sense? Why or why not?      "
+  "body": " Solving for Change: Student Loan Reform & Activism in the U.S.  In August , President Biden committed to forgiving in student debt for around million debtors in the U.S., with an additional being forgiven for Pell Grant recipients. The debt was forgiven only for single adults earning under a year and married couples earning under a year .  Student debt in the U.S. in , when President Biden proposed his student loan debt forgiveness plan, was roughly equal to the size of the economy of Brazil . Additionally, the amount of funding for higher education provided by state governments has declined from around in the s to slightly under in .  An independent analysis by the University of Pennsylvania Wharton School of Business found that about two-thirds of the financial benefit from Biden's student loan forgiveness plan will be to households making or less per year, especially households earning between and a year . The impact to the U.S. budget will be between and billion.  The Wharton School also released the data in on the distribution of student loan forgiveness benefits by income.   Student Debt Forgiven under the Biden-Harris Plan  Distribution of student loan forgiveness benefit by income under the Biden student loan forgiveness plan. Most of the debt forgiven would have accumulated for those in the - age group; hence, this column may be more representative of the plan's effects. No benefit is expected to go to the top of earners in either age group. Data from Wharton School of Business.     All Ages  Age -    Income Group  Percentage of benefit  Percentage of benefit    Bottom      st- th percentile      st- th percentile      st- th percentile      -      -        Student Loan Activism & Policy  For each of the following questions, read the cited article, considering the listed questions. Then use what you've read, as well as your own thoughts, to make your best attempt at answering these questions. Finally, bring these attempts to class and discuss them with your group. Choose someone in your group to report your group's conclusions during full-class discussion.      This article by Mother Jones (known for being a left-leaning publication) investigates the history of the student loan debt forgiveness movement, beginning with the activism of Occupy Wall Street in (see ) and America's first debtors' union, the Debt Collective.  What does the article describe as the origin of the Debt Collective and the movement to cancel student debt from for-profit colleges?  Why did Gokey decide to focus on forming a debt collective?     A photo of two Occupy Wall Street protesters, one of whom carries a sign saying \"I Owe SallieMae .\" Photo by Bob Jagendorf entitled \"Occupy Wall Street - Student Loans\" under a CC BY-NC 2.0 license.   A photo of two Occupy Wall Street protesters, one of whom carries a sign saying \"I Owe SallieMae .\" Photo by Bob Jagendorf entitled ``Occupy Wall Street - Student Loans'' under a CC BY-NC 2.0 license.      For-Profit Colleges and Department of Education Policy  For-profit colleges have defrauded students and led to an increase in student debt; this was a major concern of Occupy Wall Street activists and is described in the following 2014 Last Week Tonight video . In June , the federal Department of Education automatically canceled all debt currently held by Corinthian Colleges students and alumni .   What makes Corinthian and other for-profit colleges different from private nonprofit colleges or public universities?  Do you agree with the Department of Education's actions? Why or why not?  What should the Department of Education do with student loans held by other for-profit colleges, including those who were not as openly fraudulent as Corinthian (who paid companies to hire their students for two days in order to inflate their job placement numbers)?  What should the Department of Education do with student loans held by nonprofit colleges?       Assume for a moment that the Biden-Harris policies you investigated in stay constant for the next years (perhaps an unlikely assumption given the changes in policy between Presidential administrations as well as Supreme Court rulings).  What percentage of the benefit will your age and income group receive years from now?  If you are in one of the groups (single adults earning under a year and married couples earning under a year, plus an additional for Pell Grant recipients) that President Biden targeted for debt forgiveness in , what amount of debt will you have forgiven?  Do you believe that President Biden's student loan debt forgiveness policy is a good idea? Why or why not? Do its benefits for lower-income debtors outweigh its impats on the U.S. budget? Estimate whether your taxes will rise as a result and, if so, by how much, using a well-explained dimensional analysis.  The following note from the Wharton Budget Model describes the income groups listed in : Estimate household income percentile thresholds for 2022 all age: 20%: $28,784; 40%: $50,795; 60%: $82,400; 80%: $141,096; 90% $212,209; 95%: $321,699; 99%: $961,711; 99.9%: $3,668,499.    Given this information, estimate the percentage of the student loan forgiveness plan your income group will receive.     The Congressional Budget Office , a nonpartisan organization within the legislative branch of the United States government, estimated the total cost of Biden's student loan forgiveness program at billion. Use this estimate, together with the information above, to estimate how much total debt relief (in U.S. dollars) your income and age group wlil receive years from now.    President Biden's loan forgiveness program involves an income cap , which means that the program only applies to individuals who earn below or households who earn below each year. According to the Wharton analysis shown in , whether or not an income cap is applied, the most loan forgiveness would go to households earning between and a year.   What income percentile(s) in do these earners belong to?    Assuming that the loan forgiveness policy stays constant for the next years, estimate the percentage of loan forgiveness that will apply to these income percentile(s). Make the simplifying assumption that all student loan borrowers are individuals and not households.    Does the Wharton estimate make sense? Why or why not?     "
 },
 {
   "id": "tab-debt-forgiven-by-income-age",
@@ -568,18 +739,18 @@ var ptx_lunr_docs = [
   "body": " Student Debt Forgiven under the Biden-Harris Plan  Distribution of student loan forgiveness benefit by income under the Biden student loan forgiveness plan. Most of the debt forgiven would have accumulated for those in the - age group; hence, this column may be more representative of the plan's effects. No benefit is expected to go to the top of earners in either age group. Data from Wharton School of Business.     All Ages  Age -    Income Group  Percentage of benefit  Percentage of benefit    Bottom      st- th percentile      st- th percentile      st- th percentile      -      -      "
 },
 {
-  "id": "exercise-33",
+  "id": "exercise-55",
   "level": "2",
-  "url": "loans-solving-for-change.html#exercise-33",
+  "url": "loans-solving-for-change.html#exercise-55",
   "type": "Reading Question",
   "number": "2.7.1",
   "title": "",
   "body": "What does the article describe as the origin of the Debt Collective and the movement to cancel student debt from for-profit colleges? "
 },
 {
-  "id": "exercise-34",
+  "id": "exercise-56",
   "level": "2",
-  "url": "loans-solving-for-change.html#exercise-34",
+  "url": "loans-solving-for-change.html#exercise-56",
   "type": "Reading Question",
   "number": "2.7.2",
   "title": "",
@@ -595,49 +766,85 @@ var ptx_lunr_docs = [
   "body": " A photo of two Occupy Wall Street protesters, one of whom carries a sign saying \"I Owe SallieMae .\" Photo by Bob Jagendorf entitled \"Occupy Wall Street - Student Loans\" under a CC BY-NC 2.0 license.   A photo of two Occupy Wall Street protesters, one of whom carries a sign saying \"I Owe SallieMae .\" Photo by Bob Jagendorf entitled ``Occupy Wall Street - Student Loans'' under a CC BY-NC 2.0 license.   "
 },
 {
-  "id": "exercise-35",
+  "id": "exercise-57",
   "level": "2",
-  "url": "loans-solving-for-change.html#exercise-35",
+  "url": "loans-solving-for-change.html#exercise-57",
   "type": "Reading Question",
-  "number": "2.7.1",
+  "number": "2.7.3",
   "title": "",
   "body": "What makes Corinthian and other for-profit colleges different from private nonprofit colleges or public universities? "
 },
 {
-  "id": "exercise-36",
+  "id": "exercise-58",
   "level": "2",
-  "url": "loans-solving-for-change.html#exercise-36",
+  "url": "loans-solving-for-change.html#exercise-58",
   "type": "Reading Question",
-  "number": "2.7.2",
+  "number": "2.7.4",
   "title": "",
   "body": "Do you agree with the Department of Education's actions? Why or why not? "
 },
 {
-  "id": "exercise-37",
+  "id": "exercise-59",
   "level": "2",
-  "url": "loans-solving-for-change.html#exercise-37",
+  "url": "loans-solving-for-change.html#exercise-59",
   "type": "Reading Question",
-  "number": "2.7.3",
+  "number": "2.7.5",
   "title": "",
   "body": "What should the Department of Education do with student loans held by other for-profit colleges, including those who were not as openly fraudulent as Corinthian (who paid companies to hire their students for two days in order to inflate their job placement numbers)? "
 },
 {
-  "id": "exercise-38",
+  "id": "exercise-60",
   "level": "2",
-  "url": "loans-solving-for-change.html#exercise-38",
+  "url": "loans-solving-for-change.html#exercise-60",
   "type": "Reading Question",
-  "number": "2.7.4",
+  "number": "2.7.6",
   "title": "",
   "body": "What should the Department of Education do with student loans held by nonprofit colleges? "
 },
 {
-  "id": "p-176",
+  "id": "exercise-61",
   "level": "2",
-  "url": "loans-solving-for-change.html#p-176",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
+  "url": "loans-solving-for-change.html#exercise-61",
+  "type": "Exercise",
+  "number": "2.7.1",
   "title": "",
-  "body": "11 "
+  "body": "What percentage of the benefit will your age and income group receive years from now? "
+},
+{
+  "id": "exercise-62",
+  "level": "2",
+  "url": "loans-solving-for-change.html#exercise-62",
+  "type": "Exercise",
+  "number": "2.7.2",
+  "title": "",
+  "body": "If you are in one of the groups (single adults earning under a year and married couples earning under a year, plus an additional for Pell Grant recipients) that President Biden targeted for debt forgiveness in , what amount of debt will you have forgiven? "
+},
+{
+  "id": "exercise-63",
+  "level": "2",
+  "url": "loans-solving-for-change.html#exercise-63",
+  "type": "Exercise",
+  "number": "2.7.3",
+  "title": "",
+  "body": "Do you believe that President Biden's student loan debt forgiveness policy is a good idea? Why or why not? Do its benefits for lower-income debtors outweigh its impats on the U.S. budget? Estimate whether your taxes will rise as a result and, if so, by how much, using a well-explained dimensional analysis. "
+},
+{
+  "id": "exercise-64",
+  "level": "2",
+  "url": "loans-solving-for-change.html#exercise-64",
+  "type": "Exercise",
+  "number": "2.7.4",
+  "title": "",
+  "body": "The following note from the Wharton Budget Model describes the income groups listed in : Estimate household income percentile thresholds for 2022 all age: 20%: $28,784; 40%: $50,795; 60%: $82,400; 80%: $141,096; 90% $212,209; 95%: $321,699; 99%: $961,711; 99.9%: $3,668,499.    Given this information, estimate the percentage of the student loan forgiveness plan your income group will receive.     The Congressional Budget Office , a nonpartisan organization within the legislative branch of the United States government, estimated the total cost of Biden's student loan forgiveness program at billion. Use this estimate, together with the information above, to estimate how much total debt relief (in U.S. dollars) your income and age group wlil receive years from now.   "
+},
+{
+  "id": "exercise-65",
+  "level": "2",
+  "url": "loans-solving-for-change.html#exercise-65",
+  "type": "Exercise",
+  "number": "2.7.5",
+  "title": "",
+  "body": "President Biden's loan forgiveness program involves an income cap , which means that the program only applies to individuals who earn below or households who earn below each year. According to the Wharton analysis shown in , whether or not an income cap is applied, the most loan forgiveness would go to households earning between and a year.   What income percentile(s) in do these earners belong to?    Assuming that the loan forgiveness policy stays constant for the next years, estimate the percentage of loan forgiveness that will apply to these income percentile(s). Make the simplifying assumption that all student loan borrowers are individuals and not households.    Does the Wharton estimate make sense? Why or why not?   "
 },
 {
   "id": "loans-wrap-up-exercise",

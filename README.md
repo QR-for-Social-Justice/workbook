@@ -1,7 +1,6 @@
 # Quantitative Reasoning for Social Justice: An Active Learning Workbook
 
 ### Kenan Ince
-[](, Sean Raleigh, and Bianca Thompson)
 #### Department of Mathematics, Westminster College, Salt Lake City
 ##### Migrated from [github.com/kaince](https://github.com/kaince)
 ##### Including remixed materials from: 

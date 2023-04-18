@@ -6,6 +6,11 @@
 - [Mark Branson (Payday Loans)](https://web.stevenson.edu/mbranson/math-for-the-people.html)
 - Maybe you?
 
+## Latest Book Version
+[v04/17/2023: includes introduction and Student Loans section](https://qr-for-social-justice.github.io/workbook/)
+
+## Welcome
+
 Welcome to the workbook's GitHub page! This is a work in progress; I aim to write and collate open-source lesson plans for TMSJ (teaching math for social justice) into a workbook you can use in your courses. I am indebted to and model my work after the K-12 educators (e.g. [Bob Moses](https://rethinkingschools.org/articles/radical-equations/), [Jonathan Osler](https://radicalmath.org/)) who have been doing this work for decades.
 
 The book itself is currently hosted [on GitHub Pages](https://qr-for-social-justice.github.io/workbook/). Feel free to explore, and don't hesitate to reach out (email Kenan's first initial, followed by their last name, at westminsteru dot edu) if you have comments, questions, or suggestions!

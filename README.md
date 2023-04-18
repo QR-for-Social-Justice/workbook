@@ -2,6 +2,7 @@
 
 ### Kenan Ince, Sean Raleigh, and Bianca Thompson
 #### Department of Mathematics, Westminster College, Salt Lake City
+##### Migrated from [github.com/kaince](https://github.com/kaince)
 ##### Including remixed materials from: 
 - [Mark Branson (Payday Loans)](https://web.stevenson.edu/mbranson/math-for-the-people.html)
 - Maybe you?

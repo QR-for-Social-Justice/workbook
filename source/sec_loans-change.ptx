@@ -65,7 +65,7 @@
     </table>
 
 <reading-questions>
-    
+    <title>Student Loan Activism &amp; Policy</title>
 		<introduction><p>
 			For each of the following questions, read the cited article, considering the listed questions. Then use what you've read, as well as your own thoughts, to make your best attempt at answering these questions. Finally, bring these attempts to class and discuss them with your group. Choose someone in your group to report your group's conclusions during full-class discussion.
 		</p>
@@ -101,27 +101,28 @@
 
 
 <!-- div attr= class="xca*"-->
-			<exercisegroup> 
-                <introduction>
-                    For-profit colleges have defrauded students and led to an increase in student debt; this was a major concern of Occupy Wall Street activists and is described in <url href="https://www.youtube.com/watch?v=P8pjd1QEA0c">the following 2014 Last Week Tonight video</url>. In June <m>2022</m>, the federal Department of Education <url href="https://www.motherjones.com/politics/2022/06/education-department-student-debt-cancellation-corinthian/">automatically canceled all debt currently held by Corinthian Colleges students and alumni</url>.
+<exercisegroup>
+    <title>For-Profit Colleges and Department of Education Policy</title>
+    <introduction>
+        For-profit colleges have defrauded students and led to an increase in student debt; this was a major concern of Occupy Wall Street activists and is described in <url href="https://www.youtube.com/watch?v=P8pjd1QEA0c">the following 2014 Last Week Tonight video</url>. In June <m>2022</m>, the federal Department of Education <url href="https://www.motherjones.com/politics/2022/06/education-department-student-debt-cancellation-corinthian/">automatically canceled all debt currently held by Corinthian Colleges students and alumni</url>.
 
-                    <video xml:id="loans-oliver" youtube="P8pjd1QEA0c" />
-                </introduction>
+        <video xml:id="loans-oliver" youtube="P8pjd1QEA0c" />
+    </introduction>
 
-		<exercise number="1">		<p>
+		<exercise>		<p>
 			What makes Corinthian and other for-profit colleges different from private nonprofit colleges or public universities?
         </p></exercise>
 		
-<exercise number="2">					<p>
+<exercise>					<p>
 			Do you agree with the Department of Education's actions? Why or why not?
 		</p></exercise>
-        <exercise number="3">
+        <exercise>
             <p>
                 What should the Department of Education do with student loans held by other for-profit colleges, including those who were not as openly fraudulent as Corinthian (who paid companies to hire their students for two days in order to inflate their job placement numbers)?
 		</p>
     </exercise>
 
-<exercise number="4">
+<exercise>
     					<p>
 			What should the Department of Education do with student loans held by nonprofit colleges?
 		</p>
@@ -131,77 +132,77 @@
 		<!--</div attr= class="xca*">-->
 </reading-questions>
 <!-- div attr= class="xca"-->
-    <p>
-        <term> 11</term>.  Assume for a moment that these policies stay constant for the next <m>10</m> years (perhaps an unlikely assumption given the changes in policy between Presidential administrations as well as Supreme Court rulings).
-    </p>
+<exercises xml:id="exercises-your-benefit">
+        <introduction>
+            Assume for a moment that the Biden-Harris policies you investigated in <xref ref="rqs-biden-plan" /> stay constant for the next <m>10</m> years (perhaps an unlikely assumption given the changes in policy between Presidential administrations as well as Supreme Court rulings).
+        </introduction>
+            <exercise>
+                    <p>
+            What percentage of the benefit will your age and income group receive <m>10</m> years from now?
+        </p>
+    </exercise>
+    
+            <exercise>
+                    <p>
+            If you are in one of the groups (single adults earning under <m>\$125,000</m> a year and married couples earning under <m>\$250,000</m> a year, plus an additional <m>\$10,000</m> for Pell Grant recipients) that President Biden targeted for debt forgiveness in <m>2022</m>, what amount of debt will you have forgiven?
+        </p>
+    </exercise>
+    
+            <exercise>
+                    <p>
+            Do you believe that President Biden's student loan debt forgiveness policy is a good idea? Why or why not? Do its benefits for lower-income debtors outweigh its impats on the U.S. budget? Estimate whether your taxes will rise as a result and, if so, by how much, using a well-explained dimensional analysis.
+        </p>
+    </exercise>
+    
+            <exercise>
+                    <p>
+            The following note from the Wharton Budget Model describes the income groups listed in <xref ref="tab-debt-forgiven-by-income-age" />: <q>Estimate household income percentile thresholds for 2022 all age: 20%: $28,784; 40%: $50,795; 60%: $82,400; 80%: $141,096; 90% $212,209; 95%: $321,699; 99%: $961,711; 99.9%: $3,668,499.</q>
+        </p>
+    
+        <p><ol>
+            <li>
+                    <p>
+            Given this information, estimate the percentage of the student loan forgiveness plan your income group will receive.
+        </p>
+            </li>
+    
+            <li>
+                    <p>
+            <url href="https://www.cbo.gov/system/files/2022-09/58494-Student-Loans.pdf">The Congressional Budget Office</url>, a nonpartisan organization within the legislative branch of the United States government, estimated the total cost of Biden's student loan forgiveness program at <m>\$400</m> billion. Use this estimate, together with the information above, to estimate how much total debt relief (in U.S. dollars) your income and age group wlil receive <m>10</m> years from now.
+        </p>
+            </li>
+    
+        </ol></p>
+    </exercise>
+    
+            <exercise>
+                    <p>
+            President Biden's loan forgiveness program involves an <q>income cap</q>, which means that the program only applies to individuals who earn below <m>\$125,000</m> or households who earn below <m>\$250,000</m> each year. According to the Wharton analysis shown in <xref ref="tab-debt-forgiven-by-income-age" />, whether or not an income cap is applied, the most loan forgiveness would go to households earning between <m>\$51,000</m> and <m>\$82,000</m> a year.
+        </p>
+    
+        <p><ol>
+            <li>
+                    <p>
+            What income percentile(s) in <xref ref="tab-debt-forgiven-by-income-age" /> do these earners belong to?
+        </p>
+            </li>
+    
+            <li>
+                    <p>
+            Assuming that the loan forgiveness policy stays constant for the next <m>10</m> years, estimate the percentage of loan forgiveness that will apply to these income percentile(s). Make the simplifying assumption that all student loan borrowers are individuals and not households.
+        </p>
+            </li>
+    
+            <li>
+                    <p>
+            Does the Wharton estimate make sense? Why or why not?
+        </p>
+            </li>
+    
+        </ol></p>
+    </exercise>
 
-    <p><ol>
-        <li>
-                <p>
-        What percentage of the benefit will your age and income group receive <m>10</m> years from now?
-    </p>
-        </li>
-
-        <li>
-                <p>
-        If you are in one of the groups (single adults earning under <m>\$125,000</m> a year and married couples earning under <m>\$250,000</m> a year, plus an additional <m>\$10,000</m> for Pell Grant recipients) that President Biden targeted for debt forgiveness in <m>2022</m>, what amount of debt will you have forgiven?
-    </p>
-        </li>
-
-        <li>
-                <p>
-        Do you believe that President Biden's student loan debt forgiveness policy is a good idea? Why or why not? Do its benefits for lower-income debtors outweigh its impats on the U.S. budget? Estimate whether your taxes will rise as a result and, if so, by how much, using a well-explained dimensional analysis.
-    </p>
-        </li>
-
-        <li>
-                <p>
-        The following note from the Wharton Budget Model describes the income groups listed in <xref ref="tab-debt-forgiven-by-income-age" />: <q>Estimate household income percentile thresholds for 2022 all age: 20%: $28,784; 40%: $50,795; 60%: $82,400; 80%: $141,096; 90% $212,209; 95%: $321,699; 99%: $961,711; 99.9%: $3,668,499.</q>
-    </p>
-
-    <p><ol>
-        <li>
-                <p>
-        Given this information, estimate the percentage of the student loan forgiveness plan your income group will receive.
-    </p>
-        </li>
-
-        <li>
-                <p>
-        <url href="https://www.cbo.gov/system/files/2022-09/58494-Student-Loans.pdf">The Congressional Budget Office</url>, a nonpartisan organization within the legislative branch of the United States government, estimated the total cost of Biden's student loan forgiveness program at <m>\$400</m> billion. Use this estimate, together with the information above, to estimate how much total debt relief (in U.S. dollars) your income and age group wlil receive <m>10</m> years from now.
-    </p>
-        </li>
-
-    </ol></p>
-        </li>
-
-        <li>
-                <p>
-        President Biden's loan forgiveness program involves an <q>income cap</q>, which means that the program only applies to individuals who earn below <m>\$125,000</m> or households who earn below <m>\$250,000</m> each year. According to the Wharton analysis shown in <xref ref="tab-debt-forgiven-by-income-age" />, whether or not an income cap is applied, the most loan forgiveness would go to households earning between <m>\$51,000</m> and <m>\$82,000</m> a year.
-    </p>
-
-    <p><ol>
-        <li>
-                <p>
-        What income percentile(s) in <xref ref="tab-debt-forgiven-by-income-age" /> do these earners belong to?
-    </p>
-        </li>
-
-        <li>
-                <p>
-        Assuming that the loan forgiveness policy stays constant for the next <m>10</m> years, estimate the percentage of loan forgiveness that will apply to these income percentile(s). Make the simplifying assumption that all student loan borrowers are individuals and not households.
-    </p>
-        </li>
-
-        <li>
-                <p>
-        Does the Wharton estimate make sense? Why or why not?
-    </p>
-        </li>
-
-    </ol></p>
-        </li>
-
-    </ol></p><!--</div attr= class="xca">-->
+</exercises>
+    
 
 </section>

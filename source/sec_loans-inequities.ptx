@@ -218,4 +218,51 @@
 </reading-questions>
 <!--</div attr= class="xca*">-->
 
+
+<exercises xml:id="exercises-debt-by-race">
+<title>Student Debt by Race: What Is Fair?</title>
+    <exercisegroup>
+<introduction>
+    <p>
+Compare the total amount paid in student debt for various racial groups using <url href="https://nces.ed.gov/fastfacts/display.asp?id=900">this table</url>.
+</p>
+</introduction>
+<exercise>
+    <p>
+Does it seem like any racial groups are being disproportionately saddled with student loan debt? How can we compare, say, debt held by white vs. Asian students to see whether the difference is larger than we'd expect? Well, first we need to quantify the idea of “what we'd expect”...what does this mean? Create an <term>expected frequency table</term> for what you'd expect to see if there were absolutely no racial differences in student debt.
+</p>
+</exercise>
+
+<exercise>
+    <p>
+Compute the difference between the observed count for each race <m>O</m> and the expected count <m>E</m>. What do you notice?
+</p>
+</exercise>
+
+<exercise>
+    <p>
+What if we averaged all the <m>O-E</m>'s for each racial group? This is effectively the idea of a <term>chi-squared test for goodness-of-fit</term>, which is used by statisticians to determine whether any differences observed are small enough to be due to chance or large enough that they give evidence of a difference. What would the equation for this average look like?
+</p>
+</exercise>
+
+<exercise>
+    <p>
+We'll use a computer to perform this test in a minute. First, what groups do you think are disproportionately likely/unlikely to hold student loan debt? What racial groups have a higher/lower debt burden per person?
+</p>
+</exercise>
+
+<exercise>
+    <p>
+Now, enter this data into an app such as RStudio or an online tool. In RStudio, run this code to do a chi-squared test. (In a statistics class, walk through the steps.) Output the <m>p</m>-value (the likelihood the observed differences are due to chance alone) and <term>residuals</term>, which are basically scaled versions of the <m>O-E</m> s for each racial group. Which are highest? Lowest? Is there evidence of racial bias?
+</p>
+</exercise>
+
+</exercisegroup>
+
+</exercises>
+
+<p>
+If these materials are being used for a course in, say, introductory statistics for STEM fields or a higher-level data science class, this is a good time to discuss <url href="https://openintro-ims.netlify.app/model-mlr.html">linear regression with multiple predictors</url> to formalize the effect of year and type of institution on tuition or race and year on student debt. However, since this text is primarily intended for courses without prerequisites targeted at majors and non-majors alike, such material is beyond the scope of this chapter.
+</p>
+
 </section>

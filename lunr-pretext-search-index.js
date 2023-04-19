@@ -856,6 +856,807 @@ var ptx_lunr_docs = [
   "body": " Wrap-Up Exercise  (Modified from Jaafar, in Mathematics for Social Justice: Resources for the College Classroom , ed. Gizem Karaali and Lily Khadjavi) Write a -page letter to a student about to enter college describing what you've learned about student loans, including:    what's happened to tuition at various types of institutions over the last decades;    what's happened at our institution in particular;    any racial differences in student debt and how confident you are that these differences exist, citing statistics; and    what you recommend the student does to manage their finances during and after college.    "
 },
 {
+  "id": "climate-change-objectives",
+  "level": "1",
+  "url": "climate-change-objectives.html",
+  "type": "Section",
+  "number": "3.1",
+  "title": "Objectives",
+  "body": " Objectives  By the end of this module students will be able to:  Describe the scale of global greenhouse gas emissions.  Compare the quantity of emissions between individuals, corporations, and nation states.  Model the greenhouse effect with varying levels of greenhouse gases.  Create data visualizations of both quantitative and qualitative data related to greenhouse gas emissions.  Evaluate strategies for reducing emissions using quantitative tools.  Discuss the consequences of failing to cut greenhouse gas emissions.  Propose actions to mitigate emissions in your personal life, institution, and nation    "
+},
+{
+  "id": "climate-change-background",
+  "level": "1",
+  "url": "climate-change-background.html",
+  "type": "Section",
+  "number": "3.2",
+  "title": "Understanding the Issue",
+  "body": " Understanding the Issue  The earth's climate is constantly changing, with periods of warming and cooling alternating throughout history and prehistory. Scientists are able to measure the earth's climate by using temperature records for the last roughly 150 years, and using reconstruction from ice cores and seafloor cores before that. There are many factors that cause the earth's climate to change, including changes in the sun, changes in the tilt of the earth's axis, meteorites, volcanos, and changes in vegetation . Some of these changes, like changes in the sun or the tilt of the earth's axis, happen slowly over millions of years and cause similarly slow changes in climate.  Rapid changes in climate tend to be caused by natural disasters, like volcanic eruptions. These changes tend to be small and localized, unless the natural disaster is cataclysmic - like the event, theorized to be caused by a meteor strike in the Yucatan peninsula, which caused the extinction of many dinosaurs between the Cretaceous and Paleogene periods. This event caused a global temperature drop of  . Changes in climate due to cataclysmic events - even like the one which caused the last mass extinction before modern times - tend to be temporary. That severe cooling event only lasted for 3-4 years.  The world is currently experiencing such a cataclysmic rise in global temperatures. While the global temperature has been higher in the past - for example, during the Cretaceous period - there is no evidence that the world has experienced such a rapid warming period over the past million year . Global temperatures have risen by C since records started in 1880, with 2\/3 of that warming coming since 1975 - indicating that warming is accelerating . Projections indicate that the globe could warm by in the 21st century alone .  Unlike past changes to the climate, the current change is driven almost entirely by the actions of a single species - ours. As early as the 1820s, the French mathematician and physicist Joseph Fourier realized that the Earth's atmosphere must trap some of the sun's warmth - otherwise the Earth would be as cold as the moon . In 1859, the Irish physicist John Tyndall proved in a laboratory setting that certain gases - including water vapor ( ), carbon dioxide ( ), and methane ( ) - were trapping heat in the Earth's atmosphere. In 1896, a Swedish physicist, Svante Arrhenius, who was studying carbon dioxide levels during the current time and during the last ice age, coined the term greenhouse effect  .   The Greenhouse Effect  The greenhouse effect refers to the way that certain gases, primarily water vapor, carbon dioxide, methane, and ozone, trap heat inside the Earth's atmosphere. These four gases are commonly called greenhouse gases .   The greenhouse effect is not, in and of itself, a bad thing. In fact, without the greenhouse effect, the Earth would be a lifeless shell. The moon receives essentially the same solar energy as the Earth, but its surface temperatures swing between F ( C) during the day to F ( C) at night . The greenhouse effect traps heat in the Earth's atmosphere, releasing it more slowly, and creates a temperature range where life can exist. The Earth's natural cycles and processes cause many slow, gradual changes to these greenhouse gases, resulting in slow, gradual fluctuations in the Earth's temperatures.  The current global warming is being driven by a very rapid increase in the amount of these greenhouse gases in the atmosphere. This increase can be explained primarily by human changes to the planet - the burning of fossil fuels, deforestation, and large-scale agriculture. As human beings produce more of these greenhouse gases, the global climate has warmed at a corresponding rate. The corresponding changes to the Earth's climate are called anthropogenic climate change .   Anthropogenic Climate Change  Anthropogenic climate change is change to the Earth's climate resulting from human causes, as opposed to climate change caused by natural causes, like volcanic eruptions, natural fluctuations in greenhouse gases, or changes to solar energy.   There are actually several different types of human activity which can cause changes to climate, aside from greenhouse gas emissions. One example is human-caused changes to the Earth's albedo - the lightness or darkness of the Earth's surface. Lighter colored materials tend to reflect more sunlight, causing a cooling effect, while darker colored materials tend to absorb more sunlight. Human activity has caused some areas of the Earth's surface to become darker, like urban areas and areas which were once covered in snow and ice, and thus to absorb more heat. We have also caused other areas to become lighter, like forests that have been replaced by fields and areas which have become desert, creating a cooling effect (like the moon, deserts tend to be very hot during the day and very cold at night).  The amount of climate change caused by greenhouse gas emissions, though, vastly outweighs all other sources. The amount of greenhouse gases in the Earth's atmosphere has, in the last 100 years, risen to levels not seen in the last 400,000 years.    Graph showing atmospheric co2 over the last 400,000 years. Image description available.  Atmospheric CO2 levels for the past 400,000 years. Image Description .     This unprecedented rapid change to greenhouse gas levels has caused a corresponding rapid increase in global temperatures. While the Earth's biosphere (a collective term for all life on the planet, including plants, animals, and all other organisms, and the environments that support that life) has survived changes of similar magnitude in the past, those changes have been much slower. The natural processes of evolution which allow life to adapt to climate changes tend to happen slowly, over many generations. So, while some species with very short life-cycles (like bacteria, or even insects) may be able to adapt to the changes through evolution, longer-lived species will only be able to survive by moving to another area. Scientists estimate that 95% of species will experience local extinction (meaning either extinction or departure from that area) after a C risee in temperatures, and that 16-30% of species could go extinct by 2070 .  While human beings are unlikely to go extinct - our intelligence has made us more adaptable than other species - climate change has already begun to affect our species. Research has shown that production of the 10 largest crops in the world has already dropped by 1% since 1974 below where it would be without the impact of climate change . The United Nations High Commission on Refugees estimates that between 2008 and 2019, there were over 21.5 million displacements of people - when an individual was forced to flee their home - caused by weather-related events, more than twice as many as those caused by conflicts or violence . The same data shows that climate disasters like droughts, cyclones, and floods can have destabilizing effects on countries, especially those already experiencing conflict, like Afghanistan, Yemen, and Mozambique.  Climate change - and the greenhouse gas emissions which are driving that change are a major concern for people around the world. The need to find solutions to this crisis becomes more urgent with every passing year. Mathematics can help us to understand the causes of the greenhouse effect and to determine the best strategies for slowing - and one day stopping - the pace of climate change.  "
+},
+{
+  "id": "climate-change-definition-greenhouse-effect",
+  "level": "2",
+  "url": "climate-change-background.html#climate-change-definition-greenhouse-effect",
+  "type": "Definition",
+  "number": "3.2.1",
+  "title": "The Greenhouse Effect.",
+  "body": " The Greenhouse Effect  The greenhouse effect refers to the way that certain gases, primarily water vapor, carbon dioxide, methane, and ozone, trap heat inside the Earth's atmosphere. These four gases are commonly called greenhouse gases .  "
+},
+{
+  "id": "climate-change-definition-anthropomorphic-climate-change",
+  "level": "2",
+  "url": "climate-change-background.html#climate-change-definition-anthropomorphic-climate-change",
+  "type": "Definition",
+  "number": "3.2.2",
+  "title": "Anthropogenic Climate Change.",
+  "body": " Anthropogenic Climate Change  Anthropogenic climate change is change to the Earth's climate resulting from human causes, as opposed to climate change caused by natural causes, like volcanic eruptions, natural fluctuations in greenhouse gases, or changes to solar energy.  "
+},
+{
+  "id": "climate-change-figure-history-co2",
+  "level": "2",
+  "url": "climate-change-background.html#climate-change-figure-history-co2",
+  "type": "Figure",
+  "number": "3.2.3",
+  "title": "",
+  "body": "  Graph showing atmospheric co2 over the last 400,000 years. Image description available.  Atmospheric CO2 levels for the past 400,000 years. Image Description .    "
+},
+{
+  "id": "climate-change-cui-bono",
+  "level": "1",
+  "url": "climate-change-cui-bono.html",
+  "type": "Section",
+  "number": "3.3",
+  "title": "Cui Bono - Who Benefits?",
+  "body": " Cui Bono - Who Benefits?  The unfortunate reality of climate change is that we all benefit - the quality of life which we have is largely due to the cheap availability of fossil fuels. We can get around easily with cars, fly (relatively) cheaply when we go on vacation, eat the food that we want, and buy all of the things that we want. All of the things that we do produce greenhouse gases, at some level.  Some individuals, though, benefit more than others. The corporations that produce the goods we buy - our cars, plastics, electronics, and food - are motivated to keep selling more stuff, even if that stuff produces greenhouse gas emissions. Fossil fuel companies make money by extracting and selling fossil fuels like coal, natural gas, and petroleum. All of this economic activity contributes to government tax revenues, which allows politicians to spend more money on their constituents and special interests.  In short, unless you live in a cabin in the woods, grow all of your own food, and use energy only from zero-emissions sources (even a campfire generates greenhouse gases), you're benefiting from greenhouse gas emissions. If you own a car company or an oil company (or have stock in them), you're benefiting a lot more.  "
+},
+{
+  "id": "climate-change-big-problem",
+  "level": "1",
+  "url": "climate-change-big-problem.html",
+  "type": "Section",
+  "number": "3.4",
+  "title": "Big Problem: What is the best way to reduce greenhouse gas emissions?",
+  "body": " Big Problem: What is the best way to reduce greenhouse gas emissions?   What are the best strategies for reducing greenhouse gas emissions?   Most people agree that we need to reduce greenhouse gas emissions, so that we can limit the dangerous effects of global warming. There are, however, many different strategies for doing this. Should we focus our efforts on switching to electric cars? Or to convincing everyone to switch to a vegan diet? How can we evaluate and find the best strategies for reducing emissions - before it's too late?  "
+},
+{
+  "id": "climate-change-math-topic-scientific-notation",
+  "level": "1",
+  "url": "climate-change-math-topic-scientific-notation.html",
+  "type": "Section",
+  "number": "3.5",
+  "title": "Scientific Notation and Number Sense",
+  "body": " Scientific Notation and Number Sense   Thinking about Size Comparisons  How can we compare the numbers 100 and 1,000?  Answers you might have given:  1,000 is 900 more than 100.  100 is 900 less than 1,000.  100 is 1\/10 as big as 1,000.  1,000 is 10 times as big as 100.     Reflection question: Look at the different ways of comparing those two numbers. What are the benefits of each of these comparisons? What are some reasons for not using some of these comparisons? Why might someone choose to use one way of comparing instead of another?   How can you compare the following sets of numbers?  1,000,000,000,000 and 10  545,430,089,384,398,938,938,398,983,982,345,523,234,942 and 9,293,983,983,298,982,983,483  0.0000000001 and 10,000,000,000,000,000    You can compare these numbers in the same ways as the ways you might have chosen to compare 100 and 1000, but they may not be as meaningful or useful. Instead, you might want to see Can you think of any other ways to compare these numbers?    Powers of Ten is a (slightly outdated) movie from the 1970s which shows how the different powers of ten are related.   Understanding very large numbers can be hard to do. Some strategies for trying to understand very large numbers are:   Breaking the number down into smaller pieces. For example, say you were trying to understand the number $1,000,000,000 (1 billion dollars). If you made $100 an hour, and you worked full-time (40 hours per week in the US), 50 weeks a year, it would take 5000 years for you to earn $1,000,000,000...and that doesn't even account for taxes!   Changing the units of the number can be helpful, especially when there is another unit which might help you understand better. The Aqua satellite, used to measure greenhouse gas emissions, orbits 2,300,000 feet above the Earth. This large number is easier to comprehend if you convert it into 436 miles   Comparing the quantity to something else you already can envision. The 2,300,000 feet or 436 miles we found in the previous bullet is still somewhat difficult to understand. Thinking of this as the distance from Washington D.C. to Boston, or from San Diego to San Jose, can be more helpful (at least if you've been to those cities).  Looking at the quantity per person, or per unit area, or per some other unit. In 2020, the US used 763 million gallons of oil, on average, every day . That is a little bit more than 2 gallons per person.     What is Scientific Notation?  So far, we have been writing numbers using decimal notation. Decimal notation is our usual way of writing the digits 0, 1, 2, 3, 4, 5, 6, 7, 8, and 9 to talk about a number. But, sometimes decimal notation can make it more difficult to understand really big or really small numbers. Scientific notation is a way of writing very large or very small numbers in order to make the numbers easier for people to understand. Scientific notation also makes it easier to write down numbers that would be very long in decimal notation.   Scientific Notation  We say a number is in scientific notation if it is written in the form where A is the first non-zero digit in the number, and power is the appropriate power.   To put a number into scientific notation, we first figure out what the place is of the first nonzero digit. Each place in a number corresponds to a power of 10 - for example, the hundreds place corresponds to , while the millions place corresponds to . If , then is a 1 followed by 0s. The ones place is .  For negative values of , we get decimals. For example, , one-tenth. , one one-thousandth.  To do arithmetic with numbers in scientific notation, you proceed differently depending on what you're doing.   To multiply\/divide numbers in scientific notation, you can divide both the decimal part and the exponent part separately.   To add or subtract numbers in scientific notation, you'll need to write them both with the same power (use whichever power is larger), and then add or subtract the decimal parts.   If you end up with a zero in front of the decimal, you'll need to move the decimal place over one or more places:    Try this yourself in the examples below. Don't worry about rounding - we'll talk about how to decide how many decimal places to round to in the next section.   Find the product of and .       Find the sum of and .        Significant figures  When working with numbers with lots of decimal digits, how many digits should you keep? This is the idea behind signficant figures .   Significant Figures  The number of significant figures or significant digits in a number which has been rounded is the total number of digits written, minus any leading zeros (zeros written before the first non-zero digit). Numbers that have not been rounded have an infinite number of significant figures.   For example, the number 123.4567 has 7 significant digits, but so does the number 0.0001234567. The number 1.234567000 has 10 significant digits, because we count the zeros which aren't leading zeros.   The population of the United States was 328,239,523 in 2019 . How many significant digits does this number have?   There are 9 significant digits here.    In a number written in scientific notation, we count the significant digits the same way. For example, the number has 5 significant digits (notice that this is the same as if we had written it as ).    The United States emitted the equivalent of metric tons of carbon dioxide in greenhouse gases during 2019 . How many significant figures are there in this number?    There are 4 significant figures.    Significant figures are important because they tell us how accurate numbers are. Say we wanted to know what the average CO2 emissions per person were in the United States. We can take the numbers we had in the last two examples and divide: The calculator produces a number of digits here, but how can we know how many values to round to? Significant figures give us a way to decide this.   When multiplying or dividing two numbers, round to the smaller number of significant digits.  When adding or subtracting two numbers, round to the smaller number of decimal places (significant figures after the decimal point).   For our example above, since the population number has 9 significant digits, and the CO2 emissions only has 4, we will round to 4 decimal places and say that the emissions per person is metric tons per person. Compare this to what we do when we subtract.  Say we want to know how many more tons of CO2 equivalents per person were emitted in the US than in China. In 2019, China had (5 significant figures) of CO2 equivalent emissions , and the population was 1,433,783,686 (10 significant figures) . So in China, the emissions per person were Since we're dividing, we keep 5 significant figures and get tons of CO2 equivalent emissions per person. If we want to know how many more tons are emitted per person in the US, we subtract: Since we are subtracting, we take the lesser of the significant figures after the decimal - 2 in this case. So we round the answer to 10.02 metric tons more per person.  What’s that big ‘E’ on my calculator? You’ve probably seen an output like this before on your calculator.  The second line might look really complicated, but this is just the way your calculator was programmed to write numbers in scientific notation. The product of 315,246 and 134,512,361 is too big to fit all of it on the calculator screen in one line. So, the calculator programmers decided to represent that product using scientific notation. 4.240448376E13 means the same thing as .  But, not all calculators use ‘E’ to describe very large or very small numbers. Desmos provides an online scientific calculator that anyone can use. If you try to add, subtract, multiply, or divide two numbers with more than 9 digits, Desmos will automatically write them in scientific notation. Instead of using the capital E, Desmos writes scientific notation the same way that we've seen.  An important note: There are other symbols that you might see sometimes on your calculator that look similar to this capital E, but they actually mean very different things.    : The lowercase e is a number that is important for lots of applications of mathematics. The name of this number is the same as the name of the letter: e. It is equal to about 2.71828, and should not be confused with the scientific notation symbol.   :This symbol, which looks like a sideways W, is called ‘sigma’. Sigma is a Greek letter, and it is sometimes used in mathematics to talk about addition.    "
+},
+{
+  "id": "figure-5",
+  "level": "2",
+  "url": "climate-change-math-topic-scientific-notation.html#figure-5",
+  "type": "Figure",
+  "number": "3.5.1",
+  "title": "",
+  "body": "  Powers of Ten is a (slightly outdated) movie from the 1970s which shows how the different powers of ten are related.  "
+},
+{
+  "id": "definition-9",
+  "level": "2",
+  "url": "climate-change-math-topic-scientific-notation.html#definition-9",
+  "type": "Definition",
+  "number": "3.5.2",
+  "title": "Scientific Notation.",
+  "body": " Scientific Notation  We say a number is in scientific notation if it is written in the form where A is the first non-zero digit in the number, and power is the appropriate power.  "
+},
+{
+  "id": "example-1",
+  "level": "2",
+  "url": "climate-change-math-topic-scientific-notation.html#example-1",
+  "type": "Example",
+  "number": "3.5.3",
+  "title": "",
+  "body": " Find the product of and .     "
+},
+{
+  "id": "example-2",
+  "level": "2",
+  "url": "climate-change-math-topic-scientific-notation.html#example-2",
+  "type": "Example",
+  "number": "3.5.4",
+  "title": "",
+  "body": " Find the sum of and .     "
+},
+{
+  "id": "definition-10",
+  "level": "2",
+  "url": "climate-change-math-topic-scientific-notation.html#definition-10",
+  "type": "Definition",
+  "number": "3.5.5",
+  "title": "Significant Figures.",
+  "body": " Significant Figures  The number of significant figures or significant digits in a number which has been rounded is the total number of digits written, minus any leading zeros (zeros written before the first non-zero digit). Numbers that have not been rounded have an infinite number of significant figures.  "
+},
+{
+  "id": "example-3",
+  "level": "2",
+  "url": "climate-change-math-topic-scientific-notation.html#example-3",
+  "type": "Example",
+  "number": "3.5.6",
+  "title": "",
+  "body": " The population of the United States was 328,239,523 in 2019 . How many significant digits does this number have?   There are 9 significant digits here.   "
+},
+{
+  "id": "example-4",
+  "level": "2",
+  "url": "climate-change-math-topic-scientific-notation.html#example-4",
+  "type": "Example",
+  "number": "3.5.7",
+  "title": "",
+  "body": "  The United States emitted the equivalent of metric tons of carbon dioxide in greenhouse gases during 2019 . How many significant figures are there in this number?    There are 4 significant figures.   "
+},
+{
+  "id": "climate-change-math-topic-data-visualization",
+  "level": "1",
+  "url": "climate-change-math-topic-data-visualization.html",
+  "type": "Section",
+  "number": "3.6",
+  "title": "Data Visualization",
+  "body": " Data Visualization   Any organized collection of information used to understand or solve a problem is called data . When you think of data, you may think of a long list of numbers which represent a measurement. However, this isn't generally the most useful way to look at a set of data. When we look at data, we use data visualizations to help us understand the data more quickly and efficiently. You're probably familiar with at least one type of data visualization, the graph, but we'll explore some more of the variety of ways in which people look at data in this module.    Types of Data  To understand data visualization, we first need to understand a bit about the way mathematicians talk about different kinds of data. Mathematicians broadly divide data into two types:   Qualitative (Categorical) Data  Data which is not numerical is called qualitative (or categorical) data. Qualitative data can include things like names, categories of objects or people (which is where the other name, categorical, comes from), or different things which are being compared.    Quantitative Data  Data which can be represented numerically is called quantitative data. This includes both data which is already numerical, and data which can be made numerical. Dates are a good example of quantitative data that isn't always written in numbers (for example, \"March\" doesn't seem numerical, but can be represented by 3 since it is the 3rd month of the year).  Quantitative data naturally falls into one of two types - discrete and continuous . While there are more complicated ways to distinguish between them mathematically, for our purpose the big difference is that with quantitative discrete data we have a small number of distinct possible responses, while with quantitative continuous data we have a large number of different possible responses.   It is important to be able to distinguish between quantitative discrete and quantitative continous data, because we visualize them in different ways. Quantitative discrete data is characterized by:  Small number of different values.  Many values are repeated.  Often (but not always) quantitative discrete data is counts of objects.  Quantitative continuous data is characterized by:  Many different values.  Most data values are distinct or only occur a few times.  Often (but not always) quantitative continuous data are measurements.      Two boxes filled with numbers. The box on the left displays an example containing quantitative discrete data with many repeated values: 1, 2, 3, 2, 2, 5, 1, 4, 5, 3, 1, 2, 3, 2, 2, 3, 1, 1, 3, and 4. The box on the right contains quantitative continuous data with many different distinct values: 31, 53, 63, 18, 42, 31, 57, 86, 78, 29, 49, 22, 48, 85, 23, 19, 94, 11, 41, 31, 19, 17, 82, and 83.   Quantitative discrete (left) vs. Quantitative continuous (right) data.   Let's look at some data and decide whether it's qualitative, qunatitative discrete, or quantitative continuous.  A survey asks people how many cars they own. Would the answers here be numeric or non-numeric? Are multiple people likely to give the same answer? Would you expect to have many different answers? Quantitative Discrete. The answer is a number, and most people will answer 0, 1, or 2, with with very few people giving larger numbers.  A researcher collects a list of the companies which emit the most methane into the atmosphere. Would this data be numeric or non-numeric? This is qualitative data - the data we are collecting consists of company names, not numbers.  A scientist measures the amount of ozone in parts per million in the atmosphere at a particular location every day for a year. Note: here the scientist is collecting two different (connected) pieces of data - the measurement of ozone and the day on which they collected it. Would this data be numeric or non-numeric? Are many of the measurements likely to be exactly the same on multiple days? Would you expect to have a lot of different values? Both data sets are quantitative continuous. The dates will be different on every day, and there will be many (365 or 366) different values. The measurements are also unlikely to be exactly the same on different days, and there will be many different values.    Graphs   Small amounts of data can be represented through things like lists and tables, but more complicated data is easier to understand through a visual representation. Visual representations of data allow us to see patterns and trends in the data that would be much harder to detect in a simple list or table.  The most common types of visual representation of data are called graphs or charts . While you're probably familiar with many types of graphs, we'll be introducing some that you may not be familiar with, and focusing on how and when to use the different types. There are many different types of graphs, because each one is used to display different types of information and highlight different aspects of that information. In the following subsubsections, we'll go through each of the types of graphs    Bar Graphs  A bar graph is a graph which represents data as bars of various heights. A bar graph can be used in several different ways.  The first way that a bar graph can be used is to display a single set of qualitative or quantitative discrete data. This is done by taking a data set and translating it into a frequency table .   Frequency Table A frequency table lists each of the distinct values in a data set followed by the frequency of that value - the number of times that it appears in the data set.  An example of a frequency table, which displays a quantitative discrete data set is given below. The American Community Survey, part of the US Census, asks Americans how many vehicles their household has access to (either owned or shared). The number of vehicles is quantitative discrete because most households in the USA have access to 0, 1, 2, or 3 cars. The data from 2019 is shown in the table :     Number of Vehicles Available  Millions of Households    0  10.6    1  39.8    2  45.3    3  18.1    4  6.3    5+  2.7     This data can be turned into a bar graph which uses the frequency (the number of households in millions that gave a particular response) as the height of the bars.    Bar graph showing vehicle access per household. Image description available.  Vehicle Access per household from the 2019 American Community Survey. Image Description .    If your data set is quantitative continuous, you can still create a frequency table, but you need to sort the data into ranges. If you don't, most of your data values will have very low frequencies, and you'll have a ton of different values to graph. A bar graph which displays quantitative continuous data with that data sorted into ranges is called a histogram .  The data below represents the per capita emissions, in tons of CO2 per person, of 97 nations across the world. You can see from the data that if we look at the frequency of each value, almost all of them have frequency 1 (a handful, like 0.09 and 0.13, have frequency 2). Creating a bar graph of these values wouldn't be very useful, but if we sort them into categories - 0 to 5, 5 to 10, etc. - we can see more patterns in the data.  0.02, 0.04, 0.07, 0.09, 0.09, 0.13, 0.13, 0.23, 0.25, 0.26, 0.29, 0.32, 0.36, 0.38, 0.52, 0.55, 0.56, 0.6, 0.67, 0.85, 0.86, 0.99, 1.01, 1.05, 1.09, 1.1, 1.11, 1.13, 1.23, 1.46, 1.52, 1.59, 1.68, 1.69, 1.74, 1.76, 1.92, 1.94, 1.95, 2, 2.19, 2.3, 2.37, 2.38, 2.45, 2.48, 2.5, 2.52, 2.56, 2.66, 2.72, 2.75, 3.38, 3.48, 3.58, 3.66, 3.79, 4.02, 4.08, 4.17, 4.21, 4.53, 4.64, 4.66, 4.83, 5.18, 5.67, 5.67, 5.76, 5.81, 5.94, 6.2, 7.08, 7.2, 7.46, 7.64, 7.67, 7.87, 8.31, 8.41, 8.76, 9, 9.07, 9.85, 12.76, 12.96, 14.49, 14.82, 15.25, 16.44, 17.69, 18.82, 19.31, 21.12, 23.47, 31.45, 36.46  Notice that in making our categories, we're careful to not let them overlap - we don't want to accidentally count a value, like 10, that is on the edge in two categories. We also want to make sure that we don't have too many different categories. While you can make a histogram with as many categories as you like, it's generally best to keep the number of categories small, so that there are a lot of data elements in most of them. If you use too many categories, then you will be back in the situation where almost every column contains just one or two elements.     Per Capita Emissions  Number of Countries    [0,5)  65    [5,10)  19    [10,15)  4    [15,20)  5    [20,25)  2    [25,30)  0    [30,35)  1    [35,40)  1       Histogram showing the number of countries with per capita emissions at a particular level. Image description available.   Countries in the world, sorted by their per capita CO2 emissions in tons of CO2 per person. Data from . Image Description .   A bar graph can also be used to display a correspondence between two different types of data, as long as one of them is quantitative. The quantitative data will be used for the height of the bar. For example, the table below shows the amount of methane produced by the ten countries which produce the most greenhouse gases, in equivalent tons of carbon dioxide. The country names are qualitative data, and each country has a corresponding quantitative continuous value which represents the amount of methane they produce. This data is taken from .     Country  Total Methane Emissions in Equivalent Tons of CO2    China  1.17E+10    United States  5.51E+09    India  3.04E+09    Japan  1.17E+09    Brazil  9.39E+08    Germany  7.84E+08    Canada  6.52E+08    Saudi Arabia  6.26E+08    Australia  5.02E+08    United Kingdom  4.38E+08     You can create a bar graph for this data by creating a bar for each country, and using the amount of methane as the height of the bar.    Graph showing bars with sizes corresponding to the methane emissions of 10 countries, dominated by China, the United States, and India. Image description available.   Methane Emissions of the ten largest polluters, in the equivalent amount of CO2. Data from . Image Description    To summarize, bar graphs are generally used to display a single set of data or to show a correspondence between two data sets. They are one of the most versatile and flexible forms of data visualization, and can be used in a variety of contexts. Unless there is a good reason to choose another type of graph, a bar graph is usually the best way to take a first look at a set of data.    Pie Charts  A pie chart is a specialized type of graph which is used to display a single set of data. It is usually used when there are a small number of different data values (less than 10), but can be used effectively with more. In a pie chart, a circle is divided into wedges, with each wedge corresponding to a different data value or group of data values. The size of the wedge is determined by the percentage of the data which matches that data value or group of values.  To create a pie chart, you should first create a frequency table. However, unlike a bar graph, to create a pie chart you need to know the relative frequency .   Relative Frequency The relative frequency of a data value is the percentage of overall values which match that data value. It can be calculated by taking the frequency and dividing it by the total number of data values.  Let's add relative frequency to . First, we calculate the total number of data values, by adding up all the frequencies. There are 122.8 million households total in this data set. To find the relative frequency, we just take each frequency and divide by 122.8. For example, because 10.57 million households do not have access to a car at all, the relative frequency of the data value 0 is   We repeat this for each value to fill in the rest of the frequency table.     Number of Vehicles Available  Millions of Households  Percentage of Households    0  10.57  9%    1  39.82  32%    2  45.29  37%    3  18.09  15%    4  6.30  5%    5+  2.74  2%    Total  122.80       Once we have a frequency table with relative frequency, we can create a pie chart. To create a pie chart, divide the circle into wedges, where each wedge takes up some percentage of the total circle. Those percentages should match the relative frequencies in your frequency table. Making a pie chart by hand can be tricky, because you need to estimate what different percentages of the circle would be.    A circle divided into wedges, one for each data value in the table above, with the size of the wedge determined by the relative frequency.   Number of vehicles accessible to each household in the United States, as a percentage of the total number of households. Data from .   For quantitative continuous data, your wedges of the pie chart will correspond to ranges of values instead of individual values. For example, here is the data from , with relative frequencies:     Per Capita Emissions  Number of Countries  Relative Frequency    [0,5)  65  67%    [5,10)  19  20%    [10,15)  4  4%    [15,20)  5  5%    [20,25)  2  2%    [25,30)  0  0%    [30,35)  1  1%    [35,40)  1  1%    Total  97       When we create a pie chart from this data, we get the following image    A circle divided into wedges, one for each range of values in the table. Image description available.   Number of countries with per capita CO2 emissions in the given ranges. Image description .   Note that in the image, several wedges represent very small percentages of the total number of countries. This provides very little information and makes the graph more cluttered. Let's re-do our frequency table, combining all of the categories above 20 tons per person into one group:     Per Capita Emissions  Number of Countries  Relative Frequency    [0,5)  65  67%    [5,10)  19  20%    [10,15)  4  4%    [15,20)  5  5%    > 20  4  4%    Total  97       The pie chart now has only 5 categories, and is much less cluttered. The information - that most countries have CO2 emissions less than 5 tons per person, and that only a few countries have very high per capita emissions, is now presented much more clearly.    A circle divided into wedges, one for each data value in the table above, with the size of the wedge determined by the relative frequency.   Number of countries with per capita CO2 emissions in the given ranges.     Scatterplots and Line Graphs  Our next type of graph is used when we have a correspondence between two quantitative continuous data sets. In a scatterplot , we plot a point on the x-y coordinates which represents a pair of data values. Those points, then, can reveal patterns in how the data sets are related.  Our data set for this example will consist of gross domestic product (GDP), a measure of how wealthy a country is, and CO2 emissions. Both of these numbers will naturally be larger for larger countries, because more people will produce more wealth and more CO2, so we consider the per capita numbers, meaning the amount of money or CO2 per person. We can get these numbers by taking the total amount and dividing by the population of the country. If you already know that there is a relationship between data sets because of something like population, dividing out by the value is an easy way to eliminate that relationship. This is called normalizing the data set.  Because our data set has these values for 165 countries, we will not include the data table in the text. The data can be found in gdp and co2 emissions for all countries in 2018 [Excel Spreadsheet] (data from ). We can construct a scatterplot by taking each pair of values and creating a point. For example, the nation of Qatar has per capita CO2 emissions of 39.27 tons per person, and a GDP of $153,764 per person. This is because Qatar is a very small nation (Qatar only had 2.7 million people in 2018, when this data was collected) which produces a large amount of oil - oil production is a major source of CO2 emissions and countries with large oil production tend to use more fossil fuels. Qatar would be marked by a dot at x = 39.27, and y = 153,764. Yemen, a country close to Qatar, but much poorer and with much less oil production (and which was fighting a civil war in 2018) has per capita CO2 emissions of only 0.35 tons per person, and a per capita GDP of only $2,285 per person. The dot for Yemen would be at x=0.35 and y=2,285.  Here is a scatterplot of the entire data set:    Scatterplot of the gdp and co2 data. Image description available.   Scatterplot of the relationship between GDP and CO2, per capita, of nations in 2018. Image Description .   Scatterplots are useful because they help us see patterns in the data. In this graph, we can see that for countries with low emissions and low GDP, an increase in GDP generally corresponds to an increase in CO2 emissions. This makes sense, because we associate increased economic activity with increased usage of fossil fuels. We see this especially in the dot for Qatar, located at the extreme right & top of the graph. However, a number of wealthier nations, including Norway (84,580, 8.21), Singapore (68,402, 6.65), Ireland (64,684, 8.85), Switzerland (61,373, 4.33), and Sweden (45,542, 4.19) don't fit this trend, having much lower emissions than nations with similar GDPs. Similarly, there are a number of nations with much higher emissions than countries with similar GDPs - Trinidad & Tobago (28,549, 27.24), Mongolia (13,383, 20.35), Kazakhstan (25,308, 17.45), and Bahrain (39,499, 20.14). While you can see this from looking at the data table, it is much easier to see these data points that stand out (called outliers ) from looking at the scatterplot.  Each of these countries has a unique reason why their CO2 emissions are lower or higher than expected from GDP. Do some research on your own and see if you can explain why they don't fit the general trend of the other points.  When we have two quantitative continuous data sets where there are no repeated values in one data set, a type of scatterplot called a line graph can be used. In a line graph, the data set with no repeated values is marked on the horizontal axis. Adjacent points are then connected by short lines.  Line graphs are used to imply that, although we do not have data values for every x-axis value, we can assume that the data between values follows a similar pattern. The lines are a visual way of indicating this. Line graphs are frequently used when one data set represents time (since there will only be one data value for each time).  The data in global mean temperature anomalies [Excel Spreadsheet] is from the National Oceanic and Atmospheric Administration (NOAA). This data gives the global mean temperature anomaly for every year from 1880 to 2019. Because we have a correspondence between quantitative continuous data values (year and global mean temperature anomaly), and because there is only one value for each year, this data is an ideal candidate for a line graph.    Line graph of the global mean temperature anomaly. Image description available.   Line graph of the global mean temperature anomaly fom 1880 to 2019. Data is from . Image Description .     Combining Graphs  You can show multiple data sets at the same time by combining these graphs in various ways. If the two data sets have quantitative values in the same (or similar) ranges, it may make sense to combine them into a single bar chart (with different colored\/shaded bars for each data set) or a single line graph (with a different color\/pattern for each data set).  For example, the data in total co2 emissions of the USA and China [Excel Spreadsheet] is from the World Bank. The data gives the CO2 emissions of the United States and China from 1960 to 2018 in kilotons. Because these data sets have a similar scale, we can display them on a single graph. We use a line graph because the data set is quantitative continuous and has a single value for each year.    Line graphs of the total CO2 emissions of the United States and China. Image description available.   Paired line graph of the total CO2 emissions of the United States and China from 1960 to 2018 in gigatons. Data is from . Image Description .   If you have data with very different scales, though, a paired line graph is not a great choice. Consider the graph below, which shows CO2 emissions for the United States again (in gigatons) and the emissions for Singapore, a much smaller nation with much lower emissions.    Line graphs of the total CO2 emissions of the United States and Singapore. Image description available.   Paired line graph of the total CO2 emissions of the United States and Singapore from 1960 to 2018 in gigatons. Data is from . Image Description .   Because Singapore's emissions are so much less than those of the United States, the graph shows them to be essentially 0 - which is not the case. We don't see anything of the pattern of how Singaporean emissions have changed over the past 60 years because the US emissions are so much larger. To show these two data sets together, it is better to graph them each individually.     Line graphs of the total CO2 emissions of Singapore. Image description available.   Total CO2 emissions of Singapore from 1960 to 2018 in kilotons. Data is from . Image Description .     Line graphs of the total CO2 emissions of the United States. Image description available.   Total CO2 emissions of the United States from 1960 to 2018 in kilotons. Data is from . Image Description .    Bar charts can be combined in a similar way - putting bars for two different things on the same graph if they have similar scales, or putting two bar charts side by side if they have different scales. Here's a bar chart that shows the percentage of households that own 0, 1, 2, 3, 4, or 5+ vehicles in Great Britain and in the United States.    Bar chart of vehicle ownership in Great Britain and the United States. Image description available.   Percentage of households owning 0, 1, 2, 3, 4, and 5 or more vehicles in Great Britain (data from 2014-2016) and the United States (data from 2019). Data is from and . Image Description .   Looking at a paired bar graph like this can help you compare the amounts for different data sets. For example, this graph shows us that Americans tend to own more cars per households than the British, and are more likely to have a car in their household.  If we want to compare two data sets using pie charts, you can take the same approach and look at two pie charts side-by-side.     Pie chart of household vehicle access in the USA. Image description available.   Number of vehicles accessible to each household in the United States, as a percentage of the total number of households. Data from . Image Description .     Pie chart of household vehicle access in Great Britain. Image description available.   Number of vehicles accessible to each household in Great Britain, as a percentage of the total number of households. Data from . Image Description .    A more effective way to display the data from two pie charts is to combine them into a stacked bar chart. A stacked bar chart is used to compare the relative frequencies of data in two different data sets. The data can be any kind of data, but if it is quantitative continuous it will need to be divided into categories. In a stacked bar chart, each bar acts like a pie chart - with the different sections of the bars representing the percentages of the entire group. Each bar goes all the way from the bottom (0%) to the top (100%), split up into pieces which represent the percentages.    Stacked bar chart comparing vehicle ownership in the United States and Great Britain. Image Description available.   Number of vehicles accessible to each household in the United States compared to Great Britain, as a percentage of the total number of households. Data from and . Image Description .   Notice here that our bar chart is horizontal instead of vertical. This is entirely an aesthetic choice - we can do horizontal or vertical bars for any chart. You should do whichever looks better or fits better in your document. Here, we used horizontal bars so that we could fit the percent values on each section of the bar.    Other Ways of Visualizing Information  The internet has greatly changed the way that people visualize data. With books, magazines, and newspapers, data visualizations were restricted to static images like graphs and charts. The modern internet provides the ability to use more dynamic and interactive data visualizations. These data visualizations can be useful and help people understand data better, but they can also be overwhelming. We'll look at some examples and talk about the advantages and disadvantages of these types of data visualizations.  One example of a data visualization using the internet is a video which shows multiple different graphs. Sometimes these visualizations will just be a series of graphs like the ones we've seen before. For example, the graph in showed the relationship between the gross domestic product (GDP) and CO2 emissions per person for countries in 2018. The video in shows the same data, but for every year from 1961 to 2014. It also adds another data set - how much the temperature in that country has gone up or down from the average over 1961-2018. The temperature change is represented by the color and size of the dot.    National gross domestic product and CO2 emissions per person 1961-2014. Video by Antti Lipponen, CC-BY-2.0 . .   This graph contains a lot of information - 3 different data sets (GDP, CO2 Emissions, and temperature change) for every country for every year from 1961-2014. Looking at all of that data in a table could be overwhelming, but this visualization makes it easier to see certain patterns. We can see that in general, as time changes, the nations of the world are getting richer (the points move right), producing more CO2 (the points move up), and hotter (the points get larger and more red). We can also see that despite all these changes, inequality persists - some countries remain poor while others get even more wealthy.  In some ways, though, the visualization also hides other information. This graph uses a logarithmic scale on both axes. In a normal scale on a graph (what we call a linear scale in mathematics), when you go a unit over on the graph, you add the same amount on the scale - so you may go from 10 at one mark, to 20 at the next, to 30 at the next, adding 10 each time. In a logarithmic scale, instead of adding each time, you multiply by the same amount. For example, on this graph, the marks on the horizontal axis go from 100 to 1000, multiplying by 10, and then to 10,000, multiplying by 10 again, and then 100,000, multiplying by 10 again.  Logarithmic scales are used when we have very small numbers and very large numbers in the same graph, like we do here - some countries have much lower GDPs than others, because of global wealth inequality. The logarithmic scale conceals an increase in inequality in this graph - as the points move to the left and up, the gap between the poorest & least emitting countries and the wealthiest & most emitting countries is getting larger and larger.  Other video data visualizations use different graphing techniques. The video in , the position of the points doesn't really convey any information (it's just determined by the country's name in the English alphabet), but the size and color of the dot gives the temperature anomaly for that country in a particular month. You can see the points get larger and redder as the climate warms.    Monthly temperature anomaly for countries from 1880-2017. Video by Antti Lipponen, CC-BY-2.0 . .   The visualization in gives the viewer a very clear picture of how severe and widespread the warming has been in countries around the world. It does not, however, give a lot of data on how that warming is spread out, because the countries are arranged alphabetically. The video in shows the CO2 emissions per country for each year from 1850 to 2016, but arranged on a map of the world (unfortunately, a Mercator projection, which creates a biased map where northern countries appear much larger than those near the equator). This allows the viewer to see a different kind of pattern - the geographical relationship between countries with high CO2 emissions.    Map of the world, showing greenhouse gas emissions per person for each country. .    shows us that greenhouse gas emissions per person have grown most in large fossil fuel producing nations like the USA, Canada, and Russia, as well as smaller nations in West Asia like Oman and Saudia Arabia. It does conceeal some of the highest emitters, like Bahrain and Qatar, which can be seen in , because they are too small to show up clearly on the map.  Data visualizations on the internet can also be interactive. The Earth Sciences Communications Team at the National Aeronautics and Space Association's (NASA) Jet Propulsion Laboratory has produced several outstanding interactive data visualizations around climate change. The Climate Time Machine allows viewers to see how the climate has changed over time in four different ways - sea ice, sea level, CO2 emissions, and temperature change. Earth Now is even more elaborate, allowing the viewer to display a wide range of global data sets on an animated globe, and to look at that data over a range of time or at a point in history.    Accessibiliity  All of these data visualizations - both the static images we saw before and the videos here - have one major flaw. These visualizations, because they convey data visually, are only accessible to people without visual impairment. People with no sight or sight which is limited in some way (like color-blindness) may be unable to use data visualizations as effectively as people without visual impairment.  Visualizations can also present challenges to other people. A fast-moving video, for example, may be difficult to follow for someone with dyslexia who needs more time to read. Someone who is hearing-impaired may need captions if there is spoken text or sounds. Translators exist for text in webpages, but the text in an image or video cannot be translated easily into another language.  When creating data visualizations, it is important to think about who will be able to use it. The more accessible you make your visualization, the more people will be able to benefit from it. Here are some tips for how to make your data visualizations accessible:   Avoid using color alone to differentiate data - and use highly contrasting colors if you do need to use color. People with color-blindness or limited vision may be able to distinguish highly contrasting colors better.  Make data available in another format. A data table - which can be read out by a screen reader - may be more useful than a graph for someone who is visually impaired.  Don't try to let the graph speak for itself - label everything clearly and in a large font. Explain what the graph shows in the accompanying text.  Choose a good title for your graph. People with reading or attention disabilities may read only the title, so make sure it conveys as much information about what the graph means as possible.  Use redundancy - for example, a particular quality may be represented by both the color and size of a dot. If someone doesn't notice or can't detect one quality, they may be able to detect the other.   One example of accessibility is the creation of data sonifications - like a visualization, but with sound. The online graphing calculator Desmos, for example, has a feature called Audio Trace which allows users to hear a graph in the graphing calculator. The sound moves across stereo speakers from left to right, and increases in pitch as the graph increases (with static added when it's negative). This allows visually-impaired people the opportunity to hear the same patterns that others can see in the graph.  A powerful climate change sonification from the Center for Computer Research in Music and Acoustics at Stanford University is \"shown\" in . In this sonification, which starts roughly 400 years ago, the CO2 levels in the atmosphere provide the pitch for a background tone, while a strumming guitar sound gets louder and higher in pitch as temperature anomalies increase. The result is a haunting sound which becomes more and more urgent as time approaches the present - just like the climate crisis.    Climate data from the past 400 years as a single sound file. The pitch of the background tone rises as carbon dioxide in the atmosphere increases, while the plucked sound of the guitar increases in volume and pitch as global temperatures increase.      "
+},
+{
+  "id": "definition-11",
+  "level": "2",
+  "url": "climate-change-math-topic-data-visualization.html#definition-11",
+  "type": "Definition",
+  "number": "3.6.1",
+  "title": "Qualitative (Categorical) Data.",
+  "body": " Qualitative (Categorical) Data  Data which is not numerical is called qualitative (or categorical) data. Qualitative data can include things like names, categories of objects or people (which is where the other name, categorical, comes from), or different things which are being compared.  "
+},
+{
+  "id": "definition-12",
+  "level": "2",
+  "url": "climate-change-math-topic-data-visualization.html#definition-12",
+  "type": "Definition",
+  "number": "3.6.2",
+  "title": "Quantitative Data.",
+  "body": " Quantitative Data  Data which can be represented numerically is called quantitative data. This includes both data which is already numerical, and data which can be made numerical. Dates are a good example of quantitative data that isn't always written in numbers (for example, \"March\" doesn't seem numerical, but can be represented by 3 since it is the 3rd month of the year).  Quantitative data naturally falls into one of two types - discrete and continuous . While there are more complicated ways to distinguish between them mathematically, for our purpose the big difference is that with quantitative discrete data we have a small number of distinct possible responses, while with quantitative continuous data we have a large number of different possible responses.  "
+},
+{
+  "id": "figure-6",
+  "level": "2",
+  "url": "climate-change-math-topic-data-visualization.html#figure-6",
+  "type": "Figure",
+  "number": "3.6.3",
+  "title": "",
+  "body": "  Two boxes filled with numbers. The box on the left displays an example containing quantitative discrete data with many repeated values: 1, 2, 3, 2, 2, 5, 1, 4, 5, 3, 1, 2, 3, 2, 2, 3, 1, 1, 3, and 4. The box on the right contains quantitative continuous data with many different distinct values: 31, 53, 63, 18, 42, 31, 57, 86, 78, 29, 49, 22, 48, 85, 23, 19, 94, 11, 41, 31, 19, 17, 82, and 83.   Quantitative discrete (left) vs. Quantitative continuous (right) data.  "
+},
+{
+  "id": "exercise-66",
+  "level": "2",
+  "url": "climate-change-math-topic-data-visualization.html#exercise-66",
+  "type": "Checkpoint",
+  "number": "3.6.4",
+  "title": "",
+  "body": "A survey asks people how many cars they own. Would the answers here be numeric or non-numeric? Are multiple people likely to give the same answer? Would you expect to have many different answers? Quantitative Discrete. The answer is a number, and most people will answer 0, 1, or 2, with with very few people giving larger numbers. "
+},
+{
+  "id": "exercise-67",
+  "level": "2",
+  "url": "climate-change-math-topic-data-visualization.html#exercise-67",
+  "type": "Checkpoint",
+  "number": "3.6.5",
+  "title": "",
+  "body": "A researcher collects a list of the companies which emit the most methane into the atmosphere. Would this data be numeric or non-numeric? This is qualitative data - the data we are collecting consists of company names, not numbers. "
+},
+{
+  "id": "exercise-68",
+  "level": "2",
+  "url": "climate-change-math-topic-data-visualization.html#exercise-68",
+  "type": "Checkpoint",
+  "number": "3.6.6",
+  "title": "",
+  "body": "A scientist measures the amount of ozone in parts per million in the atmosphere at a particular location every day for a year. Note: here the scientist is collecting two different (connected) pieces of data - the measurement of ozone and the day on which they collected it. Would this data be numeric or non-numeric? Are many of the measurements likely to be exactly the same on multiple days? Would you expect to have a lot of different values? Both data sets are quantitative continuous. The dates will be different on every day, and there will be many (365 or 366) different values. The measurements are also unlikely to be exactly the same on different days, and there will be many different values. "
+},
+{
+  "id": "definition-13",
+  "level": "2",
+  "url": "climate-change-math-topic-data-visualization.html#definition-13",
+  "type": "Definition",
+  "number": "3.6.7",
+  "title": "Frequency Table.",
+  "body": " Frequency Table A frequency table lists each of the distinct values in a data set followed by the frequency of that value - the number of times that it appears in the data set. "
+},
+{
+  "id": "table-vehicle-access",
+  "level": "2",
+  "url": "climate-change-math-topic-data-visualization.html#table-vehicle-access",
+  "type": "Table",
+  "number": "3.6.8",
+  "title": "",
+  "body": "   Number of Vehicles Available  Millions of Households    0  10.6    1  39.8    2  45.3    3  18.1    4  6.3    5+  2.7    "
+},
+{
+  "id": "figure-7",
+  "level": "2",
+  "url": "climate-change-math-topic-data-visualization.html#figure-7",
+  "type": "Figure",
+  "number": "3.6.9",
+  "title": "",
+  "body": "  Bar graph showing vehicle access per household. Image description available.  Vehicle Access per household from the 2019 American Community Survey. Image Description .   "
+},
+{
+  "id": "table-per-capita-co2",
+  "level": "2",
+  "url": "climate-change-math-topic-data-visualization.html#table-per-capita-co2",
+  "type": "Table",
+  "number": "3.6.10",
+  "title": "",
+  "body": "   Per Capita Emissions  Number of Countries    [0,5)  65    [5,10)  19    [10,15)  4    [15,20)  5    [20,25)  2    [25,30)  0    [30,35)  1    [35,40)  1    "
+},
+{
+  "id": "figure-8",
+  "level": "2",
+  "url": "climate-change-math-topic-data-visualization.html#figure-8",
+  "type": "Figure",
+  "number": "3.6.11",
+  "title": "",
+  "body": "  Histogram showing the number of countries with per capita emissions at a particular level. Image description available.   Countries in the world, sorted by their per capita CO2 emissions in tons of CO2 per person. Data from . Image Description .  "
+},
+{
+  "id": "table-top-ten-methane",
+  "level": "2",
+  "url": "climate-change-math-topic-data-visualization.html#table-top-ten-methane",
+  "type": "Table",
+  "number": "3.6.12",
+  "title": "",
+  "body": "   Country  Total Methane Emissions in Equivalent Tons of CO2    China  1.17E+10    United States  5.51E+09    India  3.04E+09    Japan  1.17E+09    Brazil  9.39E+08    Germany  7.84E+08    Canada  6.52E+08    Saudi Arabia  6.26E+08    Australia  5.02E+08    United Kingdom  4.38E+08    "
+},
+{
+  "id": "figure-9",
+  "level": "2",
+  "url": "climate-change-math-topic-data-visualization.html#figure-9",
+  "type": "Figure",
+  "number": "3.6.13",
+  "title": "",
+  "body": "  Graph showing bars with sizes corresponding to the methane emissions of 10 countries, dominated by China, the United States, and India. Image description available.   Methane Emissions of the ten largest polluters, in the equivalent amount of CO2. Data from . Image Description   "
+},
+{
+  "id": "definition-14",
+  "level": "2",
+  "url": "climate-change-math-topic-data-visualization.html#definition-14",
+  "type": "Definition",
+  "number": "3.6.14",
+  "title": "Relative Frequency.",
+  "body": " Relative Frequency The relative frequency of a data value is the percentage of overall values which match that data value. It can be calculated by taking the frequency and dividing it by the total number of data values. "
+},
+{
+  "id": "table-6",
+  "level": "2",
+  "url": "climate-change-math-topic-data-visualization.html#table-6",
+  "type": "Table",
+  "number": "3.6.15",
+  "title": "",
+  "body": "   Number of Vehicles Available  Millions of Households  Percentage of Households    0  10.57  9%    1  39.82  32%    2  45.29  37%    3  18.09  15%    4  6.30  5%    5+  2.74  2%    Total  122.80      "
+},
+{
+  "id": "figure-10",
+  "level": "2",
+  "url": "climate-change-math-topic-data-visualization.html#figure-10",
+  "type": "Figure",
+  "number": "3.6.16",
+  "title": "",
+  "body": "  A circle divided into wedges, one for each data value in the table above, with the size of the wedge determined by the relative frequency.   Number of vehicles accessible to each household in the United States, as a percentage of the total number of households. Data from .  "
+},
+{
+  "id": "table-7",
+  "level": "2",
+  "url": "climate-change-math-topic-data-visualization.html#table-7",
+  "type": "Table",
+  "number": "3.6.17",
+  "title": "",
+  "body": "   Per Capita Emissions  Number of Countries  Relative Frequency    [0,5)  65  67%    [5,10)  19  20%    [10,15)  4  4%    [15,20)  5  5%    [20,25)  2  2%    [25,30)  0  0%    [30,35)  1  1%    [35,40)  1  1%    Total  97      "
+},
+{
+  "id": "figure-11",
+  "level": "2",
+  "url": "climate-change-math-topic-data-visualization.html#figure-11",
+  "type": "Figure",
+  "number": "3.6.18",
+  "title": "",
+  "body": "  A circle divided into wedges, one for each range of values in the table. Image description available.   Number of countries with per capita CO2 emissions in the given ranges. Image description .  "
+},
+{
+  "id": "table-8",
+  "level": "2",
+  "url": "climate-change-math-topic-data-visualization.html#table-8",
+  "type": "Table",
+  "number": "3.6.19",
+  "title": "",
+  "body": "   Per Capita Emissions  Number of Countries  Relative Frequency    [0,5)  65  67%    [5,10)  19  20%    [10,15)  4  4%    [15,20)  5  5%    > 20  4  4%    Total  97      "
+},
+{
+  "id": "figure-12",
+  "level": "2",
+  "url": "climate-change-math-topic-data-visualization.html#figure-12",
+  "type": "Figure",
+  "number": "3.6.20",
+  "title": "",
+  "body": "  A circle divided into wedges, one for each data value in the table above, with the size of the wedge determined by the relative frequency.   Number of countries with per capita CO2 emissions in the given ranges.  "
+},
+{
+  "id": "climate-change-math-topic-data-visualization-graphs-scatterplot-gdp-co2",
+  "level": "2",
+  "url": "climate-change-math-topic-data-visualization.html#climate-change-math-topic-data-visualization-graphs-scatterplot-gdp-co2",
+  "type": "Figure",
+  "number": "3.6.21",
+  "title": "",
+  "body": "  Scatterplot of the gdp and co2 data. Image description available.   Scatterplot of the relationship between GDP and CO2, per capita, of nations in 2018. Image Description .  "
+},
+{
+  "id": "figure-14",
+  "level": "2",
+  "url": "climate-change-math-topic-data-visualization.html#figure-14",
+  "type": "Figure",
+  "number": "3.6.22",
+  "title": "",
+  "body": "  Line graph of the global mean temperature anomaly. Image description available.   Line graph of the global mean temperature anomaly fom 1880 to 2019. Data is from . Image Description .  "
+},
+{
+  "id": "figure-15",
+  "level": "2",
+  "url": "climate-change-math-topic-data-visualization.html#figure-15",
+  "type": "Figure",
+  "number": "3.6.23",
+  "title": "",
+  "body": "  Line graphs of the total CO2 emissions of the United States and China. Image description available.   Paired line graph of the total CO2 emissions of the United States and China from 1960 to 2018 in gigatons. Data is from . Image Description .  "
+},
+{
+  "id": "figure-16",
+  "level": "2",
+  "url": "climate-change-math-topic-data-visualization.html#figure-16",
+  "type": "Figure",
+  "number": "3.6.24",
+  "title": "",
+  "body": "  Line graphs of the total CO2 emissions of the United States and Singapore. Image description available.   Paired line graph of the total CO2 emissions of the United States and Singapore from 1960 to 2018 in gigatons. Data is from . Image Description .  "
+},
+{
+  "id": "figure-17",
+  "level": "2",
+  "url": "climate-change-math-topic-data-visualization.html#figure-17",
+  "type": "Figure",
+  "number": "3.6.25",
+  "title": "",
+  "body": "  Line graphs of the total CO2 emissions of Singapore. Image description available.   Total CO2 emissions of Singapore from 1960 to 2018 in kilotons. Data is from . Image Description .  "
+},
+{
+  "id": "figure-18",
+  "level": "2",
+  "url": "climate-change-math-topic-data-visualization.html#figure-18",
+  "type": "Figure",
+  "number": "3.6.26",
+  "title": "",
+  "body": "  Line graphs of the total CO2 emissions of the United States. Image description available.   Total CO2 emissions of the United States from 1960 to 2018 in kilotons. Data is from . Image Description .  "
+},
+{
+  "id": "figure-19",
+  "level": "2",
+  "url": "climate-change-math-topic-data-visualization.html#figure-19",
+  "type": "Figure",
+  "number": "3.6.27",
+  "title": "",
+  "body": "  Bar chart of vehicle ownership in Great Britain and the United States. Image description available.   Percentage of households owning 0, 1, 2, 3, 4, and 5 or more vehicles in Great Britain (data from 2014-2016) and the United States (data from 2019). Data is from and . Image Description .  "
+},
+{
+  "id": "figure-20",
+  "level": "2",
+  "url": "climate-change-math-topic-data-visualization.html#figure-20",
+  "type": "Figure",
+  "number": "3.6.28",
+  "title": "",
+  "body": "  Pie chart of household vehicle access in the USA. Image description available.   Number of vehicles accessible to each household in the United States, as a percentage of the total number of households. Data from . Image Description .  "
+},
+{
+  "id": "figure-21",
+  "level": "2",
+  "url": "climate-change-math-topic-data-visualization.html#figure-21",
+  "type": "Figure",
+  "number": "3.6.29",
+  "title": "",
+  "body": "  Pie chart of household vehicle access in Great Britain. Image description available.   Number of vehicles accessible to each household in Great Britain, as a percentage of the total number of households. Data from . Image Description .  "
+},
+{
+  "id": "figure-22",
+  "level": "2",
+  "url": "climate-change-math-topic-data-visualization.html#figure-22",
+  "type": "Figure",
+  "number": "3.6.30",
+  "title": "",
+  "body": "  Stacked bar chart comparing vehicle ownership in the United States and Great Britain. Image Description available.   Number of vehicles accessible to each household in the United States compared to Great Britain, as a percentage of the total number of households. Data from and . Image Description .  "
+},
+{
+  "id": "climate-change-math-topic-data-visualization-graphs-video-scatterplot-gdp-co2",
+  "level": "2",
+  "url": "climate-change-math-topic-data-visualization.html#climate-change-math-topic-data-visualization-graphs-video-scatterplot-gdp-co2",
+  "type": "Figure",
+  "number": "3.6.31",
+  "title": "",
+  "body": "  National gross domestic product and CO2 emissions per person 1961-2014. Video by Antti Lipponen, CC-BY-2.0 . .  "
+},
+{
+  "id": "climate-change-math-topic-data-visualization-graphs-video-temperature-anomalies",
+  "level": "2",
+  "url": "climate-change-math-topic-data-visualization.html#climate-change-math-topic-data-visualization-graphs-video-temperature-anomalies",
+  "type": "Figure",
+  "number": "3.6.32",
+  "title": "",
+  "body": "  Monthly temperature anomaly for countries from 1880-2017. Video by Antti Lipponen, CC-BY-2.0 . .  "
+},
+{
+  "id": "climate-change-math-topic-data-visualization-graphs-video-map-co2",
+  "level": "2",
+  "url": "climate-change-math-topic-data-visualization.html#climate-change-math-topic-data-visualization-graphs-video-map-co2",
+  "type": "Figure",
+  "number": "3.6.33",
+  "title": "",
+  "body": "  Map of the world, showing greenhouse gas emissions per person for each country. .  "
+},
+{
+  "id": "climate-change-math-topic-data-visualization-graphs-accessibility-sonification",
+  "level": "2",
+  "url": "climate-change-math-topic-data-visualization.html#climate-change-math-topic-data-visualization-graphs-accessibility-sonification",
+  "type": "Figure",
+  "number": "3.6.34",
+  "title": "",
+  "body": "  Climate data from the past 400 years as a single sound file. The pitch of the background tone rises as carbon dioxide in the atmosphere increases, while the plucked sound of the guitar increases in volume and pitch as global temperatures increase.   "
+},
+{
+  "id": "climate-change-math-topic-mathematical-models",
+  "level": "1",
+  "url": "climate-change-math-topic-mathematical-models.html",
+  "type": "Section",
+  "number": "3.7",
+  "title": "Mathematical Models",
+  "body": " Mathematical Models   Mathematical models provide a means of capturing how a confluence of variables factor into and effect situations They can also be used to make predictions regarding what is to come. In this section we examine models that lend insight into global warming and the average global temperature predictions. We will look at the Green House Effect and explore how to predict temperature increase based on varying amounts (distributions) of certain greenhouse gasses. The main green house gasses are carbon dioxide, methane, and nitrous oxide. Each has its own impact on temperature increase dependent on a combination of qualities including lifetime, abundance, and radiative capacity. Units and other measures are often defined to capture how a confluence of qualities effect a particular inpact. Global Warming Potential (GWP) and Global Temperature Potential (GTP) are two such examples that will also examine in this section.     The Green House Effect  The overarching idea of the Green House effect is that energy in the form of radiation enters the atmosphere (\"the green house\") and while some of the radiation escapes, a percentage of it gets trapped. This trapped radiation is trapped energy or heat which results in increasing the ambient temperature. The percentage of energy that gets trapped and the resulting temperature increase depends on the molecular make up of the atmosphere.  Green House gasses are gasses that trap energy. Some of the gasses such as water vapor ( ) are necessary for maintaining a stable temperature warm enough to supports life. However, growing amounts of other Green House gasses such as carbon dioxide ( ), nitrious oxide ( ), and methane have the effect of increasing the temperature potentially beyond livable conditions. How much energy gets trapped the depends on the molecular make up of the atmosphere.  In this section we will work through a simplified mathematical model with the goal of building intuition for how each compnent plays a role in the system.    Blackbody  When electromagnetic radiation is incident upon an object, some of the radition is absorbed while some is reflected. The specific proportions that are absorbed and radiated depend on the properties of the object and whether it is in thermodynamic equlibrium with the surrounding evironment. A blackbody is an perfect object in the sense that it abosorbs all the radiation incident upon it and emits radiation depending solely on its temperature.    There are two important properties of blackbodies that we will rely on in our modeling. One is that blackbodies are \"perfect\" emitters.  Not only is the amount of radiation emitted dependent only on temperature but also, for a fixed temperature, blackbodies emit at the maximal energy level. More specifics of this radiation are described below.  Blackbodies emit radiation isotropically, meaning the radiation is equally dispersed in all directions.      Blackbody Radiation   A blackbody in thermodynamic equilibrium (i.e with constant uniform temperature) emits electromagnetic radiation at a spectrum of wavelengths determined solely by the temperature of the body. The emission brom blackbodies is called blackbody radiation .  Blackbodies emit different amounts of energy at different wavelengths. How much radiation a blackbody emits at each wavelength is called the blackbody spectrum and is determined by Plank's law.   Below is a graph showing the blackbody spectrum. Each curve is the spectrum for blackbody at the indicated temperature. The temperatures are in Kelvin. Note that is and so for high temperatures like or the magnitude in degress Kelvin and degrees Celcius are on the order of magnitude. For reference the sun has a temperature of 5778 Kelvin      This is a graph of the blackbody spectrum depicting the amount of radiation emmitted at each wavelength for blackbodies at temperatues of 3,000 Kelvin, 4,000 Kelvin, and 5000 Kelvin. Each curve has a single peak and is skewed left. At the temerature increases, the peak of the curve shifts left, occuring at shorter wavelenghts. The wavelengths in the UV spectrum (0.01 to 0.38 ) are indicated by a vertical rectangle. The blackbody at 3000 Kelvin peaks in intensity at about 0.97 (in the near infrared). The blackbody at 4000 Kelvin peaks in intesity at about 0.725 (visible but slightly too long for red). The blackbody at 5000 Kelvin peaks in intensity at 0.58 (visible green light)   This graph depicts the blackbody spectrum showing the intensity of emission versus wavlength for blackbodies at temperatures of 3000, 4000, and 5000 Kelvin.    Very few objects are perfect blackbodies. However many are close enough in the sense that assuming blackbody radiation in calculations yeilds results that lend an accurate perspective. Of course the closer an object is to being a blackbody, the more acurate the calculations will be. For our models we will need the relationship between the amount of radiation emitted by a blackbody and its temperature. The Stefan-Boltzmann law gives this relationship and states that the total energy, emitted per unit area per unit time by a blackbody is directly proportional to the fourth power of its temperature. The units are terms joules per second per square meter and are denoted . So or where with units of is the Stefan-Boltzman constant.   The radiative bodies that will play a role in our models are the Sun, Earth, and layers of the atmosphere. In our calculations we will assume that the Sun and Earth radiate as perfect blackbodies. The layers of the atmosphere are not close enough to perfect blackbodies so we will take them to be what is called graybodies .   Graybody  The term graybody refers to an imperfect blackbody in the sense that it absorbs only a propotion of the incident radiation. Graybodies can be more reflective of reality and adjusting for the lower absorption rate is a matter of scaling by what is called the emissivity.     Emissivity  The emissivity,  of a radiating object is the ratio of the amount of radiation the object emits compared to amount of radiation a blackbody at the same temperature, emits.    The emissivity is a proportion and thus dimensionless.  The emissivity ranges between which two values? Think about the extremem cases. What is the most incident radiation an object can abosorb and what is the least as compared to that of a blackbody? The emissivity ranges bewtween 0 and 1 inclusive.  Interpret the meaning of a radiating body with the minimal and the maximal emissivity. Why does this make sense? What does it mean for the emmissivty ratio to be equal to 0 in terms of how much radiation it absorbs? What does it mean for the ration to be eqaul to 1 in terms of how much radiation it absorbs. What does this tell you about the type of object? When the emissivity of a radiating body is 0, a radiating body aborbs none of the incent radiation and is thus a perfect reflector. When the emissivity is 1, a radiating body absorbs as much incedent radiation as a blackbody. Namely it aborbs all the incident radiation and is thus a perfect blackbody.  A graybody that absorbs only a proportion of incident radiation also emits a proportion of the blackbody radiation. For our models we assume the proportion absorbed is the same as the proportion emitted. This absorption\/emission propotion is exactly the emissivity of the object. So, for a graybody at temperature, , with emissivity the total energy, , emitted per unit area per unit time is .  What is the amount of radiation, , emitted by radiating bodies with minimal and maximal emissivity. Why does this make sense? When the emissivity of a radiating body is 0, the body emits . So a body that absorbs no incident radiation also emits no radiation. When the emissivity is 1, the body emits which matches that of a    Modeling the Green House Effect   Our goal is not to create a perfect model that caputes every physical detail but rather invoke some simple mathematics so that we can view the conceptual model through an analytical lense. In the process we will introduce and engage with the mathematical thought that goes into modeling. We will work our way up step by step each time making a single generalization reflecting a bit more physical reality.  There are three major players in our series of models: our Sun, the Earth, and the Atmosphere.  The Sun radiates energy in all directions. Some of the Sun's energy is reflected by the atomosphere and the rest reaches the Earth. In our models, we will assume that the amount of solar energy reaching the Earth is fixed. We will deonte this value by . However, in reality, the amount of solar energy reaching Earth is starting to increase. This increase is caused by a decrease in albedo . Albedo, denoted , is the proportion of solar energy that is reflected by the atmosphere. Melting ice caps, catalyzed by global warming, are responsible for the decrease in albedo. While we will not take the changing albedo into account, doing so could make a great extension project.  We will denote the amount of energy the Earth radiates by . For the purpose of our models we will take the Earth to be a blackbody. By the Stefan-Boltzmann law, or where is the temperature of Earth's surface.  We will be treating the atmosphere as a graybody. Initially we will take the atmosphere to be a single body. We wil denote the amount of energy that radiates out from the atmosphere as . As a graybody, and where is the temperature of the atmosphere and is the emissivity of the atmosphere. Recall that as graybody, the atmosphere also aborbs only a proportion, , of radiation incidident upon it.  One key assumption is that all compents are equilibrium.    First Model: one level of atmosphere  In this model we have our Sun, the Earth's surface, and the atmosphere. Solar energy reaches Earth's surface. The Earth radiates out engery as a blackbody. The atmosphere absorbs a proportion, , of energy radiated by the earth and also radiates out energy as a graybody.        The Sun, Earth's surface, and atmosphere all radiate out energy as well as absorb energy from the other bodies.    In the diagram above, each arrow starts at a radiating body and arrives to an absorbing body.  Let's recall our variables.   is the amount of solar energy reaching Earth's surface.   is the energy radiated per unit area by Earth surface.   is the energy radiated per unit area by the atmosphere.    Both the Earth's surface and the atomosphere radiate isotropically (i.e equally in all directions). We capture this in our model by assuming half of the energy radiated by the atmosphere escapes out while half radiates back towards the earth. Since the Earth is a lower physical boundary in our model, we assume all the earth's radiation moves outwards and reaches the atmosphere. Let's include radiation labels in out diagram.            Recall that our system involving the Sun, Earth, and atmosphere is in a state of equilibrium. This means the amount of radiation absorbed by each body is equal to the amount radiation that body emits. We can write out a set of equilibrium equations.  Now let's use the Stefan-Boltzman law to write the radiation and in terms of temperature. With and the equations become What we really want to understand is how the emissivity of the atmosphere , affects the temperatures of the Earth and the atmosphere since emissivity is the link between greenhouse gasses and temperature increas. The higher the emissivity, , the more radiation our atmospher absorbs or traps. The absorption of radiation is due to molecules in the atmosphere and higher concentrations of greenhouse gasses push up .  First use the \"atmosphere\" equation to relate the termperatures of the Earth and atmosphere. Simplifying the last \"atmosphere\" equation we see that the temperature of the Earth is related to that of the atmosphere by or Now we use the \"earth\" equation to write and in terms of the know quatities,Q and , and the emissivity .  Substituting into the \"earth\" equation we have .  Solving for yields and Let's plug in the values for the constants.         Note: ( with the solar constant and albedo )  So our equations become   What happens to and as increases? Emissivity ranges from 0 to 1. So when increases and both increase since the denominator decreases.  Based on the possible values for what are the possible temperature ranges for and ? Emissivity ranges from 0 to 1. ranges from 127.45 to 254.9 K. When , is at its minimum of 127.45 K and when , is at its maximum of 254.9 K. ranges from 151.65 to 303.3 K.  What happens to the rate of atmospheric absorption as increases ? It's increasing.  Currently the sufrace temerpature of the Earth is about . In Kelvin this is . If we plug this temperature into our equation above we can use our model to predict the current atmospheric emissivity.   Take the current temperature of the earth to be . What does out model predic is? Solving for we find . So for ,    For the current Earth temperature of 288.3 K or , our model estimates as 0.947. The actual value of , accoding to , is predicted to be . In the next section you will have a chance to incorporate more details and develop a more presice model. In the meantime, while our model is somewhat off, we can still look at how a change in emissivity due to an increase in green house gasses effects the Earth's temperature.  According to if the amount of carbon dioxide in the atmosphere doubles , it will cause the atmospheric emissivity to increase by 0.019.  Let's use our model to see the what is effect of an increase of 0.019 in emissivity (and thus in doubling the amount of carbon dioxide in the atmosphere) on the Eath's temperature. We have two options for using our model to predict the change in temperature.  We can use the actual value of and our predicted value of 0.947 for   We can use the actual value of 0.78 for and the current temperature predicted by our model for     Use the actual value of 288.3 K for and the our model's predition of 0.947 for . If the amount of carbon in the atmosphere were to double today so that would increase by 0.019, use our model to determine the increase in the Earth's temperature. In the atmosphere's temperature.  would increase from 0.947 to 0.966 and our model predeicts that the Earth's temperature will increase from 288.3 K to 293.3 K or from to   Use the actual value of 0.78 for and the current temperature predicted by our model for . If the amount of carbon in the atmosphere were to double today, would increase from 0.019 from 0.78 to 0.80. According to our model, what is the increase in the Earth's temperature? In the atmosphere's temperature? According to our model would increase from 248.6 K to 252.6 K or from to so would increase . would increase from  In the exercises above you determined that if the amount of carbon dioxide in the atmosphere were to double, the Earth's temperature would increase or depending on if we used the actual value for earth's temperature or atmosphe's emissivity and used our model to predict the emissivity or temperature respectively.  Let's compare our results to those stated in the literature. According to , the Earth's temperature is currently 288.3 K or and the atmospheric emissivity is . If the amount of carbon dixoide in the atmosphere were to double is predicted to increase from 0.78 to 0.80 which in turn would cause the Earth's temperature to increase from 288.3 K ( ) to 289.5 K ( ).  Our model is not that far off and while our model is not precise it allows us to see and feel the effect of doubling the level of carbon dioxide in the atmosphere. However, when it comes to climate change and predicting temperature increase we do want to experts to have a smaller margin of error.  Now that we have developed some analytical intuition for the greenhouse effect, we are ready for the next step. We will build on our current model, taking into accout other physical factors that will hopefully result is more presision.       Other Models and Measures   "
+},
+{
+  "id": "definition-15",
+  "level": "2",
+  "url": "climate-change-math-topic-mathematical-models.html#definition-15",
+  "type": "Definition",
+  "number": "3.7.1",
+  "title": "Blackbody.",
+  "body": " Blackbody  When electromagnetic radiation is incident upon an object, some of the radition is absorbed while some is reflected. The specific proportions that are absorbed and radiated depend on the properties of the object and whether it is in thermodynamic equlibrium with the surrounding evironment. A blackbody is an perfect object in the sense that it abosorbs all the radiation incident upon it and emits radiation depending solely on its temperature.   "
+},
+{
+  "id": "definition-16",
+  "level": "2",
+  "url": "climate-change-math-topic-mathematical-models.html#definition-16",
+  "type": "Definition",
+  "number": "3.7.2",
+  "title": "Blackbody Radiation.",
+  "body": " Blackbody Radiation   A blackbody in thermodynamic equilibrium (i.e with constant uniform temperature) emits electromagnetic radiation at a spectrum of wavelengths determined solely by the temperature of the body. The emission brom blackbodies is called blackbody radiation .  Blackbodies emit different amounts of energy at different wavelengths. How much radiation a blackbody emits at each wavelength is called the blackbody spectrum and is determined by Plank's law.  "
+},
+{
+  "id": "figure-27",
+  "level": "2",
+  "url": "climate-change-math-topic-mathematical-models.html#figure-27",
+  "type": "Figure",
+  "number": "3.7.3",
+  "title": "",
+  "body": "    This is a graph of the blackbody spectrum depicting the amount of radiation emmitted at each wavelength for blackbodies at temperatues of 3,000 Kelvin, 4,000 Kelvin, and 5000 Kelvin. Each curve has a single peak and is skewed left. At the temerature increases, the peak of the curve shifts left, occuring at shorter wavelenghts. The wavelengths in the UV spectrum (0.01 to 0.38 ) are indicated by a vertical rectangle. The blackbody at 3000 Kelvin peaks in intensity at about 0.97 (in the near infrared). The blackbody at 4000 Kelvin peaks in intesity at about 0.725 (visible but slightly too long for red). The blackbody at 5000 Kelvin peaks in intensity at 0.58 (visible green light)   This graph depicts the blackbody spectrum showing the intensity of emission versus wavlength for blackbodies at temperatures of 3000, 4000, and 5000 Kelvin.   "
+},
+{
+  "id": "definition-17",
+  "level": "2",
+  "url": "climate-change-math-topic-mathematical-models.html#definition-17",
+  "type": "Definition",
+  "number": "3.7.4",
+  "title": "Graybody.",
+  "body": " Graybody  The term graybody refers to an imperfect blackbody in the sense that it absorbs only a propotion of the incident radiation. Graybodies can be more reflective of reality and adjusting for the lower absorption rate is a matter of scaling by what is called the emissivity.   "
+},
+{
+  "id": "definition-18",
+  "level": "2",
+  "url": "climate-change-math-topic-mathematical-models.html#definition-18",
+  "type": "Definition",
+  "number": "3.7.5",
+  "title": "Emissivity.",
+  "body": " Emissivity  The emissivity,  of a radiating object is the ratio of the amount of radiation the object emits compared to amount of radiation a blackbody at the same temperature, emits.   "
+},
+{
+  "id": "exercise-69",
+  "level": "2",
+  "url": "climate-change-math-topic-mathematical-models.html#exercise-69",
+  "type": "Checkpoint",
+  "number": "3.7.6",
+  "title": "",
+  "body": "The emissivity ranges between which two values? Think about the extremem cases. What is the most incident radiation an object can abosorb and what is the least as compared to that of a blackbody? The emissivity ranges bewtween 0 and 1 inclusive. "
+},
+{
+  "id": "exercise-70",
+  "level": "2",
+  "url": "climate-change-math-topic-mathematical-models.html#exercise-70",
+  "type": "Checkpoint",
+  "number": "3.7.7",
+  "title": "",
+  "body": "Interpret the meaning of a radiating body with the minimal and the maximal emissivity. Why does this make sense? What does it mean for the emmissivty ratio to be equal to 0 in terms of how much radiation it absorbs? What does it mean for the ration to be eqaul to 1 in terms of how much radiation it absorbs. What does this tell you about the type of object? When the emissivity of a radiating body is 0, a radiating body aborbs none of the incent radiation and is thus a perfect reflector. When the emissivity is 1, a radiating body absorbs as much incedent radiation as a blackbody. Namely it aborbs all the incident radiation and is thus a perfect blackbody. "
+},
+{
+  "id": "exercise-71",
+  "level": "2",
+  "url": "climate-change-math-topic-mathematical-models.html#exercise-71",
+  "type": "Checkpoint",
+  "number": "3.7.8",
+  "title": "",
+  "body": "What is the amount of radiation, , emitted by radiating bodies with minimal and maximal emissivity. Why does this make sense? When the emissivity of a radiating body is 0, the body emits . So a body that absorbs no incident radiation also emits no radiation. When the emissivity is 1, the body emits which matches that of a "
+},
+{
+  "id": "figure-28",
+  "level": "2",
+  "url": "climate-change-math-topic-mathematical-models.html#figure-28",
+  "type": "Figure",
+  "number": "3.7.9",
+  "title": "",
+  "body": "       The Sun, Earth's surface, and atmosphere all radiate out energy as well as absorb energy from the other bodies.  "
+},
+{
+  "id": "figure-29",
+  "level": "2",
+  "url": "climate-change-math-topic-mathematical-models.html#figure-29",
+  "type": "Figure",
+  "number": "3.7.10",
+  "title": "",
+  "body": "         "
+},
+{
+  "id": "exercise-72",
+  "level": "2",
+  "url": "climate-change-math-topic-mathematical-models.html#exercise-72",
+  "type": "Checkpoint",
+  "number": "3.7.11",
+  "title": "",
+  "body": "What happens to and as increases? Emissivity ranges from 0 to 1. So when increases and both increase since the denominator decreases. "
+},
+{
+  "id": "exercise-73",
+  "level": "2",
+  "url": "climate-change-math-topic-mathematical-models.html#exercise-73",
+  "type": "Checkpoint",
+  "number": "3.7.12",
+  "title": "",
+  "body": "Based on the possible values for what are the possible temperature ranges for and ? Emissivity ranges from 0 to 1. ranges from 127.45 to 254.9 K. When , is at its minimum of 127.45 K and when , is at its maximum of 254.9 K. ranges from 151.65 to 303.3 K. "
+},
+{
+  "id": "exercise-74",
+  "level": "2",
+  "url": "climate-change-math-topic-mathematical-models.html#exercise-74",
+  "type": "Checkpoint",
+  "number": "3.7.13",
+  "title": "",
+  "body": "What happens to the rate of atmospheric absorption as increases ? It's increasing. "
+},
+{
+  "id": "exercise-75",
+  "level": "2",
+  "url": "climate-change-math-topic-mathematical-models.html#exercise-75",
+  "type": "Checkpoint",
+  "number": "3.7.14",
+  "title": "",
+  "body": "Take the current temperature of the earth to be . What does out model predic is? Solving for we find . So for ,   "
+},
+{
+  "id": "exercise-76",
+  "level": "2",
+  "url": "climate-change-math-topic-mathematical-models.html#exercise-76",
+  "type": "Checkpoint",
+  "number": "3.7.15",
+  "title": "",
+  "body": "Use the actual value of 288.3 K for and the our model's predition of 0.947 for . If the amount of carbon in the atmosphere were to double today so that would increase by 0.019, use our model to determine the increase in the Earth's temperature. In the atmosphere's temperature.  would increase from 0.947 to 0.966 and our model predeicts that the Earth's temperature will increase from 288.3 K to 293.3 K or from to  "
+},
+{
+  "id": "exercise-77",
+  "level": "2",
+  "url": "climate-change-math-topic-mathematical-models.html#exercise-77",
+  "type": "Checkpoint",
+  "number": "3.7.16",
+  "title": "",
+  "body": "Use the actual value of 0.78 for and the current temperature predicted by our model for . If the amount of carbon in the atmosphere were to double today, would increase from 0.019 from 0.78 to 0.80. According to our model, what is the increase in the Earth's temperature? In the atmosphere's temperature? According to our model would increase from 248.6 K to 252.6 K or from to so would increase . would increase from "
+},
+{
+  "id": "climate-change-solving-for-change",
+  "level": "1",
+  "url": "climate-change-solving-for-change.html",
+  "type": "Section",
+  "number": "3.8",
+  "title": "Solving for Change",
+  "body": " Solving for Change   How can the mathematics we've learned help us to understand the issue of greenhouse gas emissions better? And how can it help us find solutions and areas to focus our energy?  We're going to use our mathematics knowledge to try to answer three questions: Who is responsible for greenhouse gas emissions, what are the strategies for reducing emissions, and what are the most effective ways for us to combat climate change?    Who is responsible for greenhouse gas emissions?  The question of responsibility for greenhouse gas emissions has emerged as a major one in recent years. The Kyoto Protocol, a 1997 treaty, and the Paris Climate Accords, in 2016, sought to set targets for individual nations to reduce their greenhouse gas emissions. These treaties approached climate change from the perspective of shared responsibility, in a historical sense. Figure shows how this responsibility for global emissions has changed over time in a stacked 100% line graph . A stacked 100% line graph is like a pie chart stretched out over time - each vertical \"slice\" of the graph represents the percentage that that region contributed to global greenhouse gas emissions in that year. You can see in the graph that at the beginning (1750), Europe contributed 100% of the recorded emissions of CO2. As time goes on, other regions, like the USA, began to contribute more, and in the 20th century emissions from other parts of the world, like China, India, and the remainder of North America, began to grow.   Stacked 100% line graph of historical share of total co2 emissions share from 1750 to present. Image description available.  Percentage of total global CO2 emissions since 1750. EU-27 contains emissions from the 27 nations of the European Union in 2021, with the United Kingdom and Russia (and other nations) in Europe (excl. EU-27). Image CC-BY 4.0 by Hannah Ritchie . Image Description .   In the Kyoto Protocol and the Paris Climate Accords, one of the main points of discussion was how much each nation should be asked to cut their emissions. Major emitters today, like China and India, argued that the burden of stopping greenhouse gas emissions should fall mainly on developed nations like the United States, the United Kingdom, and other European countries, because the CO2 that those nations emitted in the past has been and still is a major contributor to climate change. Those nations now enjoy a high quality of life at least in part because of the emissions which they made in the past, but many have substantially reduced their emissions already. Emissions from Europe & the United States account for 58% of total cumulative emissions since 1750, but only 30% of current emissions in 2019 .  Developed nations, on the other hand, argued that emissions reductions must be made by developing nations like China and India, because those nations account for such a large part of current emissions. While Asia accounts for 29% of historical emissions since 1750, in 2019 they accounted for 55% of current emissions, as seen in Figure . Because they account for such a large part of current emissions, substantial reductions in their emissions would make a much larger difference in future CO2 levels.   Stacked 100% line graph of annual share of co2 emissions from 1750 to present. Image description available.  Percentage of annual global CO2 emissions since 1750. EU-27 contains emissions from the 27 nations of the European Union in 2021, with the United Kingdom and Russia (and other nations) in Europe (excl. EU-27). Image CC-BY 4.0 by Hannah Ritchie and Max Roser . Image Description .   The Paris Climate Accords provided a mechanism for countries to set individual commitments to reducing emissions. These commitments are reviewed every 5 years, with the overall goal of limiting temperature rise to another . The agreement also seeks to provide funding to developing nations to help them reduce their emissions . This agreement seeks to strike a balance between the responsibility of nations who have already contributed to current greenhouse gas levels, and those nations which are contributing now.  This table contains the emissions for each region in 2019 and the population of each region in 2019 . We use data from 2019 so that we can ignore the effects of the pandemic, which caused an (unfortunately, short-term) reduction in CO2 emissions that was unequal across different regions.     Region  2019 Emissions  Population    International Transport     -    Oceania          Asia (excluding China & India)          China          India          Africa          South America          North America (excluding USA)          United States          Europe (excluding EU-27)          EU-27          Total           What does this table tell us about each region's share of emissions? Use the data in the table to answer the questions below.  Which region on this list contributed the most CO2 to the atmosphere in 2019? Remember, in scientific notation, you compare the exponents first and then the digits. China, with tons of CO2 in 2019, had higher emissions than any other region, because the exponent is larger than any other.  Some countries,like China, argue that their emissions are naturally higher because they have more people. Compare the United States and China - if you look instead at tons of CO2 per person, which one has higher emissions? To find emissions per person, divide the total emissions by the population. Be careful to divide correctly with scientific notation! In China, we have In the USA, we have The USA produces more than twice as much per person as China.  What are the factors that should be used in deciding how much each country should reduce emissions? Should the population of the country play a role in making this decision? What about the overall wealth and how developed the country is? Should larger countries, like India and China, that are still developing be allowed to reduce emissions less than well-developed regions like the USA and Europe? The effects of global warming are also unevenly distributed, with low-lying, typhoon-prone countries in Oceania and drought-prone & desertifying countries in Africa being hardest hit. These regions have lower emissions (Oceania's total is skewed up by the presence of Australia and New Zealand, both highly developed countries with higher emissions). Should they be asked to make the same sacrifices as other nations in terms of cutting emissions, when they will also need to be dealing with the other consequences of global warming? All of these are questions that mathematics can help us understand, by allowing us to compare the quantities involved, and the consequences of changing those quantities.    What are the strategies for reducing emissions?  You may have heard of the carbon footprint , a particular individual's contribution to the carbon dioxide in the atmosphere. The idea of a carbon footprint is that each individual is responsible for their part of the greenhouse gas emission problem, and that they should do their part to help fix it. The Cool Climate Calculator from the University of California at Berkeley is one such carbon footprint calculator. The Cool Climate Calculator estimates how much carbon you personally produce, from sources such as driving, electricity, and foods you eat. It then provides suggestions for how you can reduce you carbon footprint, by doing things like driving less, carpooling, buying more efficient appliances, or becoming a vegetarian.  The idea of using carbon footprints to reduce emissions is that if everyone were aware of how much carbon they used, and made small changes, then our overall carbon use would go down. For example, livestock - animals raised for meat and other food products like milk - are estimated to make up 14.5% of global greenhouse gas emissions . Therefore, if everyone in the world switched to a vegan diet, those emissions would be reduced - though not eliminated, since they would be replaced by the emissions necessary to feed everyone a vegan diet instead.  Of course, getting everyone in the world to switch to a vegan diet would be very challenging. Individual actions to reduce emissions, like changing diet, buying more fuel-efficient vehicles, and switching to LED light bulbs do have an effect on overall emissions, but that effect is small. Effective climate change mitigation requires that these changes be made on a much larger scale.  The global pandemic, which shuttered businesses and reduced driving and energy use across the world, reduced carbon emissions into the atmosphere by only 5.4% . Experts estimate that we would need to reduce emissions by about 10 times that in order to keep global warming to 2 degrees Centigrade above pre-industrial levels. . If you think about how your life changed during the pandemic, imagine having to make similarly dramatic changes every year for 10 years to get a sense of how much you would need to change your life to solve this problem - and not only would you need to do it, but you would need to get everyone else to agree to do it too.  While the carbon footprint encourages individuals to make change in their own lives, other solutions focus on making broader change across entire countries or across the world. For example, another way to reduce emissions from livestock production would be to increases taxes and fees on meat production, encouraging people to eat less. The most effective ways to reduce emissions from driving - estimated to make up 25% of US emissions include requiring cars to have higher gas mileage, increasing the cost of gasoline, and developing better public transit.  By looking at the problem from a mathematical perspective, we can start to get an appreciation for the scale of the problem and which solutions will be most effective at solving it. The United Nations Environmental Programme has an interactive infographic on a Six Sector Solution for Climate Change which talks about the way that the solutions must balance individual and government action.  Which sector does the UN identify as the one where emissions can be cut the most? What are some strategies that they suggest to accomplish this? The UN document identifies Energy as the sector where the most change can be accomplished, and suggests repealing policies which benefit the fossil fuel industry, introducing policies to support renewable energy, and reducing individual energy consumption.    Consequences of Failing to Act  The Intergovernmental Panel on Climate Change (IPCC) has built mathematical models - like the ones we studied in , but much more complicated - to predict how much global temperatures will rise in the future. These models are referred to as Representative Concentration Pathways (RPC), because they represent how the concentration of CO will change throughout the future . These models range from RCP2.6, in which humans manage to limit global warming to an average of 1.5 degrees Celsius, to RCP4.5 with an increase of 2.4 degrees celsius, RCP6.0 with an increase of 3 degrees, and RCP8.5, in which humans continue to increase emissions as we have been for centuries, with global warming on average of 4.9 degrees Celsius by the year 2100 (and more beyond that).  These mathematical models are built the same way that the ones in are - using the physical properties of greenhouse gases. Because they also depend upon assumptions about complicated climatological process, like the role of melting sea ice in cooling the Earth or how the warming sea levels reduce the carbon capacity of plankton in the ocean, the predicted warming can vary greatly in a particular model. The RCP8.5 model, for example, predicts global warming of 4.9 degrees by 2100, but with a margin of error around 1.3 degrees . This means that the modelers are confident (in this case, 90% confident) that the actual sea level rise in this scenario would be between and degrees Celsius. This would produce a corresponding global sea rise of 0.53 to 1.78 meters (1.74 to 5.84 feet).  This sea level rise would not be evenly distributed, because colder water is more dense than warm water. For example, water around Antarctica and Greenland would actually cool, because of the melting ice contributed by a warmer climate. Water in warmer areas would expand more. , from , gives lower, median, and upper estimates of the amount of sea level rise that different cities will experience under three scenarios - when warming is limited to 2℃, 4℃, and 5℃ by 2100.    Sea Level Rise in Selected Cities under 3 Scenarios: 2℃, 4℃, and ℃ Temperature Rise by 2100   City  2 °C  4 °C  5 °C      Low  Median  Upper  Low  Median  Upper  Low  Median  Upper    Bangkok  0.12  0.19  0.32  0.35  0.59  1.17  0.49  0.87  1.91    Dublin  0.1  0.18  0.31  0.28  0.52  1.12  0.36  0.73  1.79    Glasgow  0.03  0.11  0.25  0.11  0.38  0.97  0.15  0.54  1.58    Guangzhou  0.12  0.21  0.34  0.36  0.62  1.2  0.51  0.91  1.93    Hamburg  0.17  0.27  0.4  0.42  0.69  1.25  0.56  0.95  1.95    Ho Chi Minh  0.12  0.2  0.33  0.37  0.62  1.2  0.5  0.9  1.96    Hong Kong  0.13  0.2  0.32  0.37  0.61  1.18  0.52  0.9  1.9    Jakarta  0.11  0.18  0.3  0.34  0.58  1.12  0.49  0.85  1.8    Kuala Lumpur  0.11  0.18  0.31  0.33  0.58  1.19  0.47  0.86  1.92    Lagos  0.14  0.21  0.34  0.38  0.62  1.2  0.52  0.9  1.92    London  0.12  0.2  0.33  0.3  0.55  1.15  0.38  0.75  1.82    Manila  0.13  0.2  0.34  0.37  0.63  1.22  0.51  0.92  1.99    New Orleans  0.16  0.24  0.37  0.39  0.63  1.27  0.52  0.88  2.01    New York  0.2  0.31  0.46  0.48  0.78  1.43  0.64  1.09  2.24    San Francisco  0.1  0.16  0.3  0.27  0.49  1.15  0.37  0.73  1.87     The Coastal Risk Screening Tool by Climate Central allows you to see maps of different cities after sea levels have risen. For example, this map shows the New York City area with 2.2m of sea level rise , the upper limit of the sea level rise estimated in . You can see that large parts of the area are underwater, including Newark and LaGuardia International Airports, Coney Island, and large parts of downtown Manhattan, including the World Trade Center. The densely populated city of Guangzhou, China, would suffer even more under the worst-case scenario of 1.99 m of sea level rise .  What would London look like with the median sea level rise from 5℃ of global warming? The median sea level rise from 5℃ of global warming is 0.78m, so we can round to 0.8m.  Putting this into the map, we get the following map of London . Substantial parts of South London would be under water, and even more of the port areas east of the city.   The article gives sea level rise figures for 136 coastal cities in Table S2. Find the median sea level rise in Miami if global warming is 5℃ by 2100. How does this compare to the median sea level rise if global warming is limited to 2℃ by 2100? The median sea level rise with 5℃ is 0.86 m. With 2℃ it is 0.22 m.  With 0.9 m of sea level rise, substantial parts of Miami Beach and areas around the river will be flooded, as seen in this map of Miami .  With 0.2 m of sea level rise, only small coastal areas will flood, as seen in this map of Miami .   Of course, all of these sea level rise calculations only account for the level of the sea under normal conditions. Other factors, like tides and winds, especially the storm surge from hurricanes, can produce temporarily much higher sea levels. Cities like Miami already experience flooding during high tides, which can reach as high as 1.2 m above current sea level . Global warming will increase the frequency and amplitude of these high tides, making the flooding even worse.  Mathematical models can be used to estimate the storm surge from future storms. Like the rise in sea level, this is very specific to particular areas - in this case, because of the geography that causes storm surge. The shape of the sea in a particular area can increase flooding in one area and decrease it in others. A mathematical model of New York harbor in New York City predicts that storm surges from hurricanes, which currently average 2 m, could be 2.75 m on average by 2100 in the RCP4.5 (2.4 ℃ of warming) scenario or over 3 m in the RCP8.6 (5 ℃ of warming) scenario.  Use the maps to see what New York City would look like if it suffered a hurricane with a 3 m storm surge, on top of the median sea level rise from 5 ℃ of global warming. 3 m plus median sea level rise of 1.09 m is 4.09 meters above the current sea level. 4.1 meters over current sea level would inundate huge portions of the New York City area, as seen in this map of New York City . All three major airports are underwater, and entire neighborhoods - Downtown, SoHo, Long Island City, Flushing, Jersey City, Hoboken - would be damaged.    "
+},
+{
+  "id": "climate-change-figure-cumulative-co2-emissions-region",
+  "level": "2",
+  "url": "climate-change-solving-for-change.html#climate-change-figure-cumulative-co2-emissions-region",
+  "type": "Figure",
+  "number": "3.8.1",
+  "title": "",
+  "body": " Stacked 100% line graph of historical share of total co2 emissions share from 1750 to present. Image description available.  Percentage of total global CO2 emissions since 1750. EU-27 contains emissions from the 27 nations of the European Union in 2021, with the United Kingdom and Russia (and other nations) in Europe (excl. EU-27). Image CC-BY 4.0 by Hannah Ritchie . Image Description .  "
+},
+{
+  "id": "climate-change-figure-annual-co2-emissions-region",
+  "level": "2",
+  "url": "climate-change-solving-for-change.html#climate-change-figure-annual-co2-emissions-region",
+  "type": "Figure",
+  "number": "3.8.2",
+  "title": "",
+  "body": " Stacked 100% line graph of annual share of co2 emissions from 1750 to present. Image description available.  Percentage of annual global CO2 emissions since 1750. EU-27 contains emissions from the 27 nations of the European Union in 2021, with the United Kingdom and Russia (and other nations) in Europe (excl. EU-27). Image CC-BY 4.0 by Hannah Ritchie and Max Roser . Image Description .  "
+},
+{
+  "id": "table-9",
+  "level": "2",
+  "url": "climate-change-solving-for-change.html#table-9",
+  "type": "Table",
+  "number": "3.8.3",
+  "title": "",
+  "body": "   Region  2019 Emissions  Population    International Transport     -    Oceania          Asia (excluding China & India)          China          India          Africa          South America          North America (excluding USA)          United States          Europe (excluding EU-27)          EU-27          Total          "
+},
+{
+  "id": "exercise-78",
+  "level": "2",
+  "url": "climate-change-solving-for-change.html#exercise-78",
+  "type": "Checkpoint",
+  "number": "3.8.4",
+  "title": "",
+  "body": "Which region on this list contributed the most CO2 to the atmosphere in 2019? Remember, in scientific notation, you compare the exponents first and then the digits. China, with tons of CO2 in 2019, had higher emissions than any other region, because the exponent is larger than any other. "
+},
+{
+  "id": "exercise-79",
+  "level": "2",
+  "url": "climate-change-solving-for-change.html#exercise-79",
+  "type": "Checkpoint",
+  "number": "3.8.5",
+  "title": "",
+  "body": "Some countries,like China, argue that their emissions are naturally higher because they have more people. Compare the United States and China - if you look instead at tons of CO2 per person, which one has higher emissions? To find emissions per person, divide the total emissions by the population. Be careful to divide correctly with scientific notation! In China, we have In the USA, we have The USA produces more than twice as much per person as China. "
+},
+{
+  "id": "p-368",
+  "level": "2",
+  "url": "climate-change-solving-for-change.html#p-368",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "carbon footprint "
+},
+{
+  "id": "exercise-80",
+  "level": "2",
+  "url": "climate-change-solving-for-change.html#exercise-80",
+  "type": "Checkpoint",
+  "number": "3.8.6",
+  "title": "",
+  "body": "Which sector does the UN identify as the one where emissions can be cut the most? What are some strategies that they suggest to accomplish this? The UN document identifies Energy as the sector where the most change can be accomplished, and suggests repealing policies which benefit the fossil fuel industry, introducing policies to support renewable energy, and reducing individual energy consumption. "
+},
+{
+  "id": "climate-change-table-sea-level-rise",
+  "level": "2",
+  "url": "climate-change-solving-for-change.html#climate-change-table-sea-level-rise",
+  "type": "Table",
+  "number": "3.8.7",
+  "title": "",
+  "body": "  Sea Level Rise in Selected Cities under 3 Scenarios: 2℃, 4℃, and ℃ Temperature Rise by 2100   City  2 °C  4 °C  5 °C      Low  Median  Upper  Low  Median  Upper  Low  Median  Upper    Bangkok  0.12  0.19  0.32  0.35  0.59  1.17  0.49  0.87  1.91    Dublin  0.1  0.18  0.31  0.28  0.52  1.12  0.36  0.73  1.79    Glasgow  0.03  0.11  0.25  0.11  0.38  0.97  0.15  0.54  1.58    Guangzhou  0.12  0.21  0.34  0.36  0.62  1.2  0.51  0.91  1.93    Hamburg  0.17  0.27  0.4  0.42  0.69  1.25  0.56  0.95  1.95    Ho Chi Minh  0.12  0.2  0.33  0.37  0.62  1.2  0.5  0.9  1.96    Hong Kong  0.13  0.2  0.32  0.37  0.61  1.18  0.52  0.9  1.9    Jakarta  0.11  0.18  0.3  0.34  0.58  1.12  0.49  0.85  1.8    Kuala Lumpur  0.11  0.18  0.31  0.33  0.58  1.19  0.47  0.86  1.92    Lagos  0.14  0.21  0.34  0.38  0.62  1.2  0.52  0.9  1.92    London  0.12  0.2  0.33  0.3  0.55  1.15  0.38  0.75  1.82    Manila  0.13  0.2  0.34  0.37  0.63  1.22  0.51  0.92  1.99    New Orleans  0.16  0.24  0.37  0.39  0.63  1.27  0.52  0.88  2.01    New York  0.2  0.31  0.46  0.48  0.78  1.43  0.64  1.09  2.24    San Francisco  0.1  0.16  0.3  0.27  0.49  1.15  0.37  0.73  1.87    "
+},
+{
+  "id": "exercise-81",
+  "level": "2",
+  "url": "climate-change-solving-for-change.html#exercise-81",
+  "type": "Checkpoint",
+  "number": "3.8.8",
+  "title": "",
+  "body": "What would London look like with the median sea level rise from 5℃ of global warming? The median sea level rise from 5℃ of global warming is 0.78m, so we can round to 0.8m.  Putting this into the map, we get the following map of London . Substantial parts of South London would be under water, and even more of the port areas east of the city.  "
+},
+{
+  "id": "exercise-82",
+  "level": "2",
+  "url": "climate-change-solving-for-change.html#exercise-82",
+  "type": "Checkpoint",
+  "number": "3.8.9",
+  "title": "",
+  "body": "The article gives sea level rise figures for 136 coastal cities in Table S2. Find the median sea level rise in Miami if global warming is 5℃ by 2100. How does this compare to the median sea level rise if global warming is limited to 2℃ by 2100? The median sea level rise with 5℃ is 0.86 m. With 2℃ it is 0.22 m.  With 0.9 m of sea level rise, substantial parts of Miami Beach and areas around the river will be flooded, as seen in this map of Miami .  With 0.2 m of sea level rise, only small coastal areas will flood, as seen in this map of Miami .  "
+},
+{
+  "id": "exercise-83",
+  "level": "2",
+  "url": "climate-change-solving-for-change.html#exercise-83",
+  "type": "Checkpoint",
+  "number": "3.8.10",
+  "title": "",
+  "body": "Use the maps to see what New York City would look like if it suffered a hurricane with a 3 m storm surge, on top of the median sea level rise from 5 ℃ of global warming. 3 m plus median sea level rise of 1.09 m is 4.09 meters above the current sea level. 4.1 meters over current sea level would inundate huge portions of the New York City area, as seen in this map of New York City . All three major airports are underwater, and entire neighborhoods - Downtown, SoHo, Long Island City, Flushing, Jersey City, Hoboken - would be damaged. "
+},
+{
+  "id": "climate-change-reflection",
+  "level": "1",
+  "url": "climate-change-reflection.html",
+  "type": "Reading Questions",
+  "number": "3.9",
+  "title": "Reading Questions",
+  "body": "   "
+},
+{
+  "id": "exercise-84",
+  "level": "2",
+  "url": "climate-change-reflection.html#exercise-84",
+  "type": "Reading Question",
+  "number": "3.9.1",
+  "title": "",
+  "body": " "
+},
+{
+  "id": "climate-change-exercises",
+  "level": "1",
+  "url": "climate-change-exercises.html",
+  "type": "Exercises",
+  "number": "3.10",
+  "title": "Exercises",
+  "body": " Mathematical exercise. These exercises should be quantitative in nature, but could involve other tasks, like gathering data, using technology, or analyzing consequences to come to an answer. The answer need not be quantitative.  Mathematical exercise  "
+},
+{
+  "id": "exercise-85",
+  "level": "2",
+  "url": "climate-change-exercises.html#exercise-85",
+  "type": "Exercise",
+  "number": "3.10.1",
+  "title": "",
+  "body": "Mathematical exercise. These exercises should be quantitative in nature, but could involve other tasks, like gathering data, using technology, or analyzing consequences to come to an answer. The answer need not be quantitative. "
+},
+{
+  "id": "exercise-86",
+  "level": "2",
+  "url": "climate-change-exercises.html#exercise-86",
+  "type": "Exercise",
+  "number": "3.10.2",
+  "title": "",
+  "body": "Mathematical exercise "
+},
+{
+  "id": "climate-change-references",
+  "level": "1",
+  "url": "climate-change-references.html",
+  "type": "Section",
+  "number": "3.11",
+  "title": "References",
+  "body": " References   Bibliography  Worlddata.info, Ranking of countries by greenhouse gas emissions (06-07-2021), .  American Community Survey 2019, Tenure by Vehicles Available (06-25-2021), .  Our World in Data, CO2 Emissions per capita vs GDP per capita, .  National Centers for Environmental Information at the National Oceanic and Atmospheric Administration, Climate at a Glance: Global Time Series, .  World Bank, CO2 emissions (kt), .  Office for National Statistics, Number of Vehicls Per Household, .  A. Lipponen, CO2 Emissions, GDP & temperature by country 1961-2014, .  A. Lipponen, Temperature Anomalies by Country 1880-2017, .  R. Rohde, Map of Greenhouse Gas Emissions per Person, .  C. Chafe, H. Gordon, K. Pennington, K. Snow, V. Vasquez, D. Venton, The 1200-year Climate Podcast in Detail, .  British Geological Survey, United Kingdom Research Institute, What Causes the Earth's Climate to Change? .  C. Bardeen, R. Garcia, O. Toon, A. Conley, On transient climate change at the Cretaceous-Paleogene boundary due to atmospheric soot injections, PNAS 114 (36) (2017) E7415-E7424   IPCC, 2007: Climate Change 2007: The Physical Science Basis. Contribution of Working Group I to the Fourth Assessment Report of the Intergovernmental Panel on Climate Change [Solomon, S., D. Qin, M. Manning, Z. Chen, M. Marquis, K.B. Averyt, M.Tignor and H.L. Miller (eds.)]. Cambridge University Press, Cambridge, United Kingdom and New York, NY, USA.  World of Change: Global Temperatures .  Causes of Global Warming, Explained. .  Weart, S. The Discovery of Global Warming. .  Sharp, T. What is the Temperature of the Moon? .  Earth Science Communications Team at NASA's Jet Propulsion Laboratory. Climate Change: How do we Know?   C. Román-Palacios, J. Wiens. Recent responses to climate change reveal the drivers of species extinction and survival. PNAS 117 (8) (2020) P.4211-4217   D. Ray, P. West, M. Clark, J. Gerber, A. Prishchepov, S. Chatterjee. Climate change has likely already affected global food production. PLoS ONE 14(5): e0217148. (2019) .  United Nations High Commission on Refugees (UNHCR). Displaced on the frontlines of the climate emergency .  Census Bureau. 2019 U.S. Population Estimates Continue to Show the Nation’s Growth Is Slowing.   Environmental Protection Agency. Inventory of U.S. Greenhouse Gas Emissions and Sinks   M. Grant, K. Larsen. Preliminary China Emissions Estimates for 2019.   Worldometer. China Population.   U.S. Energy Information Administration. How much oil is consumed in the United States.   NASA. About Aqua.   H. Ritchie, Who has contributed most to global CO2 emissions? .  H. Ritchie, M. Roser, CO2 and Greenhouse Gas Emissions. .  United Nations. The Paris Agreement. .  Global Carbon Project, via Our World in Data. Annual CO2 Emissions by Region. .  E. Ortiz-Ospina, M. Roser, H. Ritchie, World Population Growth. .  P.J. Gerber, H. Steinfeld, B. Henderson, A. Mottet, C. Opio, J. Dijkman, A. Falcucci, G. Tempio, Tackling climate change through livestock – A global assessment of emissions and mitigation opportunities. Food and Agriculture Organization of the United Nations (FAO), Rome (2013). .  Environmental Protection Agency. Sources of Greenhouse Gas Emissions. .  C. Rasmussen. Emission Reductions From Pandemic Had Unexpected Effects on Atmosphere.   University of East Anglia Communications. Global Carbon Emissions Need to Shrink by 10 Times Faster. .  United Nations Environment Programme. The Six-Sector Solution to the Climate Crisis.   G. P. Wayne. The Beginner's Guide to Representative Concentration Pathways. Skeptical Science. . Accessed 07-28-22.  S. Jevrejeva, L. Jackson, R. Riva, J. Moore. Coastal sea level rise with warming above 2 °C. PNAS 113 (47) 13342-13347. . Accessed 07\/30\/22.  NOAA. Tides & Currents. Observed Water Levels at 8723214, Virginia Key, Biscayne Bay, FL From 2016\/10\/02 00:00 GMT to 2016\/11\/01 23:59 GMT. .  A. Garner, M. Mann, K. Emanuel, R. Kopp, N. Lin, R. Alley, B. Horton, R. DeConto, J. Donnelly, D. Pollard. Impact of climate change on New York City’s coastal flood hazard: Increasing flood heights from the preindustrial to 2300 CE. PNAS 114 (45) 11861-11866. . Accessed 07\/30\/22.  C. Zhao, B. Liu, S. Piao, S. Asseng. Temperature increase reduces global yields of major crops in four independent estimates. PNAS 114 (35) 9326-9331. . Accessed 07\/30\/22.    Image Descriptions   A graph with years from 400,000 years ago on the horizontal axis and atmospheric CO2 in parts per million (ppm) on the vertical axis. The graph shows that atmospheric CO2 has fluctuated between about 180 and 300 ppm for the last 400,000 years, but has soared from less than 300 ppm to over 400 ppm in the last century.  A graph with the number of vehicles on the horizontal axis and millions of households on the vertical axis. For each number of vehicles, a rectangle is drawn with height equal to the number of households with that many vehicles. The data displayed is from the frequency table given above.  A graph with the per capita CO2 emissions in tons per person on the horizontal axis and number of countries on the vertical axis. For each range of emissions levels, a rectangle is drawn with height equal to the number of countries that produce that level of emissions. The data displayed is from the frequency table given above.  A graph with the names of countries on the horizontal axis and millions of equivalent tons of CO2 on the vertical axis. For each country, a rectangle is drawn with the height of the rectangle corresponding to the methane emissions of each country. The data displayed is from the table given above.  A circle with wedges representing countries with emissions in the given ranges. One wedge is very large, relative to the others, and several wedges are only 0 or 1 percent of the circle. The data displayed is from the table given above.  A graph with GDP, in 2011 dollars per person, on the horizontal axis and CO2 emissions, in tons per person, on the vertical axis. The values for 165 different nations are represented by dots on the graph, with the horizontal position of the dot corresponding to GDP and the vertical position of the dot corresponding to CO2 emissions. The data shown in the graph is in gdp and co2 emissions for all countries in 2018 [Excel Spreadsheet] .  A graph with years on the horizontal axis and the global mean temperature anomaly, in degrees celsius difference from the mean temperature from 1901-2000 on the vertical axis. The value for each year is represented by a dot on the graph, with the horizontal position of the dot corresponding to the year and the vertical position of the dot corresponding to global mean temperature anomaly. The data shown in the graph is in global mean temperature anomalies from 1880 to 2019 [Excel Spreadsheet] .  A graph with years on the horizontal axis and total co2 emissions in gigatons on the vertical axis. The values for the USA and China from 1960 to 2018 are represented as points on the graph, with the horizontal position determined by year and the vertical position determined by emissions. The data shown in the graph is in overall co2 emissions for the USA and China from 1960 to 2018 [Excel Spreadsheet] .  A graph with years on the horizontal axis and total co2 emissions in gigatons on the vertical axis. The values for the USA and Singapore from 1960 to 2018 are represented as points on the graph, with the horizontal position determined by year and the vertical position determined by emissions. The data shown in the graph is in overall co2 emissions for the USA and Singapore from 1960 to 2018 [Excel Spreadsheet] .  A graph with years on the horizontal axis and total co2 emissions in kilotons on the vertical axis. The values for Singapore from 1960 to 2018 are represented as points on the graph, with the horizontal position determined by year and the vertical position determined by emissions. The data shown in the graph is in overall co2 emissions for the USA and Singapore from 1960 to 2018 [Excel Spreadsheet] .  A graph with years on the horizontal axis and total co2 emissions in kilotons on the vertical axis. The values for the United States from 1960 to 2018 are represented as points on the graph, with the horizontal position determined by year and the vertical position determined by emissions. The data shown in the graph is in overall co2 emissions for the USA and Singapore from 1960 to 2018 [Excel Spreadsheet] .  A graph with number of vehicles on the horizontal access and percentage of households owning that many vehicles on the vertical axis. For each number of vehicles, there is a bar representing the percentage of Great Britain households and a bar representing the percentage of United States households. The height of the bar is determined by the percentage. The data contained in the graph is shown here:      Percentage of Households    Number of vehicles  Great Britain  United States    0  25%  9%    1  43%  32%    2  23%  37%    3  6%  15%    4  2%  5%    5+  1%  2%      A circle divided into wedges, with each wedge proportional in size to the percentage of the United States population who own 0, 1, 2, 3, 4, or 5 or more vehicles. The percentages also appear on the graph. The data shown in the chart is the United States data from the table below:      Percentage of Households    Number of vehicles  Great Britain  United States    0  25%  9%    1  43%  32%    2  23%  37%    3  6%  15%    4  2%  5%    5+  1%  2%      A circle divided into wedges, with each wedge proportional in size to the percentage of the Great Britain population who own 0, 1, 2, 3, 4, or 5 or more vehicles. The percentages also appear on the graph. The data shown in the chart is the Great Britain data from the table below:      Percentage of Households    Number of vehicles  Great Britain  United States    0  25%  9%    1  43%  32%    2  23%  37%    3  6%  15%    4  2%  5%    5+  1%  2%      Two bars, one for the United States and one for Great Britain. Each bar is divided proportionally using the number of households with 0, 1, 2, 3, 4, or 5 or more vehicles in each country. The data shown in the chart is the data in this table:      Percentage of Households    Number of vehicles  Great Britain  United States    0  25%  9%    1  43%  32%    2  23%  37%    3  6%  15%    4  2%  5%    5+  1%  2%      A stacked 100% line chart, with years from 1750 to present on the x-axis, and percentage of total historical global CO2 emissions from 1750 to that year on the y-axis. Different colors denote the different regions of the world. The data shown in the chart is available at   A stacked 100% line chart, with years from 1750 to present on the x-axis, and percentage of annual global CO2 emissions from 1750 to that year on the y-axis. Different colors denote the different regions of the world. The data shown in the chart is available at     "
+},
+{
+  "id": "table-11",
+  "level": "2",
+  "url": "climate-change-references.html#table-11",
+  "type": "Table",
+  "number": "3.11.1",
+  "title": "",
+  "body": "     Percentage of Households    Number of vehicles  Great Britain  United States    0  25%  9%    1  43%  32%    2  23%  37%    3  6%  15%    4  2%  5%    5+  1%  2%    "
+},
+{
+  "id": "table-12",
+  "level": "2",
+  "url": "climate-change-references.html#table-12",
+  "type": "Table",
+  "number": "3.11.2",
+  "title": "",
+  "body": "     Percentage of Households    Number of vehicles  Great Britain  United States    0  25%  9%    1  43%  32%    2  23%  37%    3  6%  15%    4  2%  5%    5+  1%  2%    "
+},
+{
+  "id": "table-13",
+  "level": "2",
+  "url": "climate-change-references.html#table-13",
+  "type": "Table",
+  "number": "3.11.3",
+  "title": "",
+  "body": "     Percentage of Households    Number of vehicles  Great Britain  United States    0  25%  9%    1  43%  32%    2  23%  37%    3  6%  15%    4  2%  5%    5+  1%  2%    "
+},
+{
+  "id": "table-14",
+  "level": "2",
+  "url": "climate-change-references.html#table-14",
+  "type": "Table",
+  "number": "3.11.4",
+  "title": "",
+  "body": "     Percentage of Households    Number of vehicles  Great Britain  United States    0  25%  9%    1  43%  32%    2  23%  37%    3  6%  15%    4  2%  5%    5+  1%  2%    "
+},
+{
   "id": "solutions-1",
   "level": "1",
   "url": "solutions-1.html",

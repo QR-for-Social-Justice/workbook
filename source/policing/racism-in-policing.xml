@@ -1,0 +1,542 @@
+<chapter xml:id="racism-in-policing"  xmlns:xi="http://www.w3.org/2001/XInclude">
+	<title>Racism in Policing</title>
+	<introduction xml:id="racism-in-policing-introduction">
+		<title>Introduction</title>
+		<p>
+			<em>This module was authored by <xref ref="rrohatgi"/> and <xref ref="jwalsh"/></em>
+		</p>
+		<p>
+			In recent years, data on policing has become more accessible than ever before. Through endeavors like The Stanford Open Policing Project <xref ref="racism-policing-biblio-stanford-open"/>, it is now possible for a wide array of stakeholders to scrutinize the police practices of in their communities. 
+		</p>
+		<p>
+			In this chapter, you will use statistical programming tools like R and Python notebooks to analyze large amounts of police data. These are datasets that would either be extremely slow or impossible to open in Excel or Google Docs.
+		</p>
+	</introduction>
+	<section xml:id="racism-in-policing-objectives">
+		<title>Objectives</title>
+		<p>
+			By the end of this module students will be able to:
+		</p>
+		<ol>
+			<li> 
+				Differentiate between numerical and categorical variables.
+			</li>
+			<li> 
+				Determine the mean and median of numerical data.
+			</li>
+			<li> 
+				Create visual representations of data.
+			</li>
+			<li> 
+				Understand proportions.
+			</li>
+			<li> 
+				Apply these concepts to crime data to search for racial bias in policing.
+			</li>
+			<li>  
+				Use Bayes' theorem to calculate conditional probabilities in real-world contexts.
+			</li>
+			<li> 
+				Use  Google Colab/Python and large datasets to aid in these calculations.
+			</li>
+		</ol>
+	</section>
+	<section xml:id="racism-in-policing-understanding-the-issue">
+		<title>Understanding the Issue</title>
+		<p>
+			California provides an informative example of the political process surrounding police data, and how state level data has led to local impact. 
+		</p>
+		<p>
+			In 2016 the Racial Identity and Profiling Act (RIPA) was passed, which enabled the widespread collection of racial identity in police interactions <xref ref=" racism-policing-biblio-ca-gov"/>. Before RIPA, the only cities in California that were required to collect data on the race of citizens involved in police stops were cities whose police forces were under consent decrees- meaning that the federal government had previously found widespread misconduct and mandated that the police force collect that data.
+		</p>
+		<p>
+			RIPA formed an advisory board comprised of community stakeholders and academic researchers. Each year the board analyzes stop data and releases reports on disparities in policing, which are then used by communities around the state to advocate for changes in both funding and accountability measures for police. As a result of the data, cities like Berkeley, Oakland, San Diego, and Los Angeles have started taking steps towards significant changes to police practices.
+		</p>
+		<p>
+			Note: Although <em>race</em> is regarded as a social construct by scientists from a wide variety of backgrounds <xref ref="racism-policing-biblio-nature-race"/>, we acknowledge the very real racialized oppression that many groups experience in the United States. The use of race as a variable in this data is borne out of the necessity of shedding light on this oppression. In some cases police report the race of the person they stop, and in some cases it is also self-reported, which can lead to some uncertainty.
+		</p>
+	</section>
+	<section xml:id="racism-in-policing-cui-bono">
+		<title>Cui Bono: Who Benefits?</title>
+		<p>
+			When police practices are not scrutinized, the public loses. In many communities, the fines and fees generated from racialized overpolicing becomes a major source of city income. In communities like Ferguson, Missouri this can have devastating effects on public trust in the police <xref ref="racism-policing-biblio-ferguson"/>. When court cases are brought against police for misconduct, taxpayers ultimately pay out settlements to victims <xref ref="racism-policing-bilio-settlements"/>. 
+		</p>
+		<p>
+			Two classes of organizations benefit most from a lack of accountability in policing:
+		</p>
+		<ol>
+			<li> 
+				Police, police unions, and local governments: when these groups are not held accountable for racialized policing, exploitative fine and fee structures continue to generate revenue and police unions can continue to  protect members from misconduct claims <xref ref="racism-policing-biblio-unions"/>. 
+			</li>
+			<li> 
+				A host of private companies like the GEO Group, Core Civic, or LaSalle Corrections that make money off of both building prisons and exploiting cheap prison labor <xref ref="racism-policing-biblio-companies"/>.
+			</li>
+		</ol>
+	</section>
+	<section xml:id="racism-in-policing-big-problem">
+		<title>Big Problem: Racially-biased Policing</title>
+		<assemblage>
+			<p>
+				What is racially-biased policing? How do we know if police are treating specific groups differently?
+			</p>
+			<p>
+				How can we detect racially-biased policing from crime data?
+			</p> 
+		</assemblage>
+	</section>
+	<section xml:id="racism-policing-understanding-data">
+		<title>Understanding data</title>
+		<introduction>
+		<p>
+			We have two large data sets, adapted from the Stanford Open Policing Project <xref ref="racism-policing-biblio-stanford-open"/>, giving information on vehicular stops in Hartford, CT and Philadelphia, PA between April 1, 2014 and September 29, 2016. Anyone can access these data sets at <url href="https://openpolicing.stanford.edu"/>. Below are the first two rows from the Philadelphia data set.\\
+		</p>
+		<table>
+			<tabular>
+				<row>
+					<cell> date </cell><cell> time </cell><cell> age </cell><cell> race </cell><cell> sex </cell><cell> searchfrisk </cell><cell> contraband </cell><cell> arrest </cell>
+				</row>
+				<row>
+					<cell>2014-04-01 </cell><cell> 0:00:00 </cell><cell> 20 </cell><cell> white </cell><cell> male </cell><cell> FALSE </cell><cell> NA </cell><cell> FALSE </cell>
+				</row>
+				<row>
+					<cell>2014-04-01 </cell><cell> 0:04:00 </cell><cell> 33 </cell><cell> black </cell><cell> male </cell><cell> FALSE </cell><cell> NA </cell><cell> FALSE</cell>
+				</row>
+			</tabular>
+		</table>
+		<p>
+			We call each row an <term>observational unit</term> or <term>observation</term>. In this case, each observation is one vehicular stop. Each column is called a <term>variable</term>; here we have 8 variables. First, the date and time of the stop are provided. The next three variables give the age, race, and sex of the driver of the vehicle. 
+		</p>
+		<p>
+			The <c>searchfrisk</c> variable is <c>TRUE</c> if the vehicle was searched or the driver was frisked and <c>FALSE</c> otherwise. If either the vehicle was searched or the driver was frisked, <c>contraband</c> is <c>TRUE</c> if an item was found which was illegal for the driver to possess and <c>FALSE</c> otherwise. If no search or frisk was conducted, contraband cannot be found, so <c>NA</c> (for ``not available'') is written. Finally, the driver is either arrested (<c>TRUE</c>) or not arrested (<c>FALSE</c>).
+		</p>
+		<p>
+			The <c>age</c> variable is a <term>numerical</term> variable since the response is a number and it makes sense to perform arithmetic operations on these numbers, such as addition, subtraction, or computing averages. The last five variables are not numerical. Since the responses to these variables fall into different categories, these are called <term>categorical</term> variables. We won't be analyzing the <c>date</c> and <c>time</c> variables, but whether they are considered numerical or categorical depends on the situation.
+		</p>
+	</introduction>
+		<subsection xml:id="racism-policing-understanding-data-summarizing-data">
+			<title>Summarizing Data</title>
+			<subsubsection xml:id="racism-policing-understanding-data-summarizing-data-numerical">
+				<title>Numerical data</title>
+				<p>
+					Suppose we are given the following values of a numerical variable:
+				</p>
+				<me>
+					[2,10,3,6,8,3,4,5,2,3,5,6,1,7,9,8,10,8.]
+				</me>
+				<p>
+					These values could represent the cost of 18 different taxi rides or 18 students' scores on a quiz or the number of petals on 18 different flowers.
+				</p>
+				<p>
+					We often want to find the ``center'' or ``middle'' of the values. To compute the <term>mean</term>, we simply add up the values and divide the total by the number of values. In this case, we get
+				</p>
+				<me>
+					\frac{2+10+3+6+8+3+4+5+2+3+5+6+1+7+9+8+10+8}{18}=\frac{100}{18}\approx 5.56.
+				</me>
+				<p>
+					We could say that, on average, each taxi ride cost $5.56, or that the average score on the quiz was 5.56. But sometimes the mean can hide useful information. Suppose we have a class of 10 students and one student has 10 cookies, while the other 9 students have 0 cookies. The mean number of cookies each student has is
+				</p>
+				<me>
+					\frac{10+0+0+0+0+0+0+0+0+0}{10}=1.
+				</me>
+				<p>
+					So, on average, each student has 1 cookie. But the ``average student'' definitely does not have one cookie--in fact, almost all of the students have 0 cookies! 
+				</p>
+				<p>
+					The <term>median</term> is the middle value once the data is sorted (if there is an even number of values, the median is the mean of the two middle values). For our initial example, we first sort the data:
+				</p>
+				<me>
+					[1,2,2,3,3,3,4,5,5,6,6,7,8,8,8,9,10,10.]
+				</me>
+				<p>
+					Since there is an even number of values, we take the mean of the two values in the middle, which are 5 and 6. Hence the median is <m>\frac{5+6}{2}=5.5</m>. Notice that half of the values are less than the median and half are greater. 
+				</p>
+				<p>
+					But what if we want to know more about the data we have than just the mean and median? We can create a <term>histogram</term>. The histogram below provides one way to visualize the data from our initial example.
+				</p>
+				<figure xml:id="racism-in-policing-figure-histogram">
+					<image source="racism-in-policing/images/hist.png">
+						FIX
+					</image>
+					<caption>
+						FIX
+					</caption>
+				</figure>
+				<p>
+					On the <m>x</m>-axis, we've grouped our values into intervals--the leftmost interval goes from 0 to 2, inclusive. The height of the bar in this interval (called the <term>frequency</term>) is 3, since there are three values (<m>1,2,2</m>) in our data in this interval. The next interval goes from 2 to 4. The interval includes 4 but it does not include 2. The frequency here is 4, because our data included three 3s and one 4. The third interval goes from 4 to 6, and again includes its upper endpoint, 6, but not its lower endpoint, 4. The frequency here is 4, because our data included two 5s and two 6s. The final two intervals are from 6 to 8 (including 8 but not 6) and 8 to 10 (including 10 but not 8). The frequencies in the last two intervals are 4 and 3, respectively. 
+				</p>
+				<p>
+					Let us apply these ideas to the <c>age</c> variable from the Hartford data. Since there 9630 stops recorded in this data set, computing the mean and median by hand would take a long time! Instead, we'll use <c>R</c>, a programming language heavily used in statistics. The functions <c>mean</c> and <c>median</c> give the mean and median of the variable <c>age</c>, while <c>hist</c> creates the histogram. Just hit "Evaluate <c>R</c>"" below each block of code to see the results!
+				</p>
+				<sage language="R">
+					<input>
+						FIX
+						age &lt;- hartford$age
+						mean(age)
+					</input>
+				</sage>
+
+				<sage language="R">
+					<input>
+						median(age)
+					</input>
+				</sage>
+
+				<sage language="R">
+					<input>
+						hist(age)
+					</input>
+				</sage>
+			</subsubsection>
+			<subsubsection xml:id="racism-policing-understanding-data-categorical-data">
+				<title>Categorical data</title>
+				<p>
+					If our data is categorical, none of the previous methods work--we can't take averages or sort the data from least to greatest. Nor can we create intervals and use these to make histograms.
+				</p>
+				<p>
+					However, there are still a couple things we can do! We can summarize data in a <term>table</term> or make a <term>bar chart</term>.
+				</p>
+				<p>
+					Consider the <c>sex</c> variable from the Hartford data set. We first make a table in <c>R</c>
+				</p>
+				<sage language="R">
+					<input>
+						sex &lt;- hartford$sex
+						table(sex)
+					</input>
+				</sage>
+				<p>
+					From this table, we can see exactly how many of the stopped drivers were male and female. Then, we can use these numbers to determine the <term>proportion</term> of stopped drivers who were female by dividing the number of females (which we just found in the table) by the total number of stops (which we know is 9630). We can get a visual representation of this same data by making a bar chart.
+				</p>
+				<sage language="R">
+					<input>
+						barplot(table(sex))
+					</input>
+				</sage>
+			</subsubsection>
+		</subsection>
+		<subsection xml:id="racism-policing-proportions">
+			<title>Proportions</title>
+			<subsubsection xml:id="racism-policing-proportions-traffic-stops">
+				<title>Are there more traffic stops in Hartford or Philadelphia?</title>
+				<p>
+					This question seems easy to answer. We can determine the number of stops in each city between April 1, 2014 and September 29, 2016 using the <c>nrow</c> function.
+				</p>
+				<sage language="R">
+					<input>
+						nrow(hartford)
+						nrow(philadelphia)
+					</input>
+				</sage>
+				<p>
+					There were a lot more stops in Philadelphia (678,445) than in Hartford (9630)! In fact, there were 
+				</p>
+				<me>\frac{678445}{9630}\approx 70</me>
+				<p>
+					times as many traffic stops in Philadelphia than in Hartford. Does this mean people in Philadelphia are worse drivers or commit more crime? Not necessarily--there are many more people in Philadelphia, so it makes sense that there are more traffic stops. Using data from the U.S. Census Bureau, we see that Philadelphia had approximately 1,555,000 people in 2015 and Hartford had 125,000 <xref ref="racism-policing-biblio-census-hartford"/>, <xref ref="racism-policing-biblio-census-philadelphia"/>. Therefore, there were
+				</p>
+				<me>\frac{155000}{125000}\approx 12.4</me>
+				<p>
+					times as many people in Philadelphia than in Hartford.
+				</p>
+				<p>
+					Well, that's interesting. Philadelphia had about 13 times the population, but 70 times the number of traffic stops as Hartford. These data show us that, there were many more traffic stops in Philadelphia than in Hartford in this time frame, <em>even when we control for population</em>. Unfortunately, the data cannot tell us <em>why</em> this is the case. Further research, with the help of experts in policing, history, crime, and a slew of other subjects may help us.
+				</p>
+			</subsubsection>
+			<subsubsection xml:id="racism-policing-proportions-race-in-stops">
+				<title>Are Black drivers stopped more often than drivers of other races?</title>
+				<p>
+					Now let's look at the racial makeup of the stopped drivers in each city. The data here isn't perfect; there are only six possible options for race: <c>asian/pacific islander</c>, <c>black</c>, <c>hispanic</c>, <c>white</c>, <c>other</c>, and <c>unknown</c>. Many, many people do not fit neatly into one of these categories, but we do what we can with the data we have. We use the <c>table</c> function to get the numbers we want.
+				</p>
+				<sage language="R">
+					<input>
+						table(hartford$race)
+						table(philadelphia$race)
+					</input>
+				</sage>
+				<p>
+					Using these tables and the total number of stops in each city, we see that 
+				</p>
+				<me>\frac{3589}{9630}\approx 37.3\% \textrm{ and } \frac{435548}{678445}\approx 64.2\%</me>
+				<p>
+					of the drivers stopped were Black in Hartford and Philadelphia, respectively. We now compare these percentages to 2015 population data from the US Census Bureau. For Hartford, 37.3\% of the drivers stopped were Black and 38\% of the population was Black--these numbers seem to indicate that Black drivers were not stopped more frequently than drivers of other races <xref ref=" racism-policing-biblio-census-hartford"/>. In Philadelphia, however, 64.2\% of the drivers stopped were Black while only 42.4\% of the population was Black <xref ref=" racism-policing-biblio-census-philadelphia"/>. It seems as though Black drivers were disproportionately stopped in Philadelphia during this time. Let's use the data on searches, contraband, and arrests to give us more insight.
+				</p>
+			</subsubsection>
+			
+		</subsection>
+	</section>
+	<section xml:id="racism-in-policing-bayes-theorem">
+		<title>Bayes' Theorem</title>
+		<introduction>
+			<p>
+				Let's begin with some probability. One way to represent probability is with a number between 1 and 0. A quick way to remember how to calculate some probabilities is
+			</p>
+			<me>
+				\frac{\textrm{\# of desired outcomes }}{ \textrm{\# of possible outcomes }}.
+			</me>
+			<p>
+				Consider the probability of rolling a number greater than 4 on a six sided die. There are 2 numbers greater than 4 (specifically, 5 and 6), and 6 total possibilities, so the probability of rolling greater than 4 is <m>\frac{2}{6}</m> or approximately 0.33333.
+			</p>
+			<p>
+				If events <m>A</m> and <m>B</m> do not influence the probability of each other happening (they are independent events), you can calculate their joint probability by just multiplying their probabilities together. Consider the act of rolling two dice. An example of two  independent events are <m>A</m>: rolling a 6, and then <m>B</m>: rolling an odd number. These events are independent because rolling a 6 with die 1 does not change the probability of rolling an odd number with die 2. Observe that <m>P(A)=\frac{1}{6}</m> and that <m>P(B)=\frac{3}{6}</m> since there are three odd numbers on a die. We can then use the formula
+			</p>
+			<me>
+				P(A , B)=P(A) P(B)
+			</me>
+			<p>
+				and plug in the values we just determined to get
+			</p>
+			<me>
+				P(A , B) = \frac{1}{6}\cdot\frac{3}{6} = \frac{3}{36}.
+			</me>
+			<p>
+				Consider the space of all possible outcomes of rolling two dice, all 36 outcomes. These individual outcome probabilities are recorded in the following table:
+			</p>
+			<table>
+				<tabular>
+					<row>
+						<cell><m>A \backslash B</m> </cell><cell> 1 </cell><cell> 2 </cell><cell> 3 </cell><cell> 4 </cell><cell> 5 </cell><cell> 6 </cell>
+					</row>
+					<row>
+						<cell> 1 </cell><cell> <m>1 / 36</m> </cell><cell> <m>1 / 36</m> </cell><cell> <m>1 / 36</m> </cell><cell> <m>1 / 36</m> </cell><cell> <m>1 / 36</m> </cell><cell> <m>1 / 36</m> </cell>
+					</row>
+					<row>
+						<cell> 2 </cell><cell> <m>1 / 36</m> </cell><cell> <m>1 / 36</m> </cell><cell> <m>1 / 36</m> </cell><cell> <m>1 / 36</m> </cell><cell> <m>1 / 36</m> </cell><cell> <m>1 / 36</m> </cell>
+					</row>
+					<row>
+						<cell> 3 </cell><cell> <m>1 / 36</m> </cell><cell> <m>1 / 36</m> </cell><cell> <m>1 / 36</m> </cell><cell> <m>1 / 36</m> </cell><cell> <m>1 / 36</m> </cell><cell> <m>1 / 36</m> </cell>
+					</row>
+					<row>
+						<cell> 4 </cell><cell> <m>1 / 36</m> </cell><cell> <m>1 / 36</m> </cell><cell> <m>1 / 36</m> </cell><cell> <m>1 / 36</m> </cell><cell> <m>1 / 36</m> </cell><cell> <m>1 / 36</m> </cell>
+					</row>
+					<row>
+						<cell> 5 </cell><cell> <m>1 / 36</m> </cell><cell> <m>1 / 36</m> </cell><cell> <m>1 / 36</m> </cell><cell> <m>1 / 36</m> </cell><cell> <m>1 / 36</m> </cell><cell> <m>1 / 36</m> </cell>
+					</row>
+					<row>
+						<cell> 6 </cell><cell> <m>1 / 36</m> </cell><cell> <m>1 / 36</m> </cell><cell> <m>1 / 36</m> </cell><cell> <m>1 / 36</m> </cell><cell> <m>1 / 36</m> </cell><cell> <m>1 / 36</m> </cell>
+					</row>
+				</tabular>
+			</table>
+			<p>
+				The probability of rolling a six for one of the rolls is represented in the bottom row. The probability of rolling a six and rolling either a 1,3, or 5 are represented by the corresponding columns in the last row, If you add them up, you get a 3/36 probability.
+			</p>
+			<p>
+				Now consider the game of craps. One desirable outcome of the game is to roll two dice that sum to 7 or 11. An example of two events are <m>A</m>: rolling a number less than 4, and <m>B</m>: rolling two dice that sum to 7. Let's say we wanted to know the probability of rolling two dice that sum to 7, given that the first roll is less than 4. In math notation, we write this probability as <m>P(B \vert A)</m>.
+			</p>
+			<p>
+				You may remember from a high school algebra course that 
+			</p>
+			<me>
+				P(B\vert A)=\frac{P(B,A)}{P(A)},
+			</me>
+			<p>
+				and then you can use this formula to determine the probability that the two dice sum to 7 given that the first roll is less than 4. 
+			</p>
+			<p>
+				If we take this formula and multiply both sides by <m>P(A)</m>, we see that 
+			</p>
+			<me>P(B,A)=P(A)P(B \vert A).</me>
+			<p>
+				But suppose we swap events <m>A</m> and <m>B</m>. Then notice that 
+			</p>
+			<me>
+				P(A\vert B)=\frac{P(A,B)}{P(B)}.
+			</me>
+			<p>
+				If we solve this for <m>P(A,B)</m> we get
+			</p>
+			<me>
+				P(A,B)=P(B)P(A\vert B).
+			</me>
+			<p>
+				You can also calculate this probability in terms of the probability of event <m>B</m>.
+			</p>
+			<me>
+				P(A,B)=P(B) P(A \vert B).
+			</me>
+			<p>
+				But notice that the probability of <m>A</m> and <m>B</m> is the same as the probability of <m>B</m> and <m>A</m>, so we know <m>P(A,B)=P(B,A)</m>. Plugging in the formulas we just determined for each of these, we see that 
+			</p>
+			<me>
+				P(B) P(A \vert B)=P(A) P(B \vert A).
+			</me>
+			<p>
+				Solving for <m>P(A \vert B)</m>, we obtain Bayes' Theorem:
+			</p>
+			<me>
+				P(A \vert B)= \frac{P(A)P(B \vert A)}{P(B)}.
+			</me>
+			<p>
+				You might ask, why would you do all of this manipulation?  This theorem is now ubiquitous in science, machine learning, and artificial intelligence. As we will see in later sections, Bayes' theorem allows you to make predictions and inferences with what seems like incomplete data. 
+			</p>
+		</introduction>
+		<subsection xml:id="racism-in-policing-bayes-theorem-false-positives">
+			<title>Using Bayes' Theorem to calculate false positives</title>
+			<p>
+				One consideration that policy makers and public health experts have to take into account when selecting tests for a disease is the false positive and false negative rate. These can be thought of as the probability of testing positive when a person does not have the disease (false positive) and the probability of testing negative when a person actually has the disease. 
+			</p>
+			<p>
+				Let's say we are trying to find the probability of a false negative. This is arguably the scarier scenario from a public health scenario, as we saw with asymptomatic carriers of the COVID-19 virus. If someone thinks they are negative but are actually positive, they might spread the disease to many others!
+			</p>
+			<p>
+				Let's say the Umbrella corporation is attempting to test a new rapid COVID test. They start by randomly selecting 100,000 people and administering two tests: their new rapid test and a 100 percent reliable (but slow) Super PCR test. (In reality PCR tests are not 100% effective.)
+			</p>
+			<p>
+				Note: "negative" means \emph{tested} negative, not actually negative, "positive" means <em>tested</em> positive, not actually positive.
+			</p>
+			<me>
+				P(infected \vert negative)= \frac{P(negative\vert infected)P(infected)}{P(negative)}
+			</me>
+			<p>
+				In the broader population, the prior belief of the Centers for Disease Control and Prevention is that the positive rate for the disease is 1 percent. Therefore, <m>P(infected) = 0.001</m>. The manufacturers of the test have taken a random sampling of people and administered the test. Of the 100,000 people, 98,500 people tested negative. Therefore <m>P(negative) = 98,500 / 100,000 = 0.985</m>.
+			</p>
+			<p>
+				Because there are many more non-infected people, and a low negativity rate for the test, the company decides to take the 1,500 people who tested negative using the Super PCR test. All of these people are actually infected, because the other test is 100 pct. accurate. Of these 1,500 people who are actually infected, 1,000 tested positive and 500 tested negative using the rapid test. Therefore, <m>P(negative \vert infected) = 500/1,500  = 1/3</m>. 
+			</p>
+			<p>
+				We now have everything we need to make the false negative calculation.  
+			</p>
+			<me>
+				P(infected | negative)= \frac{P(negative\vert infected)P(infected)}{P(negative)} = \frac{(1/3)(0.001)}{(0.985)}\approx 0.00032833.
+			</me>
+			<p>
+				This might not seem like a high probability, but consider the implications for a city of 1,000,000 people; that's <m>0.00032833 \times 1,000,000 = 328</m> people walking around the city, spreading disease!
+			</p>
+		</subsection>
+		
+	</section>
+	<section xml:id="racism-policing-solving-for-change">
+		<title>Solving for Change</title>
+		<subsection xml:id="racism-policing-proportions-searches">
+			<title>Are stopped drivers searched more often if they are Black?</title>
+			<p>
+				Once a driver is stopped, officers may or may not search them or their vehicle. We can use the <c>table</c> function we've used before in a new way to help us analyze if a driver's race is related to whether or not they are searched.
+			</p>
+			<sage language="R">
+				<input>
+					table(hartford$race,hartford$searchfrisk)
+				</input>
+			</sage>
+			<p>
+				In Hartford, we already saw that there were 3589 stops of Black drivers. In our new table, we see that 925 of these drivers were searched in some way (look at the <c>TRUE</c> row and <c>black</c> column). The remaining 2664 were not searched. For white drivers, 835 were searched out of a total of 3486 who were stopped. Therefore,
+			</p>
+			<me>\frac{925}{3589}\approx 25.8\%</me> 
+			<p>
+				of stopped Black drivers were searched while 
+			</p>
+			<me>\frac{835}{3486}\approx 24.0\%</me>
+			<p>
+				of stopped white drivers were searched. Stopped Black drivers seem to be searched at slightly higher rate than stopped white drivers. But perhaps the Black drivers have contraband at a slightly higher rate as well?
+			</p>
+			<p>
+				We use the <c>table</c> function again, but this time include whether or not contraband was found.
+			</p>
+			<sage language="R">
+				<input>
+					table(hartford$race,hartford$contraband,hartford$searchfrisk)
+				</input>
+			</sage>
+			<p>
+				The resulting table is a little more complicated--in fact, you probably see two tables! In the first table, all the entries are 0. The reason for these zeros is that we first consider all drivers who were not searched or frisked. There is no way to find contraband in this case, so the entry in the <c>contraband</c> column is <c>NA</c>--neither <c>TRUE</c> nor <c>FALSE</c>--so all of the entries are 0.
+			</p>
+			<p>
+				The second table includes all of the drivers who were searched or frisked. Notice that contraband was found for 8 of the 925 searched or frisked Black drivers, or <m>0.9\%</m>, and for 10 of the 835 searched or frisked white drivers, or <m>1.2\%</m>. We see that the proportion of white drivers who were stopped or frisked and who possess contraband is slightly higher than that for Black drivers. It is therefore possible that officers are searching Black drivers on less evidence than they are for white drivers.
+			</p>
+			<p>
+				In summary, in Hartford between April 2014 and September 2016, it seems as though Black drivers were not stopped disproportionately. Stopped Black drivers were searched or frisked at a slightly higher rate than stopped white drivers, and contraband was found on a slightly higher percentage of searched or frisked white drivers than searched or frisked Black drivers. While we cannot make any definitive conclusions based on our analysis, it seems as though there was a small anti-Black bias in vehicular stops and searches, but there did not seem to be large-scale, widespread racial disparities. You should edit the blocks of code above and see what conclusions you can make for the Philadelphia data.
+			</p>
+		</subsection>
+		<subsection xml:id="racism-in-policing-bayes-theorem-policing">
+			<title>Applying Bayes' Theorem to policing: practice problem</title>
+			<p>
+				Bayes theorem also gives us a tidy way to analyze probabilities in police interactions. Consider the following scenario: the residents of Fourtown have recently been complaining of age discrimination. They would like to calculate the probability of being searched given that the motorist was over 65.
+			</p>
+			<p>
+				We know that of the 100 police stops in the last year, 50 ended in searches. Of those 100 stops, 80 were over the age of 65. Thirty of those motorists over 65 years of age were searched. What is the probability of a Fourtown motorist being searched, given that they are over the age of 65?
+			</p>
+			<p>
+				We can use Bayes' Theorem! If <m>A</m> is the event that a motorist is searched and <m>B</m> is the event that a motorist is 65 years old or older, we see that
+			</p>
+			<me>
+				P(searched\vert 65 plus) = \frac{P(searched)P(65 plus \vert searched)}{P(65 plus)}=\frac{0.5\cdot 0.6}{0.8} = 0.375.
+			</me> 
+		</subsection>
+		<subsection xml:id="racism-in-policing-bayes-theorem-google-colab">
+			<title>Using Google Colab and Python to analyze a large police stop dataset</title>
+			<p>
+				To analyze a large police stop dataset, we'll need some more advanced tools. Use this <url href="https://colab.research.google.com/drive/1W_0KXi8bKwHomXs5NRpYgVJRL7GBCUqA?usp=sharing">Google Colab notebook to look deeper into the data on police stops and racism.</url>
+			</p>
+			<p>
+				Make a copy of the notebook by going to File <m>\rightarrow</m> Save a copy in Drive, then navigate to your Google Drive and follow along through the notebook. 
+			</p>
+		</subsection>
+	</section>
+	<reading-questions xml:id="racism-policing-reading-questions">
+		<exercise>
+			What are some limitations of this data in determining if police departments are racially biased? What additional data would help?
+		</exercise>
+		<exercise>
+			What actions can we take to accurately assess if a police department is racially biased? If a particular police department is shown to have a pattern of racial bias, what are some ways we can address the issue?
+		</exercise>
+	</reading-questions>
+	<exercises xml:id="racism-policing-exercises">
+		<p>
+			For the following three exercises, edit the blocks of code in <xref ref="racism-policing-understanding-data"/> to show results for stopped drivers in Philadelphia rather than in Hartford.
+		</p>
+		<exercise>
+			What was the mean age of stopped drivers in Philadelphia during this time? What about the median? Create a histogram of the <c>age</c> variable from the <c>philadelphia</c> data.
+		</exercise>
+		<exercise>
+			Create a table and bar chart of the <c>sex</c> variable from the <c>philadelphia</c> data.
+		</exercise>
+		<exercise>
+			In <xref ref="racism-policing-proportions-race-in-stops"/> we analyzed how often white and Black drivers were searched after they were stopped, and how often contraband was found among those who were searched, for stopped Hartford drivers. Apply the same techniques to the Philadelphia drivers. Were stopped white or Black drivers searched at a higher rate? Was contraband found at a higher rate among white or Black searched drivers?
+		</exercise>
+		<p>
+			For the next two exercises use Bayes' theorem and the Colab notebook.
+		</p>
+		<exercise>
+			Recent data has estimated the worldwide percentage of Spam emails  as 28.5% <xref ref="racism-policing-biblio-spam-email"/>. A new software company states that their product can detect 98% of emails as spam. Sometimes (2%) of the time, the filter incorrectly labels non-spam emails as spam (false positive). With these percentages in mind, what is the true probability that an email, if labeled spam, is actually a non-spam email? (Hint: there are many ways you can approach this, but it may make sense to use A to model an event that an email is labeled spam, and B to represent that the email actually is spam.)
+		</exercise>
+		<exercise>
+			Are white motorists more likely to have a warning issued than Hispanic motorists? Use the Colab notebook to answer this question.
+		</exercise>
+	</exercises>
+	<section xml:id="racism-policing-references">
+		<title>References</title>
+		<biblio xml:id="racism-policing-biblio-ca-gov">
+			Racial and Identity Profiling Act. Retrieved August 30, 2021, from <url href="https://post.ca.gov/Racial-and-Identity-Profiling-Act"/>
+		</biblio>
+		<biblio xml:id="racism-policing-bilio-settlements">
+			Corley, C. (2020, September 19). Police Settlements: How The Cost Of Misconduct Impacts Cities And Taxpayers. NPR, from <url href=" https://www.npr.org/2020/09/19/914170214/police-settlements-how-the-cost-of-misconduct-impacts-cities-and-taxpayers"/>
+		</biblio>
+		<biblio xml:id="racism-policing-biblio-unions">
+			Scheiber, N., Stockman, F., &amp; Goodman, J. D. (2020, June 6). How Police Unions Became Such Powerful Opponents to Reform Efforts. The New York Times, from <url href=" https://www.nytimes.com/2020/06/06/us/police-unions-minneapolis-kroll.html"/>
+		</biblio>
+
+		<biblio xml:id="racism-policing-biblio-ferguson">
+			Robertson, C. (2015, March 5). A City Where Policing, Discrimination and Raising Revenue Went Hand in Hand. The New York Times, from <url href=" https://www.nytimes.com/2015/03/05/us/us-details-a-persistent-pattern-of-police-discrimination-in-a-small-missouri-city.html"/>
+		</biblio>
+
+		<biblio xml:id="racism-policing-biblio-companies">
+			Capitalizing on Mass Incarceration: U.S. Growth in Private Prisons. (n.d.). The Sentencing Project. Retrieved March 22, 2022, from <url href=" https://www.sentencingproject.org/publications/capitalizing-on-mass-incarceration-u-s-growth-in-private-prisons/"/>
+		</biblio>
+
+		<biblio xml:id="racism-policing-biblio-nature-race">
+			Gannon, M.. Race Is a Social Construct, Scientists Argue. Scientific American. Retrieved August 30, 2021, from <url href="https://www.scientificamerican.com/article/race-is-a-social-construct-scientists-argue/"/>
+		</biblio>
+
+		<biblio xml:id="racism-policing-biblio-stanford-open">
+			E. Pierson, C. Simoiu, J. Overgoor, S. Corbett-Davies, D. Jenson, A. Shoemaker, V. Ramachandran, P. Barghouty, C. Phillips, R. Shroff, and S. Goel. A large-scale analysis of racial disparities in police stops across the United States. Nature Human Behaviour, Vol. 4, 2020.
+		</biblio>
+		<biblio xml:id="racism-policing-biblio-census-hartford"> 
+			U.S. Census Bureau, American Community Survey Demographic and Housing Estimates (2015), <url href="https://data.census.gov/cedsci/table?q=&amp;g=1600000US0937000&amp;y=2015&amp;tid=ACSDP1Y2015.DP05"/>
+		</biblio>.
+		<biblio xml:id="racism-policing-biblio-census-philadelphia"> 
+			U.S. Census Bureau, American Community Survey Demographic and Housing Estimates (2015), <url href="https://data.census.gov/cedsci/table?g=1600000US4260000&amp;y=2015&amp;tid=ACSDP1Y2015.DP05"/>
+		</biblio>.
+
+		<biblio xml:id="racism-policing-biblio-spam-email">
+			Spam e-mail traffic share 2019. (n.d.). Statista. Retrieved August 29, 2021, from <url href="https://www.statista.com/statistics/420400/spam-email-traffic-share-annual/"/>
+		</biblio>
+	</section>
+</chapter>

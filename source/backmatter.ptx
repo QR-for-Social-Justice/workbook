@@ -8,6 +8,8 @@
 <backmatter xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="backmatter">
   <title>Backmatter</title>
   
+  <xi:include href="./appendix_lit-review.ptx" />
+
   <solutions divisional="hint">
     <title>Selected Hints</title>
   </solutions>

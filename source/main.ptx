@@ -34,6 +34,8 @@
 
     <xi:include href="./climate-change/climate-change.ptx" />
 
+    <xi:include href="./legislation/ch_legislation.ptx" />
+
     <!-- The final chapter contains a wide variety of elements to  -->
     <!-- illustrate what pretext can do, plus links to more help.  -->
     <!-- We recommend keeping this handy, and commenting it out    -->

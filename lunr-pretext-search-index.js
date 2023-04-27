@@ -1657,6 +1657,222 @@ var ptx_lunr_docs = [
   "body": "     Percentage of Households    Number of vehicles  Great Britain  United States    0  25%  9%    1  43%  32%    2  23%  37%    3  6%  15%    4  2%  5%    5+  1%  2%    "
 },
 {
+  "id": "leg-understanding",
+  "level": "1",
+  "url": "leg-understanding.html",
+  "type": "Section",
+  "number": "4.1",
+  "title": "Understanding the Issue",
+  "body": " Understanding the Issue   We begin by investigating key definitions necessary to understand transgender and nonbinary identities and how they are targeted by recent bills.    Anti-Trans Bills in the U.S. Starting 2018    The following questions are about bills prohibiting various types of transition and healthcare for trans and nonbinary people in the U.S., primarily proposed and passed beginning in 2018. Think about your personal definition, then do some research online, to find definitions of the following terms. Be sure to use reputable websites: most university\/college sites (put \"site:*.edu\" at the end of your Google search), the leading professional organizations (American Medical Association, American Pediatric Association, American Psychological Association), the Genderbread Person , and (usually) the sources linked from Wikipedia are all options. In what way(s) do your personal definition(s) agree and disagree with the Internet definitions?   Gender.  Biological sex.  Assigned sex at birth.  Gender identity.  Transgender.  Nonbinary.  Social and medical transition.  Gender-affirming healthcare.  Drag performance.    We emphasize the years since 2018 in this analysis because, in 2019, the conservative Heritage Foundation and conservative Christian Family Policy Alliance distributed a model strategy for banning gender-affirming care to state legislators at a conference (Harvard Law Review 2021). In 2020, a conference attendee and South Dakota legislator published a version of the bill seeking to criminalize doctors' provision of puberty blockers and hormones to transgender patients under the age of 16. Similar bills followed the same year: in Colorado, Florida, Illinois, Iowa, Kentucky, Missouri, Oklahoma, and South Carolina (Bauer 2020). Though the 2020 bills failed, the language in bills in South Carolina, South Dakota, and Arkansas in 2021 attempting to allow physicians to refuse to treat transgender children shared similar language, which originated in a Model Conscience Protection Act published by Kevin Theriot and Ken Connelly of the conservative Alliance Defending Freedom (Theriot and Connelly, n.d.). As we will see below, more and more bills are being proposed, and more are passing, every year since.  These bills go against studies showing that transgender children between the age of 5 and 12 viewed their gender identities similarly to cisgender children (Olson, Key, and Eaton 2015), among other academic studies. The leading association of pediatricians in the United States recommends that youth who identify as [transgender] have access to comprehensive, gender-affirming, and developmentally appropriate health care that is provided in a safe and inclusive clinical space…[and] that pediatricians have a role in advocating for policies and laws that protect youth who identify as [transgender] from discrimination and violence (Rafferty et al. 2018).   We briefly describe how each aspect of gender-affirming healthcare is targeted by the categories of bills used in the data analysis below. Social transition is targeted through youth athletics bills preventing young people from competing on sports teams under their identified gender. ID requirements prevent the changing of the sex listed on birth certificates, driver's licenses, and other government IDs. Public facilities laws prevent all trans people from using restrooms and other gendered public facilities that match their gender identity. Schools\/education laws vary but include laws banning teachers from using students' correct pronouns at all or without parental permission, discussing queer and trans\/nonbinary identities in the classroom, and displaying items such as pride flags supporting queer and trans identities, among others.   Drag performance laws (perhaps better categorized as gender expression laws ), a recent development as of 2023, ban drag shows or male or female impersonators in certain circumstances, such as in the presence of minors (Tennessee's Senate Bill 3) or on Sundays from 1 a.m. to 12 p.m. (Arizona's SB 1030). Laws barring municipalities from passing nondiscrimination protections , as well as religious freedom laws, legalize discrimination in certain circumstances against LGBTQ+ people, particularly by those with a strongly felt religious conviction that being LGBTQ+ is wrong. Finally, healthcare laws prevent gender-affirming care for various groups in various ways, often including bans on hormone therapy and surgery for those under 18.  In the rest of this chapter, you will identify and analyze recent anti-trans and anti-nonbinary bills over time, focusing on their impacts, whether or not they passed, and other details that impact people's lives.  "
+},
+{
+  "id": "exercise-87",
+  "level": "2",
+  "url": "leg-understanding.html#exercise-87",
+  "type": "Exercise",
+  "number": "4.1.1",
+  "title": "",
+  "body": "Gender. "
+},
+{
+  "id": "exercise-88",
+  "level": "2",
+  "url": "leg-understanding.html#exercise-88",
+  "type": "Exercise",
+  "number": "4.1.2",
+  "title": "",
+  "body": "Biological sex. "
+},
+{
+  "id": "exercise-89",
+  "level": "2",
+  "url": "leg-understanding.html#exercise-89",
+  "type": "Exercise",
+  "number": "4.1.3",
+  "title": "",
+  "body": "Assigned sex at birth. "
+},
+{
+  "id": "exercise-90",
+  "level": "2",
+  "url": "leg-understanding.html#exercise-90",
+  "type": "Exercise",
+  "number": "4.1.4",
+  "title": "",
+  "body": "Gender identity. "
+},
+{
+  "id": "exercise-91",
+  "level": "2",
+  "url": "leg-understanding.html#exercise-91",
+  "type": "Exercise",
+  "number": "4.1.5",
+  "title": "",
+  "body": "Transgender. "
+},
+{
+  "id": "exercise-92",
+  "level": "2",
+  "url": "leg-understanding.html#exercise-92",
+  "type": "Exercise",
+  "number": "4.1.6",
+  "title": "",
+  "body": "Nonbinary. "
+},
+{
+  "id": "exercise-93",
+  "level": "2",
+  "url": "leg-understanding.html#exercise-93",
+  "type": "Exercise",
+  "number": "4.1.7",
+  "title": "",
+  "body": "Social and medical transition. "
+},
+{
+  "id": "exercise-94",
+  "level": "2",
+  "url": "leg-understanding.html#exercise-94",
+  "type": "Exercise",
+  "number": "4.1.8",
+  "title": "",
+  "body": "Gender-affirming healthcare. "
+},
+{
+  "id": "exercise-95",
+  "level": "2",
+  "url": "leg-understanding.html#exercise-95",
+  "type": "Exercise",
+  "number": "4.1.9",
+  "title": "",
+  "body": "Drag performance. "
+},
+{
+  "id": "sec-leg-obtain-clean",
+  "level": "1",
+  "url": "sec-leg-obtain-clean.html",
+  "type": "Section",
+  "number": "4.2",
+  "title": "Obtaining and Cleaning the Data",
+  "body": " Obtaining and Cleaning the Data   Here, we will find reputable sources for data on anti-trans bills and get the data into a form we can analyze.    Importing and Merging the Data    Finding Data Online  Our first goal is to find data. Note that any data found online may change web addresses, stop updating, go offline, or become unreliable over time. Your instructor will be able to tell you which sources of data to use if the ones below are no longer reliable.  Go to the website tracktranslegislation.com , which in turn obtains its data from LegiScan , and browse around. What are two things that you notice about the site? Two things that surprise you? Two things that aren't on the site that you wonder about?  This data is up-to-date from 2021 through April 21, 2023. In order to track bills prior to 2021, we use data from the ACLU's Past Legislation Affecting LGBT Rights Across the Country pages for 2018, 2019, and 2020 . Go to the ACLU \"Past Legislation Affecting LGBT Rights Across the Country 2020\" webpage and skim that page. What similarities do you notice with the data found on the Track Trans Legislation website? What differences do you notice? Click on the \"View 2019\" and \"View 2018 Session bills\" links and do the same for those years.  We'd like to get a sense of how anti-trans legislation in the U.S. changed over time, so we're going to try to merge the Track Trans Legislation (TTL) data with the ACLU data. Since the ACLU data has different bill \"Status\" categories than TTL, we'll need to figure out how to classify each ACLU bill into one of the TTL categories. Use the Terminology page on the TTL website to answer the following question. Which of the TTL categories would you classify \"Referred to committee\" into? \"Hearing scheduled\"? \"Withdrawn\"? You may want to click on the bill numbers on the ACLU site to see how the website LegiScan, a constantly-updated bill tracker, classifies each bill.    Note that the 2020 ACLU page was last updated on March 20, 2020, since many state legislatures were suspended or closed during the first year of the COVID-19 pandemic; the ACLU page promised to update the tracker as major new developments occur[red] . This data has distinct variable names and organization, so we also modify the ACLU data to match the Track Trans Legislation data as closely as possible.  For example, bills that were withdrawn, not passed by the end of a given legislative session, explicitly listed as Dead , or were recommended against by a committee and did not proceed in the legislature were relabeled Dead (at least for that year). The exception was when the bill description is specifically listed as hearing scheduled , referred to committee , carried over from another year, or otherwise makes clear that the bill is still under consideration, in which case Introduced or Crossed Over (depending on whether the bill had been passed by at least one chamber) were used.  We only include bills in categories tracked by both data sources; this leaves out, for example, bills preventing localities from passing anti-discrimination ordinances within a state. We use a broad reading of the religious freedom category to include bills that allow for people with sincerely-held religious beliefs in that state to challenge nondiscrimination laws, discriminate against LGBTQ+ people, refuse to provide healthcare to LGBTQ+ people, refuse to provide adoption services to LGBTQ+ people; discriminate against married LGBTQ+ people, and receive funding for discriminatory student groups at public universities, among others.    Cleaning the Data  First, the 2018-2020 ACLU datasets code state names by their two-letter abbreviations (e.g., AZ instead of Arizona ), while Track Trans Legislation uses full names. So we use a program (that you won't have to worry about!) to convert full names to abbreviations in the whole dataset. We also note that, for example, the 2021 dataset includes some bills passed in January 2022, so we eliminate duplicate bills.  This decreases the number of bills in our dataset from 927 to 893. Next, note that the bills whose status is labeled Introduced* by TTL are those that failed to meet their state's crossover deadline , the date by which a bill must pass out of the chamber in which it was introduced and to the other chamber (e.g. State House vs. Senate). According to the site Track Trans Legislation , a bill that is not passed in its initial chamber by the crossover deadline faces high procedural hurdles in order to move forward. Thus, we wish to classify these bills (at least for the current session) as Dead\/Failed .  Moreover, one bill's status is listed as Posted , Kentucky's HB132 in 2020. LegiScan research reveals that this bill died in committee, so we update its status to Dead\/Failed .   "
+},
+{
+  "id": "exercise-96",
+  "level": "2",
+  "url": "sec-leg-obtain-clean.html#exercise-96",
+  "type": "Exercise",
+  "number": "4.2.1.1",
+  "title": "",
+  "body": "Go to the website tracktranslegislation.com , which in turn obtains its data from LegiScan , and browse around. What are two things that you notice about the site? Two things that surprise you? Two things that aren't on the site that you wonder about? "
+},
+{
+  "id": "exercise-97",
+  "level": "2",
+  "url": "sec-leg-obtain-clean.html#exercise-97",
+  "type": "Exercise",
+  "number": "4.2.1.2",
+  "title": "",
+  "body": "This data is up-to-date from 2021 through April 21, 2023. In order to track bills prior to 2021, we use data from the ACLU's Past Legislation Affecting LGBT Rights Across the Country pages for 2018, 2019, and 2020 . Go to the ACLU \"Past Legislation Affecting LGBT Rights Across the Country 2020\" webpage and skim that page. What similarities do you notice with the data found on the Track Trans Legislation website? What differences do you notice? Click on the \"View 2019\" and \"View 2018 Session bills\" links and do the same for those years. "
+},
+{
+  "id": "exercise-98",
+  "level": "2",
+  "url": "sec-leg-obtain-clean.html#exercise-98",
+  "type": "Exercise",
+  "number": "4.2.1.3",
+  "title": "",
+  "body": "We'd like to get a sense of how anti-trans legislation in the U.S. changed over time, so we're going to try to merge the Track Trans Legislation (TTL) data with the ACLU data. Since the ACLU data has different bill \"Status\" categories than TTL, we'll need to figure out how to classify each ACLU bill into one of the TTL categories. Use the Terminology page on the TTL website to answer the following question. Which of the TTL categories would you classify \"Referred to committee\" into? \"Hearing scheduled\"? \"Withdrawn\"? You may want to click on the bill numbers on the ACLU site to see how the website LegiScan, a constantly-updated bill tracker, classifies each bill. "
+},
+{
+  "id": "sec-leg-visualize",
+  "level": "1",
+  "url": "sec-leg-visualize.html",
+  "type": "Section",
+  "number": "4.3",
+  "title": "Visualizing the Data",
+  "body": " Visualizing the Data   Bill Type vs. Status  We now summarize the relationships of the type of bill to its status to determine whether specific types of bills were more likely to succeed.  Note that crossing over refers to a bill being passed out of one state legislative chamber (either the State House or State Senate) and moving forward for consideration in the other chamber. Thus, a bill that has crossed over suggests majority support for the bill in at least one chamber.  ## Bill Type Crossed Over Dead\/Failed Introduced Passed ## Drag Performance 6 11 19 0 ## Healthcare 10 85 112 5 ## ID Updates 4 9 15 0 ## Nondiscrimination Protections 0 6 6 1 ## Other 8 26 38 1 ## Public Facilities 6 29 22 2 ## Religious Freedom 1 13 22 1 ## Schools \/ Education 8 42 47 1 ## Youth Athletics 23 70 158 3 ## Total 66 291 439 14 ## Signed\/Enacted Vetoed Total ## 2 0 38 ## 17 0 229 ## 5 0 33 ## 0 0 13 ## 4 1 78 ## 7 0 66 ## 4 0 41 ## 4 0 102 ## 35 4 293 ## 78 5 893  We see what percentage of each bill status was made up of each bill type:  ## Bill Type Crossed Over Dead\/Failed Introduced Passed ## Drag Performance 15.8% 28.9% 50.0% 0.0% ## Healthcare 4.4% 37.1% 48.9% 2.2% ## ID Updates 12.1% 27.3% 45.5% 0.0% ## Nondiscrimination Protections 0.0% 46.2% 46.2% 7.7% ## Other 10.3% 33.3% 48.7% 1.3% ## Public Facilities 9.1% 43.9% 33.3% 3.0% ## Religious Freedom 2.4% 31.7% 53.7% 2.4% ## Schools \/ Education 7.8% 41.2% 46.1% 1.0% ## Youth Athletics 7.8% 23.9% 53.9% 1.0% ## Total 7.4% 32.6% 49.2% 1.6% ## Signed\/Enacted Vetoed Total ## 5.3% 0.0% 100.0% ## 7.4% 0.0% 100.0% ## 15.2% 0.0% 100.0% ## 0.0% 0.0% 100.0% ## 5.1% 1.3% 100.0% ## 10.6% 0.0% 100.0% ## 9.8% 0.0% 100.0% ## 3.9% 0.0% 100.0% ## 11.9% 1.4% 100.0% ## 8.7% 0.6% 100.0%  And what percentage of each bill type had each status:  ## Status Drag Performance Healthcare ID Updates ## Crossed Over 9.1% 15.2% 6.1% ## Dead\/Failed 3.8% 29.2% 3.1% ## Introduced 4.3% 25.5% 3.4% ## Passed 0.0% 35.7% 0.0% ## Signed\/Enacted 2.6% 21.8% 6.4% ## Vetoed 0.0% 0.0% 0.0% ## Total 4.3% 25.6% 3.7% ## Nondiscrimination Protections Other Public Facilities Religious Freedom ## 0.0% 12.1% 9.1% 1.5% ## 2.1% 8.9% 10.0% 4.5% ## 1.4% 8.7% 5.0% 5.0% ## 7.1% 7.1% 14.3% 7.1% ## 0.0% 5.1% 9.0% 5.1% ## 0.0% 20.0% 0.0% 0.0% ## 1.5% 8.7% 7.4% 4.6% ## Schools \/ Education Youth Athletics Total ## 12.1% 34.8% 100.0% ## 14.4% 24.1% 100.0% ## 10.7% 36.0% 100.0% ## 7.1% 21.4% 100.0% ## 5.1% 44.9% 100.0% ## 0.0% 80.0% 100.0% ## 11.4% 32.8% 100.0%  It seems like bills related to ID updates (i.e., preventing trans and nonbinary people from having their IDs show their correct gender identity), public facilities (often preventing trans people from using the bathroom that fits their gender identity), and youth athletics (i.e., preventing trans girls from competing on girls' sports teams) are most likely to be signed by their state's governor and enacted into law (after passing both legislative chambers).  However, of all the bills that were signed and enacted, most of them by far were related to youth athletics (over double the number of bills from any other category), followed by healthcare, suggesting that more bills were proposed in those categories.  We seek to represent this data in a side-by-side bar chart. In order to provide a more digestible, big-picture viewpoint, we classify the bills by the type of gender-affirming care that is targeted: social transition (excluding artistic performance, which Track Trans Legislation categorizes under Drag Performance ), healthcare\/medical transition, drag performances (noting that performing in drag and being transgender are distinct, though sometimes overlapping, categories), and Other .     In order to better see proportions, we also show a stacked bar chart that scales every x -axis group to 100%:      Did the type of bill impact its likelihood of being passed and\/or signed?  However, the observed trends could simply relate to the fact that the largest numbers of bills nationwide were proposed in those categories.  In order to simplify the following charts and analysis, we combine certain bill statuses into categories: bills that have crossed over, passed, or were signed and enacted have a significant chance of impacting the lives of trans and nonbinary people in that state, while bills that were vetoed, died, or failed have no chance of impacting lives. Bills listed simply as introduced may or may not have the support to eventually pass, but since they are not currently impacting the ability of trans\/nonbinary people to access healthcare, play sports, etc., we count them as Not Passed .  Now, we want to see a breakdown of the number and percentages of each type of bill that did and didn't pass.  ## Bill Type Not Passed Passed Total ## Drag 30 8 38 ## Medical 197 32 229 ## Other 65 13 78 ## Social 443 105 548 ## Total 735 158 893 ## Bill Type Not Passed Passed ## Drag 78.9% 21.1% ## Medical 86.0% 14.0% ## Other 83.3% 16.7% ## Social 80.8% 19.2% ## Total 82.3% 17.7%  We wish to plot the number and proportion of each type of bill that was passed.          From this chart, it appears that bills restricting hormone therapy, puberty blockers, and other medical interventions are actually somewhat less likely to pass than other types of bills, and that while the number of anti-drag bills is substantially smaller than the number of other types of bills, they are somewhat more likely to pass.  Importantly, fewer than 25% of any type of bill since 2018 has passed. What happens when we break down the bills by year?     Is 2023 the Year of Transphobia?  A common claim in the news media, and a common feeling among trans and nonbinary folks, is that 2023 is by far the worst recent year for anti-trans legislation. Let's investigate the following questions:   What total number of anti-trans bills were proposed each year from 2018 to 2023?  What total number of anti-trans bills were passed each of these years? In 2023, since the session is not over in many states, we run the analysis in two ways: including both bills that crossed over and bills that were signed\/enacted, and only considering bills which were signed\/enacted.  What types of anti-trans bills were proposed more often in 2023 than in previous years?  What types of anti-trans bills were passed more often in 2023?  What states introduced\/passed the majority of anti-trans bills in 2023, and are these the same states as in previous years?   We start by creating a data frame that shows only the bills passed, crossed over (hence passed by at least one chamber of the legislature and not yet dead), and\/or signed and enacted between 2021 and 2023, as well as in each year and in the years preceding 2023.      Note that these bills only go through April 21, 2022 . To emphasize the change in the number of bills that have a chance of passing or have already been passed over time, we combine all the years 2017-2022 and compare them to 2023.     It appears that 2023 will, indeed, have many anti-trans bills pass than all previous years since 2018 combined (again, recall that the 2023 data in this analysis only goes through April 21, 2023). What about the likelihood of any particular anti-trans bill to pass in 2023 compared to previous years?      There appears to be a slight increase in the proportion of bills of all types that passed in 2023 compared to 2018-22. This difference becomes even more pronounced when we separate 2022:  ## after_21 Not Passed Passed ## 2022-23 78.2% 21.8% ## 2018-21 84.7% 15.3% ## Total 80.1% 19.9%       "
+},
+{
+  "id": "p-425",
+  "level": "2",
+  "url": "sec-leg-visualize.html#p-425",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "crossing over "
+},
+{
+  "id": "figure-32",
+  "level": "2",
+  "url": "sec-leg-visualize.html#figure-32",
+  "type": "Figure",
+  "number": "4.3.1",
+  "title": "",
+  "body": "   "
+},
+{
+  "id": "figure-33",
+  "level": "2",
+  "url": "sec-leg-visualize.html#figure-33",
+  "type": "Figure",
+  "number": "4.3.2",
+  "title": "",
+  "body": "   "
+},
+{
+  "id": "figure-34",
+  "level": "2",
+  "url": "sec-leg-visualize.html#figure-34",
+  "type": "Figure",
+  "number": "4.3.3",
+  "title": "",
+  "body": "   "
+},
+{
+  "id": "p-443",
+  "level": "2",
+  "url": "sec-leg-visualize.html#p-443",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "only go through April 21, 2022 "
+},
+{
+  "id": "figure-35",
+  "level": "2",
+  "url": "sec-leg-visualize.html#figure-35",
+  "type": "Figure",
+  "number": "4.3.4",
+  "title": "",
+  "body": "   "
+},
+{
+  "id": "figure-36",
+  "level": "2",
+  "url": "sec-leg-visualize.html#figure-36",
+  "type": "Figure",
+  "number": "4.3.5",
+  "title": "",
+  "body": "   "
+},
+{
+  "id": "sec-leg-future-directions",
+  "level": "1",
+  "url": "sec-leg-future-directions.html",
+  "type": "Section",
+  "number": "4.4",
+  "title": "Directions for Future Work",
+  "body": " Directions for Future Work   Bayesian Analysis  What do Bayesian analyses tell us about the trends seen in the exploratory data analysis above?    Textual Analysis of Template Bills & Proposed State Bills  There is substantial evidence (Pauly 2023; Schipper 2022; Contreras 2023) that template bills containing text for banning aspects of gender-affirming care and social transition were distributed at workshops hosted by far-right organizations such as the Heritage Foundation and Christian Family Policy Alliance over the past several years. For example, throughout 2019, the Heritage Foundation hosted a series of workshops on the medical risks of gender-affirming care for trans youth (Harvard Law Review 2021).  Given the text of template bills such as that found in Appendix II of (Theriot and Connelly, n.d.), how many of the bills proposed across the U.S. since 2019 have significant textual similarity to template bills authored by conservative organizations? Which template bills, and which organizations, have had the most influence in the text of bills that were proposed? Passed? In which states?    Do Anti-Trans Bills Reflect the Will of Voters?  In states where anti-trans bills are passed, is the percentage of voters (eligible\/likely voters, residents, etc.) in a state that support such bills a plurality? A majority? Greater or less than the number of legislature members who voted for the anti-trans bill?  How does the number of anti-trans bills passed in a state correlate to how gerrymandered the state is (using a measure such as Markov chain Monte Carlo (Metric Geometry & Gerrymandering Group, n.d.))?    State Prioritization of Anti-Trans Bills  Are most anti-trans bills passed during the beginning of legislative sessions, indicating that such bills are a high priority for the state legislature?  In order to extract information on state legislature convening and adjourning dates, we download the schedule of state legislature meeting dates from the National Conference of State Legislatures website, then use the Tabula tool to extract the data into a .csv file, making some manual edits. Finally, we load the .csv file into RStudio.  ## Rows: 56 Columns: 3 ## ── Column specification ──────────────────────────────────────────────────────── ## Delimiter: \",\" ## chr (3): State, Convene, Adjourn ## ## ℹ Use `spec()` to retrieve the full column specification for this data. ## ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.    Impact of Anti-Trans Bills on Trans and Nonbinary Mental Health  The 2022 Trevor Project National Survey on LGBTQ Youth Mental Health (The Trevor Project 2022) found that 59% of young trans men and 48% of young trans women had considered suicide in the past year, while 22% of trans boys and 12% of trans girls had attempted suicide. The same survey found that 93% of trans and nonbinary youth said they had worried about legislation denying trans people access to gender-affirming healthcare.  Is the number of Google searches or Twitter posts related to anxiety, depression, and\/or suicidality ( #distress ) among trans and nonbinary folks higher in 2023 than in previous years?  Is the amount of #distress correlated to whether a bill has just passed? To whether the bill impacts social or medical transition, drag performance, or Other ?  How does the amount of #distress in states that have not passed anti-trans bills compare to states in which an anti-trans bill has been passed in the past year? The past two years?    Queer and Trans Resistance  How does the number of posts related to organizing protests, whether online or in-person, on Twitter after the passage of an anti-trans bill in a particular state compare to the number immediately before the passage of that bill?  How does the number of out transgender and nonbinary people elected to public office, featured in the most widely consumed media outlets, generally being visible…related to the number of bills proposed\/passed? Possible source: LGBTQ+ Victory Fund for officeholders   "
+},
+{
+  "id": "refs-anti-trans-leg",
+  "level": "1",
+  "url": "refs-anti-trans-leg.html",
+  "type": "References",
+  "number": "4.5",
+  "title": "References",
+  "body": " ACLU of Missouri. 2023. Advocates Sue to Block Missouri Attorney General's Anti-Transgender Rule Restricting Gender-Affirming Care.  https:\/\/www.aclu-mo.org\/en\/news\/advocates-sue-block-missouri-attorney-generals-anti-transgender-rule-restricting-gender .  American Civil Liberties Union. 2018. Past Legislation Affecting LGBT Rights Across the Country (2018).  https:\/\/www.aclu.org\/past-legislation-affecting-lgbt-rights-across-country-2018 .  ———. 2019. Past Legislation Affecting LGBT Rights Across Country 2019.  https:\/\/www.aclu.org\/past-legislation-affecting-lgbt-rights-across-country-2019 .  ———. 2020. Past Legislation Affecting LGBT Rights Across the Country 2020.  https:\/\/www.aclu.org\/past-legislation-affecting-lgbt-rights-across-country-2020 .  Bauer, Sydney. 2020. The New Anti-Trans Culture War Hiding in Plain Sight.  The New Republic , February. https:\/\/newrepublic.com\/article\/156539\/new-anti-trans-culture-war-hiding-plain-sight .  Contreras, Russell. 2023. The Forces Behind Anti-Trans Bills Across the U.S.  https:\/\/www.axios.com\/2023\/03\/31\/anti-trans-bills-2023-america .  González, Oriana. 2023. What Is the State of Gender-Affirming Care in America.  https:\/\/www.axios.com\/2023\/03\/03\/gender-affirming-care-trans-youth-us .  Harvard Law Review. 2021. Outlawing Trans Youth: State Legislatures and the Battle over Gender-Affirming Healthcare for Minors.  Harvard Law Review 134 (6). https:\/\/harvardlawreview.org\/print\/vol-134\/outlawing-trans-youth-state-legislatures-and-the-battle-over-gender-affirming-healthcare-for-minors\/ .  Katy Steinmetz. 2014. The Transgender Tipping Point.  https:\/\/time.com\/135480\/transgender-tipping-point\/ .  Metric Geometry & Gerrymandering Group. n.d. GerryChain.  https:\/\/mggg.github.io\/GerryChain\/ .  Olson, Kristina R., Aidan C. Key, and Nicholas R. Eaton. 2015. Gender cognition in transgender children.  Psychological Science 26 (4): 467–74. https:\/\/doi.org\/10.1177\/0956797614568156 .  Pauly, Madison. 2023. Inside the Secret Working Group That Helped Push Anti-Trans Laws Across the Country.  https:\/\/www.motherjones.com\/politics\/2023\/03\/anti-trans-transgender-health-care-ban-legislation-bill-minors-children-lgbtq\/ .  Rafferty, Jason, COMMITTEE ON PSYCHOSOCIAL ASPECTS OF CHILD AND FAMILY HEALTH, COMMITTEE ON ADOLESCENCE, GAY, BISEXUAL, AND TRANSGENDER HEALTH AND WELLNESS SECTION ON LESBIAN, Michael Yogman, Rebecca Baum, Thresia B. Gambon, et al. 2018. Ensuring Comprehensive Care and Support for Transgender and Gender-Diverse Children and Adolescents.  Pediatrics 142 (4): e20182162. https:\/\/doi.org\/10.1542\/peds.2018-2162 .  Schipper, Kellie. 2022. Conservative Political Tactics to Obstruct Gender-Affirming Healthcare for Transgender Youth in the USA. PhD thesis.  The Trevor Project. 2022. 2022 National Survey on LGBTQ Youth Mental Health.  https:\/\/www.thetrevorproject.org\/survey-2022\/assets\/static\/trevor01_2022survey_final.pdf .  Theriot, Kevin H, and Ken Connelly. n.d. Free to Do No Harm: Conscience Protections for Healthcare Professionals.  Arizona State Law Journal 49 (0549): 549–605.  Trans Legislation Tracker. n.d. Trans Legislation Tracker: 2022 Anti-Transgender Bills.  https:\/\/translegislation.com\/bills\/2022 .  "
+},
+{
   "id": "sec_research-synthesis",
   "level": "1",
   "url": "sec_research-synthesis.html",
@@ -1675,189 +1891,189 @@ var ptx_lunr_docs = [
   "body": " Annotated Bibliography   Questions : How can higher-education mathematics instructors promote equality of opportunity through working toward the academic success of underrepresented students and encouraging students to critically analyze their sociopolitical environment with an eye toward social change?     Aslan Tutak, F., Bondy, E., & Adams, T. L. (2011). Critical pedagogy for critical mathematics education.  International Journal of Mathematical Education in Science and Technology ,  42 (1), 65–74. doi:10.1080\/0020739X.2010.510221   Critical pedagogy is pedagogy that aims to raise questions about \"the way things are\" and how things might be done differently with an eye toward equality and justice. Three domains related to critical mathematics education are surveyed: ethnomathematics, equity in mathematics education, and culturally responsive teaching. Ethnomathematics emphasizes the ways various cultures have done and do mathematics; culturally responsive teaching is defined as \"using the cultural characteristics, experiences, and perspectives of ethnically diverse students as conduits for teaching them more effectively\"; and equity in mathematics education is the creation of an educational environment in which all groups enjoy equal opportunities and equitable treatment.  Aslan Tutak, Bondy, and Adams argue that critical pedagogy has not been implemented systematically or in-depth in mathematics classrooms. The authors envision a combination of multiculturalism and equity efforts with a critical perspective, supported by education research. The authors also emphasize the importance of critical education of teachers.  Because critical pedagogy gives no specific teaching techniques or subject matter, it requires the deep commitment of the teacher or professor to the critical education process and adjustment of techniques to fit specific classrooms.     Bartell, T. G. (2013). Learning to teach mathematics for social justice: Negotiating social justice and mathematical goals.  Journal for Research in Mathematics Education ,  44 (1), 129–163.   The concept of teaching mathematics for social justice (TMSJ) is introduced as the use of mathematics both to provide students with the education necessary to succeed in the current system as well as “to critically analyze [students'] world to ultimately promote a democratic society in which all get an opportunity to participate fully\". A growing number of researchers argue that TMSJ can support the \"ongoing struggle for equity in mathematics education\". This article presents a qualitative study of teachers in a graduate course learning to implement TMSJ. Although there are many conceptions of what \"social justice\" and \"equity\" are, the author draws her conception from Paulo Freire of an education \"not to integrate those who are marginalized into the existing society but rather to change society so that all are included\". Darling-Hammond's (2002) model of equity pedagogy includes understanding of oneself in relation to others (Self), the power structures that interact with their understanding of pedagogy (Society), the ways that culture and context affect students (Students), and how to develop classroom practices that support their students (School). It seems to me that as students grow to understand mathematics as \"useful in investigating the sociopolitical realities that shape their lives\", we will see greater engagement by underrepresented students in mathematics, so that the dual goals of TMSJ are mutually reinforcing.  Bartell argues that expanding a social justice-related math curriculum across a whole unit or year, as well as educating teachers on how to choose data, would increase the extent to which teachers achieved TMSJ goals.     Springer, L., Stanne, M. E., & Donovan, S. S. (1999). Effects of small-group learning on undergraduates in science, mathematics, engineering, and technology: A meta-analysis.  Review of Educational Research , 69(1), 21–51.   Excessively competitive classroom environments have been shown to decrease the ability of underrepresented students to participate in the classroom. Several meta-analyses have shown that small-group learning and cooperation in the classroom increases achievement and productivity, self-esteem, inter-group attitudes, and attitudes toward learning, all of which benefit underrepresented students greatly and help to counter stereotype threat. Affective or humanist theorists argue that a move toward more democratic and collaborative teaching and learning processes would benefit women and underrepresented groups by giving them more opportunities to be heard. The authors’ meta-analysis showed that small-group learning benefitted student achievement significantly more for groups composed primarily of Black or Latin@\/e students ( d = 0.76 ) compared with mostly white ( d = 0.46 ) or relatively heterogeneous ( d = 0.42 ) groups. Moreover, small-group learning led to more favorable attitudes toward learning among all students, but especially among women.      Schulteis, M. S. (2013). Serving Hope: Building Service-Learning into a Non-Major Mathematics Course to Benefit the Local Community.  Primus  : Problems, Resources, and Issues in Mathematics Undergraduate Studies , 23(6), 572–584.   Service learning has been shown to provide an avenue to connect students’ learning with their lives and, in doing so, enhances both. Particularly in math courses, service learning has given students new motivation to master the course content. At Concordia University Irvine, a small liberal arts university, the required core mathematics course recommends that students tutor elementary-aged homeless students in mathematics. The university claims that the tutoring gives students an opportunity to relearn and strengthen their mastery of basic math skills. Moreover, students reflect on their experiences through written and oral work, and this gives them an increased sense of personal efficacy, awareness of the world, and awareness of their own personal values. Students also reflected on the ways that the mathematical “life lessons” from the Heart of Mathematics textbook by Burger and Starbird were used during the tutoring. Overall, service learning seemed to promote a greater understanding of both mathematics and the importance of service.      Hodge, L. L. (2006). An Orientation on the Mathematics Classroom that Emphasizes Power and Identity: Reflecting on Equity Research.  The Urban Review, 38(5),  373–385. doi:10.1007\/s11256-006-0041-7   This paper is focused on critiquing the notion of the neutrality of the mathematics classroom. Hodge defines diversity as cultural diversity, with “culture” including race, ethnicity, home life, class, gender, and the interactions between such categories. Hodge points out that racial groups are a social construct and argues against seeing racial groups as homogeneous. Hodge is oriented toward promoting equity in the mathematics classroom, especially considering mathematics as a “gatekeeper” for careers and life chances in general. Hodge argues that we should see the mathematics classroom as an environment for students which promotes a certain kind of thinking, one that is structured by “relationships among qualities” (376). Per Hodge, students possess ways of speaking, writing, dressing, and thinking determined by their culture (“cultural capital”), and students with cultural capital similar to that deemed “acceptable” or dominant in the classroom generally succeed and are rewarded. This conception of cultural capital brings into question the kinds of “academic success” that math teachers and professors are concerned with promoting. Hodge draws on the work of Moll (1997) to argue for the situation of mathematics education in the cultural realities of students, as well as examining what is regarded as “legitimate” participation in mathematics classrooms.      Treisman, U. (1992). Studying Students Studying Calculus: A Look at the Lives of Minority Mathematics Students in College.  The College Mathematics Journal, 23(5) , 362–372. doi:10.2307\/2686410   This article, adapted from a lecture by the author, discusses the author and colleagues’ experiences in trying to improve the performances (as measured by GPA and test scores) of students of color in calculus classrooms at UC-Berkeley. In the mid-1970s, when the author began his work, 60% of Black students enrolled in calculus at Berkeley received a D or F. The author’s initial conception of the reasons for this poor performance named student motivation, inadequate preparation, lack of family support, and income gaps as the culprits. Through interviews, Treisman realized the average student of color at Berkeley was highly motivated, that even students of color with high SAT scores (a measure of “prior preparedness”) were failing, and that students of color often had very supportive parents, though often they had lower incomes. However, Treisman noticed that the difference between (primarily) Black students who were failing and the Chinese students he studied who were getting higher grades was amount of time spent working outside of class and amount of group collaboration outside of class. Treisman implemented an “anti-remedial program” (368) for students who saw themselves as well-prepared to provide students with a challenging, collaborative, community-based learning environment, which emphasized the importance of a great deal of out-of-class work. According to Treisman, the program resulted in Black students outperforming their white and Asian peers. This seems to support the results of studies showing that all students, especially students of color, benefit greatly from group learning (c.f. Springer, Stanne, & Donovan, 1999, above).      Gutstein, E., & Peterson, B. (2005). Introduction. In E. Gutstein & B. Peterson (Ed.),  Rethinking Mathematics: Teaching Social Justice by the Numbers . Rethinking Schools.   In this section of their book Rethinking Mathematics , Gutstein and Peterson argue that a social justice approach to mathematics benefits students by allowing them to recognize the importance of mathematics as an essential tool for understanding and potentially changing the world. Other benefits of this philosophy, according to the authors, include educating students about social issues, connecting mathematics with students’ cultural and community histories, increasing student participation in democracy, and increasing student motivation. No studies are cited to support these assertions, but anecdotal evidence is used throughout the book to justify them. The authors advise teachers to get to know their students and communities and to use the issues students bring up as springboards for math lessons. This fits with the idea, brought up in class, that students come in to a classroom with their own schemas for understanding the world, and that meeting the students where they are is the best educational philosophy. The authors point out that disadvantaged communities, those who are currently the target of outreach to improve retention and performance in math courses, are the ones whose experiences are privileged under this style of teaching, and thus that they may be more likely to learn math in a justice framework. Gutstein and Peterson argue that teaching math in a “neutral” way is not possible, because even trying to leave politics out of the classroom is a political decision that prevents questioning of the status quo.      Gutiérrez, M. V. (2005). ‘I Thought This U.S. Place Was Supposed to Be About Freedom’: Young Latinas Engage in Mathematics and Social Change to Save Their School. In E. Gutstein & B. Peterson (Ed.),  Rethinking Mathematics: Teaching Social Justice by the Numbers . Rethinking Schools.   This chapter of Rethinking Mathematics centers around the math-based effort of the author and a group of 5th-grade, Latina students to prevent the closure of their elementary school. The district argued that the school, Agave Elementary, was close enough to the receiving school and labeled “underperforming” on standardized tests, thus it should be closed. The author helped shape the students’ ideas into solvable problems. The girls analyzed test score data over time and found an increase in performance over the past few years. Moreover, the girls investigated the walk to the receiving school, measuring the amount of time it took them to walk based on a given rate. This points to a potential connection with calculus and using derivatives to measure velocity if a similar activity were done for undergraduate students. Having shown that the receiving school was too far a walk by gathering and analyzing data, the district allowed Agave to remain open. The statements of one of the girls suggest that she felt empowered and connected to the math that she used. In general, activities like this that combine math with students’ lives and with politics help support an education that engages students to become active agents for social change.      Martin, D. B. (2012).  Learning Mathematics while Black . Educational Foundations, 26, 47–66.   In this article, Martin argues that, despite a dearth of “rigorous, explanatory research” on Black children and mathematics, Black children and their competencies tend to be framed in ways that reinforce stereotypes of Black children as “underperforming” and “mathematically illiterate”. Martin points out that historical and structural considerations affect the material and cultural circumstances of Black children, and that some policymakers and researchers ignore these forces when describing Black children in the context of “at-risk, poverty-ridden communities, ghettos, dysfunctional families, and oppositional stances toward schooling”. Martin argues for a more robust view of the “resilience” of Black children in education, including the ways that Black children overcome “ideologies of Black intellectual inferiority”. Resilience among Black students has been categorized by McGee (2009) as fragile or robust , according as students’ motivations were to disprove external racial stereotypes or to develop self-generated motivations and racial identities. Martin argues that scholars in teaching and learning ignore issues such as neoliberal education reform, structural racism, and social policy at their own detriment and to the detriment of Black children who come to be characterized as innately “underachieving”, despite having to overcome issues such as poor teacher support, low funding for public education, school closures, lowered expectations, and others. Finally, Martin describes a study that showed how strong early educational experiences, recognition of their abilities by educators, strong support systems, and a strong positive mathematical and academic identity promoted success among Black children.      Malloy, C. E. Instructional Strategies and Dispositions of Teachers Who Help African American Students Gain Conceptual Understanding. In Martin, D. B. (Ed.),  Mathematics teaching, learning, and liberation in the lives of black children . New York: Routledge.   Malloy begins his chapter by examining a case study in which a Black student is left out of group work because he was “not at the same level as the rest of the students in the class”; this exemplifies how students who are not prepared well by previous coursework could be invisibilized and neglected in future courses. Studies show that Black students learn math best when they are allowed to “focus on the whole, use improvisational intuitive thinking, recall relevant verbal ideas, engage in human and social content material, respond to extrinsic motivation, focus on interests, learn from informal class discussion, achieve interdependently, and narrate human concepts”. Thus, in order to accommodate instruction for all students, teachers must acknowledge student preferences in acquiring knowledge, develop activities that promote student-student and student-teacher interaction, value the knowledge that students bring in to the classroom, create learning opportunities in which students are interdependent, and encourage\/provide feedback to students as they learn. This process is encouraged by the culturally relevant\/responsive pedagogies of Ladson-Billings and Irvine. The primary aim of Ladson-Billings’ pedagogy is to “assist in the development of a relevant Black personality that allows African American students to choose academic excellence yet still identify with their African and African American culture”. Irvine emphasizes that effective teachers must provide all students with high-level knowledge regardless of previous categorization. Furthermore, using a social justice frame that emphasizes the role of mathematics in democracy and addressing inequality results in student learning and achievement (Gutstein, 2003; Moses & Cobb, 2001). Malloy identifies the concern that most teachers studied did not ask students to use “complex and non-algorithmic” thinking, nor did they work to develop a sociopolitical or critical consciousness in their students.      McGee, E. O., & Hostetler, A. L. (2014). Historicizing Mathematics and Mathematizing Social Studies for Social Justice: A Call for Integration.  Equity & Excellence in Education , 47 (2) , 208–229.  https:\/\/www.tandfonline.com\/doi\/abs\/10.1080\/10665684.2014.900428   The authors argue for greater integration of mathematics and social studies at the K-12 level in order to emphasize their intersections. The authors define social justice in U.S. education as focused on “striving for educational excellence via the examination of social and historical issues and, therefore, giving voice to the marginalized, and recognizing inequities in order to empower marginalized and privileged students alike so that they can empower those around them to promote diversity and inclusiveness for all persons”. Studies have shown that teachers of social studies and mathematics alike focus very little on sexism and racism. In mathematics, this may stem from the myth of math’s objectivity, as instructors may consider social issues “out of the scope” of their classroom. However, there is still substantial inequality even within schools, as financially under-resourced schools have fewer highly-qualified teachers, and 83% of teachers are White. Many teacher training programs provide limited education about social justice or culturally relevant pedagogy, though researchers have confirmed that culturally relevant teaching practices contributes to educational equity and social justice. Bob Moses, a civil rights activist who started the Algebra Project to provide social justice-based algebra education to low-income students, argues that algebra acts as a gatekeeper to higher levels of mathematics, which disproportionately excludes students of color and poorer students. Although some criticism has held that social justice pedagogy in mathematics is under-theorized, non-rigorous, and requires highly socially conscious teachers to work, others argue that content knowledge becomes more meaningful when it is applied to social issues.      Winter, D. (2007). Infusing mathematics with culture: Teaching technical subjects for social justice.  New Directions for Teaching and Learning, 2007 (111), 97–106.  http:\/\/doi.org\/10.1002\/tl.291   The National Survey of Student Engagement, 2004, has found that undergraduate students are often passionate about social and political issues; the author argues that bringing such issues into the mathematics classroom can increase student engagement and performance. This provides evidence against the criticism often leveled against social justice pedagogy in mathematics that it necessarily would not focus enough on mathematical proficiency. The author provides a model of social justice pedagogy in STEM courses which introduces sociocultural phenomena through readings, videos, and activities, then the students would be given a problem and a structured worksheet to apply mathematics to the problem. Finally, students interpreted their mathematical solution in the context of the original issue, often leading to discussion about the broader implications of their solution. In this study, the author applies this model to precalculus classes, teaching functions, graphing, and statistics through examining political corruption and economic development worldwide, climate change in Zimbabwe and its impact on agriculture, and water security and native peoples’ rights in Botswana, to name a few. Winter derives several principles for social justice education from Marilyn Frankenstein (1990), including using real situations and real information, emphasizing situations that students might have learned about through news or other media, and using controversial materials to help students increase their curiosity, understand other perspectives more accurately, solve problems more effectively, and generate creative ideas (Johnson and Johnson, 1979). Students taught using the social justice approach performed statistically significantly better than a control group; they performed better on a mathematical assessment (exceeding the control group’s scores by 11.9%) and had fewer students with a grade of D or lower in the class (15.4% in the social justice pedagogy condition, as opposed to 22.9% in the control group).      Jackson, K., & Wilson, J. (2012). Supporting African American Students’ Learning of Mathematics: A Problem of Practice. Urban Education, 47(2), 354–398.  http:\/\/doi.org\/10.1177\/0042085911429083   There is a lack of studies that investigate specific teaching practices which benefit African-American students, including teacher-student interaction and its effects. Although trying to specify “general” practices across a group as diverse as African-Americans in the US may lead to essentialization, a variety of historical conditions in the US have meant that almost all African-Americans have been told that they are inferior academically. Therefore, the studies this article calls for would benefit any group which is systemically marginalized in US mathematics education, including women and Latin@s. Across all the studies reviewed, it seems that providing African-American students with a common experience that grounds mathematical ideas, as well as explicitly encouraging and supporting African-American students to do more sophisticated mathematics, are important. Studies that focus on “successful” African-American learners provide an important counternarrative but also do not explicitly state what made those learners “successful”. The authors suggest that future studies investigate “(a) teachers’ orientations to teaching African-American students math, (b) forms of instructional practice that support African-American students to participate in rigorous mathematical activity, and (c) African-American students’ experiences as learners of mathematics”.      Osler, J. (2007). A guide for integrating issues of social and economic justice into mathematics curriculum. Retrieved March, 26, 2008.   In contrast to the above article, a series of conjectured forms of instructional practice that would support African-American students (and all marginalized students) is given, and many of them are congruent with scientifically studied pedagogical recommendations, although few have been tested under controlled conditions. In the absence of scholarship testing specific practices, it seems the SoTL community is currently limited to such suggestions. The article suggests that, in a context of worsening oppression for low-income and people of color in the US, a failure to address social and economic justice in all areas of education is actively harmful for future generations. Drawing on ideas of Bob Moses (founder of the Algebra Project) and Paulo Freire, Osler delineates two components of “social justice mathematics”: math literacy as a civil right\/social justice issue, and studying issues of social justice in the math classroom. Osler suggests that the use of such practices would not only give students a concrete connection to the mathematics they were learning, it would allow students to engage in higher-level mathematical thinking. Osler’s guidelines include: (1) working with a textbook with a strong mathematical framework and scaffolding, (2) talk to students to decide on social justice issues to cover, (3) set up units around “Essential Questions”, (4) introduce the social justice issue first, (5) then begin the mathematics, devoting as much time as necessary to the concepts and scaffolding both math and social justice along the way, (6) end with a great project. Some specific unit ideas: for exponents, studying compound interest and population growth; for probability, exploring the possibility that a traffic stop should be (and is) a person of color.      Rousseau, C., & Tate, W. F. (2003). No Time like the Present: Reflecting on Equity in School Mathematics.  Theory into Practice ,  42 (3), 210–216.   The Professional Standards for Teaching Mathematics (NCTM, 1991) recommend that teacher reflection should occur and focus on how students’ linguistic, ethnic, racial, socioeconomic, and cultural backgrounds influence their learning of mathematics. Within the social reconstructionist tradition, teacher reflection was a political act “that either contributes to or hinders the realization of a more just and humane society” (Zeichner, 1996). However, preservice teachers often view student diversity as a problem rather than a resource, and many teachers hold a view that “all students should be treated equally in the classroom”, even when this leads to disproportionately negative outcomes for students of color. The authors argue that this “one-size-fits-all” mentality is a common, serious obstacle to true teacher reflection and social justice. Further, the authors identify the “color-blind” mentality, in which a teacher claims “not to see color”, to lead to ignoring students’ cultural backgrounds in the classroom, thus decreasing student engagement, as well as a refusal to combat historical and actual racist practices. In classroom observations, the authors report several instances of students being “allowed to fail” through their teacher’s neglect; such students were disproportionately Black, specifically Black men.      Anderson, R. (2007). Being a Mathematics Learner: Four Faces of Identity.  Mathematics Educator ,  17 (1), 7–14.   This paper focuses on a view of learning mathematics through “social participation” (Wenger, 1998) and includes not only thoughts and actions but membership in social communities. Four “faces” of mathematical identity are discussed using selected quotations from students attending a small, rural high school in the U.S. Pacific Northwest. Identity refers to “how we define ourselves and how others define us”. The first face of identity is engagement (direct experience of the world and active involvement with others); students made to do repetitive exercises without creating meaning on their own may not see themselves as mathematics learners. The second face is imagination, how students envision mathematics fitting in to their broader lives; teaching mathematics without contextualizing it in students’ personal worlds would lead to students developing an identity as “not a mathematics learner”. The third face is alignment, how students align their energies within an institution in response to the imagination phase. The fourth face is nature, but scientific studies have indicated that all students have the capacity to be mathematics learners. The authors recommend that teachers allow students to generate meaning and strategies for solving problems; one starting point is using mathematical tasks that have multiple responses or one response with multiple solutions; hdold their students to high expectations; keeping students informed of institutional requirements for college and careers; and discount the nature face in favor of the others.      Joseph, G. G. (1987). Foundations of Eurocentrism in mathematics.  Race & Class ,  28 (3), 13–28.   The author argues that the way mathematics is taught around the world is indicative of a colonial, Eurocentric narrative in which Europe is seen as a “civilizing” force and the significant contributions of mathematicians from non-European backgrounds are downplayed. Through a historical narrative, Joseph shows that such mathematical leaps as written mathematical records, a place value number system, the technique of measurement, our base 10 number system, the “Pythagorean Theorem”, and algebra all originated outside of Europe and were then used by Europeans to advance their own mathematics. Some of the greatest mathematicians of antiquity, such as Euclid, Archimedes, Apollonius, and Diophantus, developed from the intersections of Greek mathematics with Babylonian and Egyptian mathematics during the Alexandrian Empire. Arab scholars developed a rigorous, advanced geometry and algebra during what in Europe was known as the “Dark Ages”. The marginalization of these contributions contributes to the perception of mathematics as independent of economics, politics, and culture; frames mathematical pursuits as confined to a select few (usually white men); and the enshrining of deductive axiomatic logic (i.e. “formal” mathematical proof) as the “only” method of mathematical discovery. If we as teachers acknowledge the diverse groups which contribute to mathematics and the diversity of ways of doing mathematics, we may be better able to engage students with various backgrounds and mathematical cultures.      Gutstein, E. (2008). Reinventing Freire: mathematics education for social transformation. In J. Matos, P. Valero, & Yasukawa, Keiko (Eds.),  Proceedings of the Fifth International Mathematics Education and Society Conference . Albufeira, Portugal.   The author reflects on the educational philosophy of Paulo Freire as it relates to the current state of mathematics education in the US. Freire’s emphasis on basing the content of education on “the present, existential, concrete situation, reflecting the aspirations of the people”. Gutstein identifies Freire’s idea that “political experiences are necessary to develop political consciousness” as the most relevant to his current work. Gutstein argues that the modern emphasis on mathematics education in the US is largely in service of the status quo and “profitability for the financial and corporate elite”. In contrast, Gutstein aims to politicize the mathematics he teaches in a social justice-focused school in Chicago. Although there are several collections of “mathematics for social justice” projects, units, and lessons, Gutstein claims that no cogent and cohesive curriculum exists and identifies the need for one. However, Gutstein identifies one “solution” to this problem as using rich mathematics curricula and including relevant social justice concepts that are co-created with students in response to the curriculum.      Brodie, K. (2008) Describing teacher change: interactions between teacher moves and learner contributions. In J. Matos, P. Valero, & Yasukawa, Keiko (Eds.),  Proceedings of the Fifth International Mathematics Education and Society Conference . Albufeira, Portugal.   This paper describes a case study of a motivated, mathematically knowledgeable tenth-grade teacher at a public school in Johannesburg, South Africa, made up entirely of Black students; learners are often assaulted on their way to and from school. Since recent research has shown that mathematics education reform has mitigated achievement gaps between marginalized and other learners. The learners’ mathematical knowledge was two years below grade level; this led to a lot of basic errors, defined as errors not expected at the grade level. The moves used by the teacher were recorded and divided into five categories. In the first week of study, the instructor frequently used the elicit move to get a desired response from a learner, while in the second week, the instructor worked to develop mathematical reasoning in dialogue with his students, increasing his use of the press move to ask learners to explain more of their reasoning or push for something more from them. Previous research has indicated that a first-level teaching move to engage more with students often involves increasing pressing; perhaps this would be a good, low-overhead way to bring more learner-centered instruction into public schools.      (2009). Teaching problem solving and understanding: what does the literature suggest? In Lai (Ed.),  Teaching Undergraduates Mathematics: Mathematical Sciences Research Institute May 2009 Workshop Report.  Berkeley, CA: Mathematical Sciences Research Institute.   This chapter of the workshop proceedings begins by quoting Marilyn Carlson that the debate between “teacher-directed instruction” and “student-centered discovery” is “distract[ing] the community with false dichotomies and vague premises”, a polarizing position that may inadvertently discount quality scholarship. The authors continue by presenting two characterizations of student understanding of mathematical functions: Action-Process-Object-Schema (APOS) theory and covariation. APOS theory defines an “action” as a step-by-step transformation of a set of mathematical objects into another mathematical object; for instance, evaluating a composition of functions at the point x. In contrast, the “process stage” of understanding takes place when students “internalize the action into a process” and can then think about the process without performing it. The process stage entails a greater level of abstraction, e.g. finding a general formula for a composition of functions given data for each function in table or graph form. Covariational reasoning is defined as “the cognitive activities involved in coordinating two varying quantities while attending to the ways in which they change in relation to each other”; for instance, attending to parametric equations. Observations of students suggest that covariational processing involves five kinds of mental action; questioning strategies to promote each action in students are suggested. Finally, the authors discuss the balance of social scaffolding to keep a discussion moving and analytic scaffolding to keep a discussion mathematically productive and suggest requirements for an instructor to use analytic scaffolding successfully.  "
 },
 {
-  "id": "p-406",
+  "id": "p-490",
   "level": "2",
-  "url": "sec_annotated-bib.html#p-406",
+  "url": "sec_annotated-bib.html#p-490",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
   "body": "Questions "
 },
 {
-  "id": "p-408",
+  "id": "p-492",
   "level": "2",
-  "url": "sec_annotated-bib.html#p-408",
+  "url": "sec_annotated-bib.html#p-492",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
   "body": "Aslan Tutak, F., Bondy, E., & Adams, T. L. (2011). Critical pedagogy for critical mathematics education. International Journal of Mathematical Education in Science and Technology , 42 (1), 65–74. doi:10.1080\/0020739X.2010.510221 "
 },
 {
-  "id": "p-413",
+  "id": "p-497",
   "level": "2",
-  "url": "sec_annotated-bib.html#p-413",
+  "url": "sec_annotated-bib.html#p-497",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
   "body": "Bartell, T. G. (2013). Learning to teach mathematics for social justice: Negotiating social justice and mathematical goals. Journal for Research in Mathematics Education , 44 (1), 129–163. "
 },
 {
-  "id": "p-417",
+  "id": "p-501",
   "level": "2",
-  "url": "sec_annotated-bib.html#p-417",
+  "url": "sec_annotated-bib.html#p-501",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
   "body": "Springer, L., Stanne, M. E., & Donovan, S. S. (1999). Effects of small-group learning on undergraduates in science, mathematics, engineering, and technology: A meta-analysis. Review of Educational Research , 69(1), 21–51. "
 },
 {
-  "id": "p-420",
+  "id": "p-504",
   "level": "2",
-  "url": "sec_annotated-bib.html#p-420",
+  "url": "sec_annotated-bib.html#p-504",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
   "body": "Schulteis, M. S. (2013). Serving Hope: Building Service-Learning into a Non-Major Mathematics Course to Benefit the Local Community. Primus : Problems, Resources, and Issues in Mathematics Undergraduate Studies , 23(6), 572–584. "
 },
 {
-  "id": "p-423",
+  "id": "p-507",
   "level": "2",
-  "url": "sec_annotated-bib.html#p-423",
+  "url": "sec_annotated-bib.html#p-507",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
   "body": "Hodge, L. L. (2006). An Orientation on the Mathematics Classroom that Emphasizes Power and Identity: Reflecting on Equity Research. The Urban Review, 38(5), 373–385. doi:10.1007\/s11256-006-0041-7 "
 },
 {
-  "id": "p-426",
+  "id": "p-510",
   "level": "2",
-  "url": "sec_annotated-bib.html#p-426",
+  "url": "sec_annotated-bib.html#p-510",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
   "body": "Treisman, U. (1992). Studying Students Studying Calculus: A Look at the Lives of Minority Mathematics Students in College. The College Mathematics Journal, 23(5) , 362–372. doi:10.2307\/2686410 "
 },
 {
-  "id": "p-429",
+  "id": "p-513",
   "level": "2",
-  "url": "sec_annotated-bib.html#p-429",
+  "url": "sec_annotated-bib.html#p-513",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
   "body": "Gutstein, E., & Peterson, B. (2005). Introduction. In E. Gutstein & B. Peterson (Ed.), Rethinking Mathematics: Teaching Social Justice by the Numbers . Rethinking Schools. "
 },
 {
-  "id": "p-432",
+  "id": "p-516",
   "level": "2",
-  "url": "sec_annotated-bib.html#p-432",
+  "url": "sec_annotated-bib.html#p-516",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
   "body": "Gutiérrez, M. V. (2005). ‘I Thought This U.S. Place Was Supposed to Be About Freedom’: Young Latinas Engage in Mathematics and Social Change to Save Their School. In E. Gutstein & B. Peterson (Ed.), Rethinking Mathematics: Teaching Social Justice by the Numbers . Rethinking Schools. "
 },
 {
-  "id": "p-435",
+  "id": "p-519",
   "level": "2",
-  "url": "sec_annotated-bib.html#p-435",
+  "url": "sec_annotated-bib.html#p-519",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
   "body": "Martin, D. B. (2012). Learning Mathematics while Black . Educational Foundations, 26, 47–66. "
 },
 {
-  "id": "p-438",
+  "id": "p-522",
   "level": "2",
-  "url": "sec_annotated-bib.html#p-438",
+  "url": "sec_annotated-bib.html#p-522",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
   "body": "Malloy, C. E. Instructional Strategies and Dispositions of Teachers Who Help African American Students Gain Conceptual Understanding. In Martin, D. B. (Ed.), Mathematics teaching, learning, and liberation in the lives of black children . New York: Routledge. "
 },
 {
-  "id": "p-441",
+  "id": "p-525",
   "level": "2",
-  "url": "sec_annotated-bib.html#p-441",
+  "url": "sec_annotated-bib.html#p-525",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
   "body": "McGee, E. O., & Hostetler, A. L. (2014). Historicizing Mathematics and Mathematizing Social Studies for Social Justice: A Call for Integration. Equity & Excellence in Education , 47 (2) , 208–229. https:\/\/www.tandfonline.com\/doi\/abs\/10.1080\/10665684.2014.900428 "
 },
 {
-  "id": "p-444",
+  "id": "p-528",
   "level": "2",
-  "url": "sec_annotated-bib.html#p-444",
+  "url": "sec_annotated-bib.html#p-528",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
   "body": "Winter, D. (2007). Infusing mathematics with culture: Teaching technical subjects for social justice. New Directions for Teaching and Learning, 2007 (111), 97–106. http:\/\/doi.org\/10.1002\/tl.291 "
 },
 {
-  "id": "p-447",
+  "id": "p-531",
   "level": "2",
-  "url": "sec_annotated-bib.html#p-447",
+  "url": "sec_annotated-bib.html#p-531",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
   "body": "Jackson, K., & Wilson, J. (2012). Supporting African American Students’ Learning of Mathematics: A Problem of Practice. Urban Education, 47(2), 354–398. http:\/\/doi.org\/10.1177\/0042085911429083 "
 },
 {
-  "id": "p-450",
+  "id": "p-534",
   "level": "2",
-  "url": "sec_annotated-bib.html#p-450",
+  "url": "sec_annotated-bib.html#p-534",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
   "body": "Osler, J. (2007). A guide for integrating issues of social and economic justice into mathematics curriculum. Retrieved March, 26, 2008. "
 },
 {
-  "id": "p-453",
+  "id": "p-537",
   "level": "2",
-  "url": "sec_annotated-bib.html#p-453",
+  "url": "sec_annotated-bib.html#p-537",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
   "body": "Rousseau, C., & Tate, W. F. (2003). No Time like the Present: Reflecting on Equity in School Mathematics. Theory into Practice , 42 (3), 210–216. "
 },
 {
-  "id": "p-456",
+  "id": "p-540",
   "level": "2",
-  "url": "sec_annotated-bib.html#p-456",
+  "url": "sec_annotated-bib.html#p-540",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
   "body": "Anderson, R. (2007). Being a Mathematics Learner: Four Faces of Identity. Mathematics Educator , 17 (1), 7–14. "
 },
 {
-  "id": "p-459",
+  "id": "p-543",
   "level": "2",
-  "url": "sec_annotated-bib.html#p-459",
+  "url": "sec_annotated-bib.html#p-543",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
   "body": "Joseph, G. G. (1987). Foundations of Eurocentrism in mathematics. Race & Class , 28 (3), 13–28. "
 },
 {
-  "id": "p-462",
+  "id": "p-546",
   "level": "2",
-  "url": "sec_annotated-bib.html#p-462",
+  "url": "sec_annotated-bib.html#p-546",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
   "body": "Gutstein, E. (2008). Reinventing Freire: mathematics education for social transformation. In J. Matos, P. Valero, & Yasukawa, Keiko (Eds.), Proceedings of the Fifth International Mathematics Education and Society Conference . Albufeira, Portugal. "
 },
 {
-  "id": "p-465",
+  "id": "p-549",
   "level": "2",
-  "url": "sec_annotated-bib.html#p-465",
+  "url": "sec_annotated-bib.html#p-549",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
   "body": "Brodie, K. (2008) Describing teacher change: interactions between teacher moves and learner contributions. In J. Matos, P. Valero, & Yasukawa, Keiko (Eds.), Proceedings of the Fifth International Mathematics Education and Society Conference . Albufeira, Portugal. "
 },
 {
-  "id": "p-468",
+  "id": "p-552",
   "level": "2",
-  "url": "sec_annotated-bib.html#p-468",
+  "url": "sec_annotated-bib.html#p-552",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
@@ -1879,7 +2095,7 @@ var ptx_lunr_docs = [
   "type": "Appendix",
   "number": "C",
   "title": "Selected Solutions",
-  "body": " Selected Solutions  "
+  "body": " Selected Solutions  For all solutions to : Anti-Trans Legislation in the U.S., see the statistical analysis performed by Kenan Ince. Note that these are by no means the only possible questions that could be asked, but the graphs and tables shown are recommended for the types of variables involved in the questions asked by Ince.  "
 },
 {
   "id": "appendix-2",

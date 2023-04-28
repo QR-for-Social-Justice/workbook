@@ -30,7 +30,11 @@
     <xi:include href="./ch_crashcourse.ptx" />
     <!-- <xi:include href="./ch_empty.ptx"/> -->
     <!-- Of course you will want to add more chapters as you proceed-->
-    <xi:include href="./ch_loans.ptx" />
+    <!-- <xi:include href="./part_number.ptx" /> -->
+
+    <xi:include href = "./ch_loans.ptx" />
+    
+    <xi:include href="./cryptography/cryptography.ptx" />
 
     <xi:include href="./climate-change/climate-change.ptx" />
 

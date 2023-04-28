@@ -19,7 +19,7 @@ The book itself is currently hosted [on GitHub Pages](https://qr-for-social-just
 ## Compilation instructions
 If your goal is to use the book as-is in a course or seminar, you can simply share the [book's website](https://bit.ly/QR4SJ) with your students; [bit.ly/QR4SJ](https://bit.ly/QR4SJ) can be used as a memorable link. 
 
-If you're interested in modifying, remixing, or compiling the book for yourself (and you're encouraged to!), this text is written in PreTeXt (previously called MathBook XML), so the primary source files can be found in the ptx directory. These can be compiled into HTML or LaTeX files (as well as some other formats). If you do not want to bother with this step or just want to grab some LaTeX to use in a worksheet or the like, the generated LaTeX is already provided in the latex folder.
+If you're interested in modifying, remixing, or compiling the book for yourself (and you're encouraged to!), this text is written in [PreTeXt](https://pretextbook.org) (previously called MathBook XML), so the primary source files can be found in the `/source` directory. These can be compiled into HTML or LaTeX files (as well as some other formats) using the recommended [PreTeXt GitHub Codespace](https://pretextbook.org/doc/guide/html/tutorial-github.html). If you do not want to bother with this step or just want to grab some LaTeX to use in a worksheet or the like, the generated LaTeX is already provided in the latex folder.
 
 ## Contributing
 Any and all suggestions to improve the text are welcome. Thanks to those who have already pointed out typos/issues they have found. If you would like to make a more substantial contribution, please contact me so we can discuss how best to proceed.
